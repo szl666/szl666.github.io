@@ -48,7 +48,7 @@ My research interest includes neural machine translation and computer vision. I 
 # 📖 Educations
 - *2021.09 - 2024.10 (now)*, PHD, School of Physics, Southeast University, Nanjing
 - *2018.09 - 2021.06*, Master, Soochow Institute for Energy and Materials InnovationS, Soochow University, Suzhou
-- 
+
 # 💬 Invited Talks
 
 # 💻 Internships
