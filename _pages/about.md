@@ -21,10 +21,23 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet 
 
 My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=3MkXEhUAAAAJ&hl'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
-
 # 🔥 News
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+
+# 🎖 Honors and Awards
+- *2020.01* Top Prize in "HUAWEI Cup" The 16th Chinese Post-Graduate MathematicalContest in Modeling
+
+# 📖 Educations
+- *2021.09 - 2024.10 (now)*, PHD, School of Physics, Southeast University, Nanjing
+- *2018.09 - 2021.06*, Master, Soochow Institute for Energy and Materials InnovationS, Soochow University, Suzhou
+
+# 💬 Talks
+- *2024.06*, Oral, The 34th Chinese Chemical Society Congress, Guangzhou, China
+  
+# 💻 Internships
+- *2019.10 - 2020.01*, National Institute for Materials Science (NIMS), Tsukuba, Japan
+- *2024.07 - 2024.09*, Shanghai Artificial Intelligence Laboratory, Shanghai, China
 
 # 📝 Publications 
 
@@ -41,16 +54,3 @@ My research interest includes neural machine translation and computer vision. I 
 </div>
 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
-
-# 🎖 Honors and Awards
-- *2020.01* Top Prize in "HUAWEI Cup" The 16th Chinese Post-Graduate MathematicalContest in Modeling
-
-# 📖 Educations
-- *2021.09 - 2024.10 (now)*, PHD, School of Physics, Southeast University, Nanjing
-- *2018.09 - 2021.06*, Master, Soochow Institute for Energy and Materials InnovationS, Soochow University, Suzhou
-
-# 💬 Invited Talks
-
-# 💻 Internships
-- *2019.10 - 2020.01*, National Institute for Materials Science (NIMS), Tsukuba, Japan
-- *2024.07 - 2024.09*, Shanghai Artificial Intelligence Laboratory, Shanghai, China
