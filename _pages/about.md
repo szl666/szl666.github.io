@@ -195,7 +195,7 @@ Data-driven machine learning (ML) has earned remarkable achievements in accelera
 # 📚 Publications
 
 
-## Journal Articles (Total: 20 papers, <a href='https://scholar.google.com/citations?user=3MkXEhUAAAAJ&hl'>Google Scholar Profile</a> | Total Citations: 789 | h-index: 10)
+## Total: 20 papers, <a href='https://scholar.google.com/citations?user=3MkXEhUAAAAJ&hl'>Google Scholar Profile</a> | Total Citations: 789 | h-index: 10
 
 ### First Author Papers (5 published + 3 preprints)
 
