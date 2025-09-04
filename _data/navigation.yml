@@ -2,7 +2,10 @@
 main:
   - title: "About Me"
     url: "/#about-me"
-
+    
+  - title: "Main research works"
+    url: "/#-main-research-works"
+    
   - title: "Publications"
     url: "/#-publications"
 
