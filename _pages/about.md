@@ -30,7 +30,9 @@ I have published 16 peer-reviewed SCI papers with an h-index of 10, receiving to
 - *2014.09 - 2018.06*, Bachelor, New Energy Science and Technology, Nanjing Tech University, Nanjing
 
 # 💬 Talks
-- *2024.06*, Oral, The 34th Chinese Chemical Society Congress, Guangzhou, China
+- *2024.06*, Oral Presentation at the 34th Academic Meeting of the Chinese Chemical Society, Guangzhou, China
+- *2025.03*, Oral Presentation at the American Chemical Society Spring 2025 Meeting, San Diego, USA
+
   
 # 💻 Internships
 - *2019.10 - 2020.01*, National Institute for Materials Science (NIMS), Tsukuba, Japan
@@ -110,7 +112,83 @@ Generative models are revolutionizing materials discovery by enabling inverse de
 
 **Zhilong Song**, Minggang Ju, Chunjin Ren, Qiang Li, Chongyi Li, Qionghua Zhou, Jinlan Wang
 
-Distilling the underlying principles from data has long propelled scientific breakthroughs. However, conventional data-driven machine learning -- lacking deep, contextual domain knowledge -- tend to yield opaque or over-complex models that are challenging to interpret and generalize. Here, we present LLM-Feynman, a framework that leverages the embedded expertise of large language models (LLMs) with systematic optimization to distill concise, interpretable formula from data and domain knowledge. Our framework seamlessly integrates automated feature engineering, LLM-based symbolic regression augmented by self-evaluation and iterative refinement, and formula interpretation via Monte Carlo tree search. Ablation studies show that incorporating domain knowledge and self-evaluation yields more accurate formula at equivalent formula complexity than conventional symbolic regression. Validation on datasets from Feynman physics lectures confirms that LLM-Feynman can rediscover over 90% real physical formulas. Moreover, when applied to four key materials science tasks -- from classifying the synthesizability of 2D and perovskite structures to predicting ionic conductivity in lithium solid-state electrolytes and GW bandgaps in 2D materials -- LLM-Feynman consistently yields interpretable formula with accuracy exceeding 90% and R2 values above 0.8. By transcending mere data fitting through the integration of deep domain knowledge, LLM-Feynman establishes a new paradigm for the automated discovery of generalizable scientific formula and theory across disciplines.
+Distilling underlying principles from data has historically driven scientific breakthroughs. However, conventional data‐driven machine learning often produces complex models that lack interpretability and generalization due to insufficient domain expertise. Here, we present LLM-Feynman, a novel agent that leverages large language models (LLMs) alongside systematic optimization to derive concise, interpretable formulas from data and domain knowledge. Our method integrates automated feature engineering, LLM-guided symbolic regression with self-evaluation, and Monte Carlo tree search to reduce LLM hallucination, thereby enhancing formula discovery. The embedding of domain knowledge simplifies the formula, while self-evaluation based on this knowledge further minimizes prediction errors, surpassing conventional symbolic regression in accuracy and interpretability. Validation on datasets from Feynman physics lectures confirms that LLM-Feynman can rediscover over 90% real physical formulas. Moreover, when applied to four key materials science tasks -- from classifying the synthesizability of 2D and perovskite structures to predicting ionic conductivity in lithium solid-state electrolytes and GW bandgaps in 2D materials -- LLM-Feynman consistently yields interpretable formula with accuracy exceeding 90% and R2 values above 0.8. By transcending mere data fitting through the integration of deep domain knowledge, LLM-Feynman establishes a new paradigm for the automated discovery of generalizable scientific formula and theory across disciplines.
+</div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div style="position: relative; width: 100%;">
+      <div style="background-color: #E6F3FF; padding: 8px; text-align: center; font-weight: bold; border-radius: 8px 8px 0 0;">
+        arXiv: 2407.06489
+      </div>
+      <img src='images/t2mat.png' alt="sym" width="100%" style="display: block; border-radius: 0 0 8px 8px;">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+[T2MAT (text-to-materials): A universal agent for generating material structures with goal properties from a single sentence](https://arxiv.org/pdf/2407.06489)
+
+**Zhilong Song**, Shuaihua Lu, Qionghua Zhou, Jinlan Wang
+
+Artificial Intelligence-Generated Content (AIGC)—content autonomously produced by AI systems without human intervention—has significantly boosted efficiency across various fields. However, AIGC in material science faces challenges in efficiently discovering novel materials that surpass existing databases, while ensuring the invariance and stability of crystal structures. To address these challenges, we develop T2MAT (text-to-material), an end-to-end agent that transforms user-input text into the inverse design of novel material structures with target properties beyond existing database, enabled by comprehensive exploration of chemical space and fully automated first-principles validation. Furthermore, we propose CGTNet (Crystal Graph Transformer NETwork), a graph neural network specifically designed to capture long-range interactions, which dramatically improves the accuracy and data efficiency of property predictions and thereby strengthens the reliability of inverse design. Through these contributions, T2MAT reduces the reliance on human expertise and accelerates the discovery of high-performance functional materials, paving the way for truly autonomous material design.
+</div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div style="position: relative; width: 100%;">
+      <div style="background-color: #E6F3FF; padding: 8px; text-align: center; font-weight: bold; border-radius: 8px 8px 0 0;">
+        Nat. Commun. 11, 1, 3513 (2020)
+      </div>
+      <img src='images/miut.png' alt="sym" width="100%" style="display: block; border-radius: 0 0 8px 8px;">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+[Simple descriptor derived from symbolic regression accelerating the discovery of new perovskite catalysts](http://www.nature.com/articles/s41467-020-17263-9)
+
+Baicheng Weng#, **Zhilong Song#**, Rilong Zhu, Qingyu Yan, Qingde Sun, Corey G Grice, Yanfa Yan, Wan-Jian Yin
+
+Symbolic regression (SR) is an approach of interpretable machine learning for building mathematical formulas that best fit certain datasets. In this work, SR is used to guide the design of new oxide perovskite catalysts with improved oxygen evolution reaction (OER) activities. A simple descriptor, μ/t, where μ and t are the octahedral and tolerance factors, respectively, is identified, which accelerates the discovery of a series of new oxide perovskite catalysts with improved OER activity. We successfully synthesise five new oxide perovskites and characterise their OER activities. Remarkably, four of them, Cs<sub>0.4</sub>La<sub>0.6</sub>Mn<sub>0.25</sub>Co<sub>0.75</sub>O<sub>3</sub>, Cs<sub>0.3</sub>La<sub>0.7</sub>NiO<sub>3</sub>, SrNi<sub>0.75</sub>Co<sub>0.25</sub>O<sub>3</sub>, and Sr<sub>0.25</sub>Ba<sub>0.75</sub>NiO<sub>3</sub>, are among the oxide perovskite catalysts with the highest intrinsic activities. Our results demonstrate the potential of SR for accelerating the data-driven design and discovery of new materials with improved properties.
+</div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div style="position: relative; width: 100%;">
+      <div style="background-color: #E6F3FF; padding: 8px; text-align: center; font-weight: bold; border-radius: 8px 8px 0 0;">
+        Mater. Horiz. 10, 5, 1651-1660 (2023)
+      </div>
+      <img src='images/mtsr.png' alt="sym" width="100%" style="display: block; border-radius: 0 0 8px 8px;">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+[Distilling universal activity descriptors for perovskite catalysts from multiple data sources via multi-task symbolic regression](https://pubs.rsc.org/en/content/articlehtml/2023/mh/d3mh00157a)
+
+**Zhilong Song**, Xiao Wang, Fangting Liu, Qionghua Zhou, Wan-Jian Yin, Hao Wu, Weiqiao Deng, Jinlan Wang
+
+Developing activity descriptors via data-driven machine learning (ML) methods can speed up the design of highly active and low-cost electrocatalysts. Despite the fact that a large amount of activity data for electrocatalysts is stored in the literature, data from different publications are not comparable due to different experimental or computational conditions. In this work, an interpretable ML method, multi-task symbolic regression, was adopted to learn from data in multiple experiments. A universal activity descriptor to evaluate the oxygen evolution reaction (OER) performance of oxide perovskites free of calculations or experiments was constructed and reached high accuracy and generalization ability. Utilizing this descriptor with Bayesian-optimized parameters, a series of compelling double perovskites with excellent OER activity were predicted and further evaluated using first-principles calculations. Finally, the two ML-predicted nickel-based perovskites with the best OER activity were successfully synthesized and characterized experimentally. This work opens a new way to extend machine-learning material design by utilizing multiple data sources.
+</div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div style="position: relative; width: 100%;">
+      <div style="background-color: #E6F3FF; padding: 8px; text-align: center; font-weight: bold; border-radius: 8px 8px 0 0;">
+        J. Phys. Chem. Lett. 14, 14, 3594-3601(2023)
+      </div>
+      <img src='images/mcts.png' alt="sym" width="100%" style="display: block; border-radius: 0 0 8px 8px;">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+[Adaptive Design of Alloys for CO₂ Activation and Methanation via Reinforcement Learning Monte Carlo Tree Search Algorithm](https://pubs.acs.org/doi/abs/10.1021/acs.jpclett.3c00242)
+
+**Zhilong Song**, Qionghua Zhou, Shuaihua Lu, Sae Dieb, Chongyi Ling, Jinlan Wang
+
+Data-driven machine learning (ML) has earned remarkable achievements in accelerating materials design, while it heavily relies on high-quality data acquisition. In this work, we develop an adaptive design framework for searching for optimal materials starting from zero data and with as few DFT calculations as possible. This framework integrates automatic density functional theory (DFT) calculations with an improved Monte Carlo tree search via reinforcement learning algorithm (MCTS-PG). As a successful example, we apply it to rapidly identify the desired alloy catalysts for CO₂ activation and methanation within 200 MCTS-PG steps. To this end, seven alloy surfaces with high theoretical activity and selectivity for CO₂ methanation are screened out and further validated by comprehensive free energy calculations. Our adaptive design framework enables the fast computational exploration of materials with desired properties via minimal DFT calculations.
 </div>
 </div>
 
