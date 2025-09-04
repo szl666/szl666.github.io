@@ -17,16 +17,19 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am Dr. Zhilong Song, currently a Junior Research Fellow at the Department of Advanced Materials, Suzhou National Laboratory, working under the supervision of Prof. Jinlan Wang and Prof. Qisheng Wu. I received my Ph.D. degree in Physics from Southeast University, China, in June 2025.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=3MkXEhUAAAAJ&hl'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+My research lies at the intersection of artificial intelligence and materials science, focusing on developing computational frameworks for automated materials discovery. I have contributed to research on three main topics: (1) inverse generation algorithms for functional materials design, (2) materials-specific large language models for synthesis prediction and scientific formula discovery, and (3) interpretable machine learning for catalyst design. My interdisciplinary work has led to the development of several innovative frameworks including MAGECS for electrocatalytic alloy design, SSAGEN for crystal structure generation, CSLLM for synthesizability prediction, and LLM-Feynman for universal scientific formula discovery.
+
+I have published 16 peer-reviewed SCI papers with an h-index of 10, receiving total <a href='https://scholar.google.com/citations?user=3MkXEhUAAAAJ&hl'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>. Among these, I am the first author on 7 papers, including 3 in Nature Communications, 1 in Materials Horizons, 1 in Advanced Functional Materials, and 1 in The Journal of Physical Chemistry Letters. Additionally, I have three important first-authored manuscripts currently under review, available as preprints. My research has achieved significant breakthroughs in automated inverse materials design, substantially improving discovery efficiency and success rates for novel functional materials.
 
 # 🎖 Honors and Awards
 - *2020.01* Top Prize in "HUAWEI Cup" The 16th Chinese Post-Graduate MathematicalContest in Modeling
 
 # 📖 Educations
-- *2021.09 - 2024.10 (now)*, PHD, School of Physics, Southeast University, Nanjing
+- *2021.09 - 2025.06*, PHD, School of Physics, Southeast University, Nanjing
 - *2018.09 - 2021.06*, Master, Soochow Institute for Energy and Materials InnovationS, Soochow University, Suzhou
+- *2014.09 - 2018.06*, Bachelor, New Energy Science and Technology, Nanjing Tech University, Nanjing
 
 # 💬 Talks
 - *2024.06*, Oral, The 34th Chinese Chemical Society Congress, Guangzhou, China
