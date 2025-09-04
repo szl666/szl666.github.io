@@ -36,7 +36,7 @@ I have published 16 peer-reviewed SCI papers with an h-index of 10, receiving to
 - *2019.10 - 2020.01*, National Institute for Materials Science (NIMS), Tsukuba, Japan
 - *2024.07 - 2024.09*, Shanghai Artificial Intelligence Laboratory, Shanghai, China
 
-# 📝 Main research 
+# 📝 Main research works
 
 <div class='paper-box'>
   <div class='paper-box-image'>
@@ -57,7 +57,62 @@ Accessing the synthesizability of crystal structures is crucial for transforming
 </div>
 </div>
 
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div style="position: relative; width: 100%;">
+      <div style="background-color: #E6F3FF; padding: 8px; text-align: center; font-weight: bold; border-radius: 8px 8px 0 0;">
+        Nat. Commun. 6, 1, 1053 (2025)
+      </div>
+      <img src='images/bsa.png' alt="sym" width="100%" style="display: block; border-radius: 0 0 8px 8px;">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
 
+[Inverse design of promising electrocatalysts for CO₂ reduction via generative models and bird swarm algorithm](https://www.nature.com/articles/s41467-024-55613-z)
+
+**Zhilong Song**, Linfeng Fan, Shuaihua Lu, Chongyi Ling, Qionghua Zhou, Jinlan Wang
+
+Directly generating material structures with optimal properties is a long-standing goal in material design. Traditional generative models often struggle to efficiently explore the global chemical space, limiting their utility to localized space. Here, we present a framework named Material Generation with Efficient Global Chemical Space Search (MAGECS) that addresses this challenge by integrating the bird swarm algorithm and supervised graph neural networks, enabling effective navigation of generative models in the immense chemical space towards materials with target properties. Applied to the design of alloy electrocatalysts for CO<sub>2</sub> reduction (CO<sub>2</sub>RR), MAGECS generates over 250,000 structures, achieving a 2.5-fold increase in high-activity structures (35%) compared to random generation. Five predicted alloys— CuAl, AlPd, Sn<sub>2</sub>Pd<sub>5</sub>, Sn<sub>9</sub>Pd<sub>7</sub>, and CuAlSe<sub>2</sub> are synthesized and characterized, with two showing around 90% Faraday efficiency for CO<sub>2</sub>RR. This work highlights the potential of MAGECS to revolutionize functional material development, paving the way for fully automated, artificial intelligence-driven material design.
+</div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div style="position: relative; width: 100%;">
+      <div style="background-color: #E6F3FF; padding: 8px; text-align: center; font-weight: bold; border-radius: 8px 8px 0 0;">
+        arXiv: 2507.19307
+      </div>
+      <img src='images/ssagen.png' alt="sym" width="100%" style="display: block; border-radius: 0 0 8px 8px;">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+[Stability and Symmetry-Assured Crystal Structure Generation for Inverse Design of Photocatalysts in Water Splitting](https://arxiv.org/abs/2507.19307)
+
+**Zhilong Song**, Chongyi Ling, Qiang Li, Qionghua Zhou, Jinlan Wang
+
+Generative models are revolutionizing materials discovery by enabling inverse design-direct generation of structures from desired properties. However, existing approaches often struggle to ensure inherent stability and symmetry while precisely generating structures with target compositions, space groups, and lattices without fine-tuning. Here, we present SSAGEN (Stability and Symmetry-Assured GENerative framework), which overcomes these limitations by decoupling structure generation into two distinct stages: crystal information (lattice, composition, and space group) generation and coordinate optimization. SSAGEN first generates diverse yet physically plausible crystal information, then derives stable and metastable atomic positions through universal machine learning potentials, combined global and local optimization with symmetry and Wyckoff position constraints, and dynamically refined search spaces. Compared to prior generative models such as CDVAE, SSAGEN improves the thermodynamic and kinetic stability of generated structures by 148% and 180%, respectively, while inherently satisfying target compositions, space groups, and lattices. Applied to photocatalytic water splitting (PWS), SSAGEN generates 200,000 structures-81.2% novel-with 3,318 meeting all stability and band gap criteria. Density functional theory (DFT) validation confirms 95.6% structures satisfy PWS requirements, with 24 optimal candidates identified through comprehensive screening based on electronic structure, thermodynamic, kinetic, and aqueous stability criteria. SSAGEN not only precisely generates materials with desired crystal information but also ensures inherent stability and symmetry, establishing a new paradigm for targeted inverse design of functional materials.
+</div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div style="position: relative; width: 100%;">
+      <div style="background-color: #E6F3FF; padding: 8px; text-align: center; font-weight: bold; border-radius: 8px 8px 0 0;">
+        arXiv: 2503.06512
+      </div>
+      <img src='images/feynman.png' alt="sym" width="100%" style="display: block; border-radius: 0 0 8px 8px;">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+[LLM-Feynman: Leveraging Large Language Models for Universal Scientific Formula and Theory Discovery](https://arxiv.org/abs/2503.06512)
+
+**Zhilong Song**, Minggang Ju, Chunjin Ren, Qiang Li, Chongyi Li, Qionghua Zhou, Jinlan Wang
+
+Distilling the underlying principles from data has long propelled scientific breakthroughs. However, conventional data-driven machine learning -- lacking deep, contextual domain knowledge -- tend to yield opaque or over-complex models that are challenging to interpret and generalize. Here, we present LLM-Feynman, a framework that leverages the embedded expertise of large language models (LLMs) with systematic optimization to distill concise, interpretable formula from data and domain knowledge. Our framework seamlessly integrates automated feature engineering, LLM-based symbolic regression augmented by self-evaluation and iterative refinement, and formula interpretation via Monte Carlo tree search. Ablation studies show that incorporating domain knowledge and self-evaluation yields more accurate formula at equivalent formula complexity than conventional symbolic regression. Validation on datasets from Feynman physics lectures confirms that LLM-Feynman can rediscover over 90% real physical formulas. Moreover, when applied to four key materials science tasks -- from classifying the synthesizability of 2D and perovskite structures to predicting ionic conductivity in lithium solid-state electrolytes and GW bandgaps in 2D materials -- LLM-Feynman consistently yields interpretable formula with accuracy exceeding 90% and R2 values above 0.8. By transcending mere data fitting through the integration of deep domain knowledge, LLM-Feynman establishes a new paradigm for the automated discovery of generalizable scientific formula and theory across disciplines.
+</div>
+</div>
 
 # 📚 Publications
 
