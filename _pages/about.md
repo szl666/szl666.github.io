@@ -38,7 +38,7 @@ I have published 16 peer-reviewed SCI papers with an h-index of 10, receiving to
 
 # 📝 Main research 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">**_Nature Communications_**, 2025, 16(1): 6530</div><img src='images/CSLLM.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Communications, 2025, 16(1): 6530</div><img src='images/CSLLM.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Accurate prediction of synthesizability and precursors of 3D crystal structures via large language models](https://www.nature.com/articles/s41467-025-61778-y)
@@ -46,11 +46,11 @@ I have published 16 peer-reviewed SCI papers with an h-index of 10, receiving to
 **Zhilong Song**, Shuaihua Lu, Minggang Ju, Qionghua Zhou, Jinlan Wang
 
 [**Project**](https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=3MkXEhUAAAAJ&sortby=pubdate&citation_for_view=3MkXEhUAAAAJ:OcBU2YAGkTUC) <strong><span class='show_paper_citations' data='3MkXEhUAAAAJ:OcBU2YAGkTUC'></span></strong>
-- A fine-tuned large language model framework, CSLLM, has been developed, achieving an remarkable 98.6% accuracy in predicting the synthesizability of crystal structures and over 90% accuracy in classifying synthetic methods and identifying precursors, thereby effectively bridging the gap between theoretical material design and experimental synthesis. 
+- Accessing the synthesizability of crystal structures is crucial for transforming theoretical materials into real-world applications. Nevertheless, there is a significant gap between actual synthesizability and thermodynamic or kinetic stability commonly used to screen synthesizable structures. Herein, we develop the Crystal Synthesis Large Language Models (CSLLM) framework, which utilizes three specialized LLMs to predict the synthesizability of arbitrary 3D crystal structures, possible synthetic methods, and suitable precursors, respectively. We construct a comprehensive dataset including synthesizable/non-synthesizable crystal structures and develop an efficient text representation for crystal structures to fine-tune LLMs. Our Synthesizability LLM achieves state-of-the-art accuracy (98.6%), significantly outperforming traditional synthesizability screening based on thermodynamic and kinetic stability. Its outstanding generalization ability is further demonstrated in experimental structures with complexity considerably exceeding that of the training data. Furthermore, both the Method and Precursor LLMs exceed 90% accuracy in classifying possible synthetic methods and identifying solid-state synthetic precursors for common binary and ternary compounds, respectively. Leveraging CSLLM, tens of thousands of synthesizable theoretical structures are successfully identified, with their 23 key properties predicted using accurate graph neural network models. 
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+
 
 # 📚 Publications
 
