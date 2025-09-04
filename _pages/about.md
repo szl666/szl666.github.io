@@ -38,15 +38,15 @@ I have published 16 peer-reviewed SCI papers with an h-index of 10, receiving to
 
 # 📝 Main research 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">**_Nature Communications_**, 2025, 16(1): 6530</div><img src='images/CSLLM.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[Accurate prediction of synthesizability and precursors of 3D crystal structures via large language models](https://www.nature.com/articles/s41467-025-61778-y)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Zhilong Song**, Shuaihua Lu, Minggang Ju, Qionghua Zhou, Jinlan Wang
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[**Project**](https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=3MkXEhUAAAAJ&sortby=pubdate&citation_for_view=3MkXEhUAAAAJ:OcBU2YAGkTUC) <strong><span class='show_paper_citations' data='3MkXEhUAAAAJ:OcBU2YAGkTUC'></span></strong>
+- A fine-tuned large language model framework, CSLLM, has been developed, achieving an remarkable 98.6% accuracy in predicting the synthesizability of crystal structures and over 90% accuracy in classifying synthetic methods and identifying precursors, thereby effectively bridging the gap between theoretical material design and experimental synthesis. 
 </div>
 </div>
 
