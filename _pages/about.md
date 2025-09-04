@@ -38,8 +38,8 @@ I have published 16 peer-reviewed SCI papers with an h-index of 10, receiving to
 
 # 📝 Main research 
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/CSLLM.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1"><div class="badge">Nature Communications, 2025, 16(1): 6530</div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/CSLLM.png' alt="sym" width="100%"></div></div><div class="badge">Nature Communications, 2025, 16(1): 6530</div>
+<div class='paper-box-text' markdown="1">
 
 [Accurate prediction of synthesizability and precursors of 3D crystal structures via large language models](https://www.nature.com/articles/s41467-025-61778-y)
 
