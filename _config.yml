@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Zhilong Song"
-description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
+description              : "I am Dr. Zhilong Song, currently a Junior Research Fellow at the Department of Advanced Materials, Suzhou National Laboratory, working under the supervision of Prof. Jinlan Wang and Prof. Qisheng Wu. I received my Ph.D. degree in Physics from Southeast University, China, in June 2025."
 repository               : "szl666/szl666.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -24,7 +24,7 @@ author:
   name             : "Zhilong Song"
   avatar           : "images/android-chrome-512x512.png"
   bio              : "Southeast University"
-  location         : "Nanjing, China"
+  location         : "Suzhou, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=3MkXEhUAAAAJ&hl"
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "szl666"
   google_plus      :
   keybase          :
   instagram        :
@@ -45,7 +45,7 @@ author:
   lastfm           :
   linkedin         : # e.g., "linkedin username"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
+  orcid            : "https://orcid.org/0000-0003-3735-4366"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
