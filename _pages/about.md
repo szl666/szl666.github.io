@@ -221,7 +221,7 @@ Data-driven machine learning (ML) has earned remarkable achievements in accelera
 
 10. M. Wu#, **Z. Song#**, Y. Cui, et al. "Machine learning-assisted design of nitrogen-rich covalent triazine frameworks photocatalysts." **_Advanced Functional Materials_**, 2024: 2413453. (Equal contribution)
 
-### Co-author Papers (10 papers)
+### Co-author Papers (9 papers)
 
 11. Y. Su, **Z. Song**, W. Zhu, et al. "Visible-light photocatalytic CO₂ reduction using metal-organic framework derived Ni(OH)₂ nanocages: a synergy from multiple light reflection, static charge transfer, and oxygen vacancies." **_ACS Catalysis_**, 2020, 11(1): 345-354.
 
