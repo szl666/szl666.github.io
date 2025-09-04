@@ -59,7 +59,7 @@ I have published 16 peer-reviewed SCI papers with an h-index of 10, receiving to
 
 ### First Author Papers (5 published + 3 preprints)
 
-1. **Z. Song**, S. Lu, M. Ju, et al. "Accurate prediction of synthesizability and precursors of 3D crystal structures via large language models." *Nature Communications*, 2025, 16(1): 6530.
+1. **Z. Song**, S. Lu, M. Ju, et al. "Accurate prediction of synthesizability and precursors of 3D crystal structures via large language models." **_Nature Communications_**, 2025, 16(1): 6530.
 
 2. **Z. Song**, L. Fan, S. Lu, et al. "Inverse design of promising alloys for electrocatalytic CO₂ reduction via generative graph neural networks combined with bird swarm algorithm." *Nature Communications*, 2025, 16(1): 1053.
 
