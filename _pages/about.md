@@ -213,7 +213,7 @@ Data-driven machine learning (ML) has earned remarkable achievements in accelera
 
 6. **Z. Song**, M. Ju, C. Ren, et al. "LLM-Feynman: Leveraging Large Language Models for Universal Scientific Formula and Theory Discovery." 2025, [**_arXiv:2503.06512_**](https://arxiv.org/abs/2503.06512). (Under review)
 
-7. **Z. Song**, S. Lu, Q. Zhou, et al. "T2MAT (text-to-materials): A universal framework for generating material structures with goal properties from a single sentence." 2024, [**_arXiv:2407.06489_**](https://arxiv.org/abs/2407.06489). (Under review)
+7. **Z. Song**, S. Lu, Q. Zhou, et al. "T2MAT (text-to-materials): A universal agent for generating material structures with goal properties from a single sentence." 2024, [**_arXiv:2407.06489_**](https://arxiv.org/abs/2407.06489). (Under review)
 
 8. **Z. Song**, X. Chen, F. Meng, et al. "Machine learning in materials design: Algorithm and application." [**_Chinese Physics B_**, 2020, 29(11): 116103](https://iopscience.iop.org/article/10.1088/1674-1056/abc0e3). 
 
