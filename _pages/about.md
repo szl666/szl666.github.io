@@ -30,8 +30,8 @@ I have published 16 peer-reviewed SCI papers with an h-index of 10, receiving to
 - *2014.09 - 2018.06*, Bachelor in New Energy Science and Technology, Nanjing Tech University, Nanjing
 
 # 💬 Talks
-- *2024.06*, Oral Presentation at the 34th Academic Meeting of the Chinese Chemical Society, Guangzhou, China
-- *2025.03*, Oral Presentation at the American Chemical Society Spring 2025 Meeting, San Diego, USA
+- *2024.06*, Oral Presentation at the 34th Academic Meeting of the Chinese Chemical Society, Guangzhou, China [[Photo]](images/3193cc4312fd2bbd89a1d712f2192330.jpg) [[Abstract]](https://www.chemsoc.org.cn/meeting/34th/home/viewpaper.php?id=102458)
+- *2025.03*, Oral Presentation at the American Chemical Society Spring 2025 Meeting, San Diego, USA [[Photo]](images/1cbeafe5925642ad4501e39e7a61b5e1.jpg) [[Abstract]](https://acs.digitellinc.com/live/34/session/551145)
 
   
 # 💻 Internships
