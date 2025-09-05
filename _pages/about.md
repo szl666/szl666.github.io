@@ -25,9 +25,9 @@ I have published 16 peer-reviewed SCI papers with an h-index of 10, receiving to
 - *2020.01* Top Prize in "HUAWEI Cup" The 16th Chinese Post-Graduate MathematicalContest in Modeling, Award ratio: 1.3% (188 teams out of 14,014)
 
 # 📖 Educations
-- *2021.09 - 2025.06*, PHD, School of Physics, Southeast University, Nanjing
-- *2018.09 - 2021.06*, Master, Soochow Institute for Energy and Materials InnovationS, Soochow University, Suzhou
-- *2014.09 - 2018.06*, Bachelor, New Energy Science and Technology, Nanjing Tech University, Nanjing
+- *2021.09 - 2025.06*, PHD in Physics, School of Physics, Southeast University, Nanjing
+- *2018.09 - 2021.06*, Master in Physics, Soochow Institute for Energy and Materials InnovationS, Soochow University, Suzhou
+- *2014.09 - 2018.06*, Bachelor in New Energy Science and Technology, Nanjing Tech University, Nanjing
 
 # 💬 Talks
 - *2024.06*, Oral Presentation at the 34th Academic Meeting of the Chinese Chemical Society, Guangzhou, China
