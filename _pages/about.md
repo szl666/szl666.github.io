@@ -207,40 +207,40 @@ Data-driven machine learning (ML) has earned remarkable achievements in accelera
 
 4. **Z. Song**, Q. Zhou, S. Lu, et al. "Adaptive design of alloys for CO₂ activation and methanation via reinforcement learning Monte Carlo tree search algorithm." [**_The Journal of Physical Chemistry Letters_**, 2023, 14(14): 3594-3601](https://pubs.acs.org/doi/abs/10.1021/acs.jpclett.3c00242).
 
-5. **Z. Song**, C. Ling, Q. Li, et al. "Stability and Symmetry-Assured Crystal Structure Generation for Inverse Design of Photocatalysts in Water Splitting." 2025, [**_arXiv:2507.19307_**](https://arxiv.org/abs/2503.06512). (Under review)
+5. **Z. Song**, C. Ling, Q. Li, et al. "Stability and Symmetry-Assured Crystal Structure Generation for Inverse Design of Photocatalysts in Water Splitting." 2025, [**_arXiv:2507.19307_**](https://arxiv.org/abs/2507.19307). (Under review)
 
-6. **Z. Song**, M. Ju, C. Ren, et al. "LLM-Feynman: Leveraging Large Language Models for Universal Scientific Formula and Theory Discovery." 2025, **_arXiv:2503.06512_**. (Under review)
+6. **Z. Song**, M. Ju, C. Ren, et al. "LLM-Feynman: Leveraging Large Language Models for Universal Scientific Formula and Theory Discovery." 2025, [**_arXiv:2503.06512_**](https://arxiv.org/abs/2503.06512). (Under review)
 
-7. **Z. Song**, S. Lu, Q. Zhou, et al. "T2MAT (text-to-materials): A universal framework for generating material structures with goal properties from a single sentence." 2024, **_arXiv:2407.06489_**. (Under review)
+7. **Z. Song**, S. Lu, Q. Zhou, et al. "T2MAT (text-to-materials): A universal framework for generating material structures with goal properties from a single sentence." 2024, [**_arXiv:2407.06489_**](https://arxiv.org/abs/2407.06489). (Under review)
 
-8. **Z. Song**, X. Chen, F. Meng, et al. "Machine learning in materials design: Algorithm and application." **_Chinese Physics B_**, 2020, 29(11): 116103. 
+8. **Z. Song**, X. Chen, F. Meng, et al. "Machine learning in materials design: Algorithm and application." [**_Chinese Physics B_**, 2020, 29(11): 116103](https://iopscience.iop.org/article/10.1088/1674-1056/abc0e3). 
 
 ### Co-first Author Papers (2 papers)
 
-9. B. Weng#, **Z. Song#**, R. Zhu, et al. "Simple descriptor derived from symbolic regression accelerating the discovery of new perovskite catalysts." **_Nature Communications_**, 2020, 11(1): 3513. (Equal contribution)
+9. B. Weng#, **Z. Song#**, R. Zhu, et al. "Simple descriptor derived from symbolic regression accelerating the discovery of new perovskite catalysts." [**_Nature Communications_**, 2020, 11(1): 3513](http://www.nature.com/articles/s41467-020-17263-9). (Equal contribution)
 
-10. M. Wu#, **Z. Song#**, Y. Cui, et al. "Machine learning-assisted design of nitrogen-rich covalent triazine frameworks photocatalysts." **_Advanced Functional Materials_**, 2024: 2413453. (Equal contribution)
+10. M. Wu#, **Z. Song#**, Y. Cui, et al. "Machine learning-assisted design of nitrogen-rich covalent triazine frameworks photocatalysts." [**_Advanced Functional Materials_**, 2024: 2413453](https://onlinelibrary.wiley.com/doi/10.1002/adfm.202413453). (Equal contribution)
 
 ### Co-author Papers (9 papers)
 
-11. Y. Su, **Z. Song**, W. Zhu, et al. "Visible-light photocatalytic CO₂ reduction using metal-organic framework derived Ni(OH)₂ nanocages: a synergy from multiple light reflection, static charge transfer, and oxygen vacancies." **_ACS Catalysis_**, 2020, 11(1): 345-354.
+11. Y. Su, **Z. Song**, W. Zhu, et al. "Visible-light photocatalytic CO₂ reduction using metal-organic framework derived Ni(OH)₂ nanocages: a synergy from multiple light reflection, static charge transfer, and oxygen vacancies." [**_ACS Catalysis_**, 2020, 11(1): 345-354](https://pubs.acs.org/doi/10.1021/acscatal.0c04020).
 
-12. Z. Sun, **Z. Song**, W.J. Yin. "Going beyond the d-band center to describe CO₂ activation on single-atom alloys." **_Advanced Energy and Sustainability Research_**, 2022, 3(2): 2100152.
+12. Z. Sun, **Z. Song**, W.J. Yin. "Going beyond the d-band center to describe CO₂ activation on single-atom alloys." [**_Advanced Energy and Sustainability Research_**, 2022, 3(2): 2100152](https://onlinelibrary.wiley.com/doi/10.1002/aesr.202100152).
 
-13. S. Dieb, **Z. Song**, W.J. Yin, et al. "Optimization of depth-graded multilayer structure for x-ray optics using machine learning." **_Journal of Applied Physics_**, 2020, 128(7): 074901.
+13. S. Dieb, **Z. Song**, W.J. Yin, et al. "Optimization of depth-graded multilayer structure for x-ray optics using machine learning." [**_Journal of Applied Physics_**, 2020, 128(7): 074901](http://aip.scitation.org/doi/10.1063/5.0012351).
 
-14. X. Chen, **Z. Song**, S. Lu, et al. "AI-driven materials design: paradigm shift from small data to big data." **_SCIENTIA SINICA Chimica_**, 2025, 55(6): 1648-1659.
+14. X. Chen, **Z. Song**, S. Lu, et al. "AI-driven materials design: paradigm shift from small data to big data." [**_SCIENTIA SINICA Chimica_**, 2025, 55(6): 1648-1659](https://doi.org/10.1360/SSC-2025-0048).
 
-15. W. Lin, F. Liu, **Z. Song**, et al. "Feature-Extended Descriptor Construction for Prediction of Consecutive Elementary Reaction Energies in Methane Oxidation." **_Chemistry of Materials_**, 2025, 3(2): 2100152.
+15. W. Lin, F. Liu, **Z. Song**, et al. "Feature-Extended Descriptor Construction for Prediction of Consecutive Elementary Reaction Energies in Methane Oxidation." [**_Chemistry of Materials_**, 2025, 37(12): 4499–4510](https://pubs.acs.org/doi/abs/10.1021/acs.chemmater.5c00930).
 
-16. S. Lu, Q. Zhou, X. Chen, **Z. Song**, et al. "Inverse design with deep generative models: next step in materials discovery." **_National Science Review_**, 2022, 9(8): nwac111.
+16. S. Lu, Q. Zhou, X. Chen, **Z. Song**, et al. "Inverse design with deep generative models: next step in materials discovery." [**_National Science Review_**, 2022, 9(8): nwac111](https://academic.oup.com/nsr/article/doi/10.1093/nsr/nwac111/6605930).
 
-17. H. Lin, J. Mao, M. Qin, **Z. Song**, et al. "Single-phase alkylammonium cesium lead iodide quasi-2D perovskites for color-tunable and spectrum-stable red LED." **_Nanoscale_**, 2019, 11(36): 16907-16918.
+17. H. Lin, J. Mao, M. Qin, **Z. Song**, et al. "Single-phase alkylammonium cesium lead iodide quasi-2D perovskites for color-tunable and spectrum-stable red LED." [**_Nanoscale_**, 2019, 11(36): 16907-16918](https://xlink.rsc.org/?DOI=C9NR02706H).
 
-18. H.L. Zhu, H. Lin, **Z. Song**, et al. "Achieving high-quality Sn–Pb perovskite films on complementary metal-oxide-semiconductor-compatible metal/silicon substrates for efficient imaging array." **_ACS Nano_**, 2019, 13(10): 11800-11808.
+18. H.L. Zhu, H. Lin, **Z. Song**, et al. "Achieving high-quality Sn–Pb perovskite films on complementary metal-oxide-semiconductor-compatible metal/silicon substrates for efficient imaging array." [**_ACS Nano_**, 2019, 13(10): 11800-11808](https://pubs.acs.org/doi/10.1021/acsnano.9b05774).
 
-19. X. Gao, Y. Wu, Y. Zhang, X. Chen, **Z. Song**, et al. "How the spacer influences the stability of 2D perovskites?." **_Small Methods_**, 2024: 2401172.
+19. X. Gao, Y. Wu, Y. Zhang, X. Chen, **Z. Song**, et al. "How the spacer influences the stability of 2D perovskites?." [**_Small Methods_**, 2024: 2401172](https://onlinelibrary.wiley.com/doi/10.1002/smtd.202401172).
 
 ### Conference Papers (1 paper)
 
-20. **Z. Song**, X. Chen, S. Dieb, et al. "Design of thermodynamically stable perovskites using machine learning." *The 67th JSAP Spring Meeting 2020*, The Japan Society of Applied Physics, 2020: 3632-3632.
+20. **Z. Song**, X. Chen, S. Dieb, et al. "Design of thermodynamically stable perovskites using machine learning." [*The 67th JSAP Spring Meeting 2020*, The Japan Society of Applied Physics, 2020: 3632-3632](https://www.jstage.jst.go.jp/article/jsapmeeting/2020.1/0/2020.1_3632/_article/-char/ja/).
