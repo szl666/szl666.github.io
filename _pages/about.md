@@ -199,15 +199,15 @@ Data-driven machine learning (ML) has earned remarkable achievements in accelera
 
 ### First Author Papers (5 published + 3 preprints)
 
-1. **Z. Song**, S. Lu, M. Ju, et al. "Accurate prediction of synthesizability and precursors of 3D crystal structures via large language models." **_Nature Communications_**, 2025, 16(1): 6530.
+1. **Z. Song**, S. Lu, M. Ju, et al. "Accurate prediction of synthesizability and precursors of 3D crystal structures via large language models." [**_Nature Communications_**, 2025, 16(1): 6530](https://www.nature.com/articles/s41467-025-61778-y).
 
-2. **Z. Song**, L. Fan, S. Lu, et al. "Inverse design of promising alloys for electrocatalytic CO₂ reduction via generative graph neural networks combined with bird swarm algorithm." **_Nature Communications_**, 2025, 16(1): 1053.
+2. **Z. Song**, L. Fan, S. Lu, et al. "Inverse design of promising alloys for electrocatalytic CO₂ reduction via generative graph neural networks combined with bird swarm algorithm." [**_Nature Communications_**, 2025, 16(1): 1053](https://www.nature.com/articles/s41467-024-55613-z).
 
-3. **Z. Song**, X. Wang, F. Liu, et al. "Distilling universal activity descriptors for perovskite catalysts from multiple data sources via multi-task symbolic regression." **_Materials Horizons_**, 2023, 10(5): 1651-1660.
+3. **Z. Song**, X. Wang, F. Liu, et al. "Distilling universal activity descriptors for perovskite catalysts from multiple data sources via multi-task symbolic regression." [**_Materials Horizons_**, 2023, 10(5): 1651-1660](https://pubs.rsc.org/en/content/articlehtml/2023/mh/d3mh00157a).
 
-4. **Z. Song**, Q. Zhou, S. Lu, et al. "Adaptive design of alloys for CO₂ activation and methanation via reinforcement learning Monte Carlo tree search algorithm." **_The Journal of Physical Chemistry Letters_**, 2023, 14(14): 3594-3601.
+4. **Z. Song**, Q. Zhou, S. Lu, et al. "Adaptive design of alloys for CO₂ activation and methanation via reinforcement learning Monte Carlo tree search algorithm." [**_The Journal of Physical Chemistry Letters_**, 2023, 14(14): 3594-3601](https://pubs.acs.org/doi/abs/10.1021/acs.jpclett.3c00242).
 
-5. **Z. Song**, C. Ling, Q. Li, et al. "Stability and Symmetry-Assured Crystal Structure Generation for Inverse Design of Photocatalysts in Water Splitting." 2025, **_arXiv:2507.19307_**. (Under review)
+5. **Z. Song**, C. Ling, Q. Li, et al. "Stability and Symmetry-Assured Crystal Structure Generation for Inverse Design of Photocatalysts in Water Splitting." 2025, [**_arXiv:2507.19307_**](https://arxiv.org/abs/2503.06512). (Under review)
 
 6. **Z. Song**, M. Ju, C. Ren, et al. "LLM-Feynman: Leveraging Large Language Models for Universal Scientific Formula and Theory Discovery." 2025, **_arXiv:2503.06512_**. (Under review)
 
