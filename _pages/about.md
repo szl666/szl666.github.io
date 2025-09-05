@@ -22,7 +22,7 @@ I am Dr. Zhilong Song, currently a Junior Research Fellow at the Department of A
 I have published 16 peer-reviewed SCI papers with an h-index of 10, receiving total <a href='https://scholar.google.com/citations?user=3MkXEhUAAAAJ&hl'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>. Among these, I am the first author on 7 papers, including 3 in Nature Communications, 1 in Materials Horizons, 1 in Advanced Functional Materials, and 1 in The Journal of Physical Chemistry Letters. Additionally, I have three important first-authored manuscripts currently under review, available as preprints. My research has achieved breakthroughs in automated inverse materials design, substantially improving discovery efficiency and success rates for novel functional materials.
 
 # 🎖 Honors and Awards
-- *2020.01* Top Prize in "HUAWEI Cup" The 16th Chinese Post-Graduate MathematicalContest in Modeling, Award ratio: 1.3% (188 teams out of 14,014)
+- *2020.01* Top Prize in "HUAWEI Cup" The 16th Chinese Post-Graduate Mathematical Contest in Modeling, Award ratio: 1.3% (188 teams out of 14,014)
 
 # 📖 Educations
 - *2021.09 - 2025.06*, PHD in Physics, School of Physics, Southeast University, Nanjing
