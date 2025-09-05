@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am Dr. Zhilong Song, currently a Junior Research Fellow at the Department of Advanced Materials, Suzhou National Laboratory, working under the supervision of Prof. Jinlan Wang and Prof. Qisheng Wu. My research lies at the intersection of artificial intelligence and materials science, focusing on developing innovative methods and agents for automated materials discovery. I have contributed to research on three main topics: (1) generative models for the inverse design of functional materials, (2) agents based on large language models for synthesis prediction of crystal structures and scientific formula discovery, and (3) interpretable machine learning for catalyst design. My interdisciplinary work has led to the development of several innovative frameworks including MAGECS for guiding generative models to globally explore chemical space, SSAGEN for crystal structure generation with inherent stability and symmetry, CSLLM for accurate synthesizability prediction of crystal structures, and LLM-Feynman for universal scientific formula and theory discovery.
+My research lies at the intersection of artificial intelligence and materials science, focusing on developing innovative methods and agents for automated materials discovery. I have contributed to research on three main topics: (1) generative models for the inverse design of functional materials, (2) agents based on large language models for synthesis prediction of crystal structures and scientific formula discovery, and (3) interpretable machine learning for catalyst design. My interdisciplinary work has led to the development of several innovative frameworks including MAGECS for guiding generative models to globally explore chemical space, SSAGEN for crystal structure generation with inherent stability and symmetry, CSLLM for accurate synthesizability prediction of crystal structures, and LLM-Feynman for universal scientific formula and theory discovery.
 
 I have published 16 peer-reviewed SCI papers with an h-index of 10, receiving total <a href='https://scholar.google.com/citations?user=3MkXEhUAAAAJ&hl'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>. Among these, I am the first author on 7 papers, including 3 in Nature Communications, 1 in Materials Horizons, 1 in Advanced Functional Materials, and 1 in The Journal of Physical Chemistry Letters. Additionally, I have three important first-authored manuscripts currently under review, available as preprints. My research has achieved breakthroughs in automated inverse materials design, substantially improving discovery efficiency and success rates for novel functional materials.
 
@@ -32,7 +32,9 @@ I have published 16 peer-reviewed SCI papers with an h-index of 10, receiving to
 # 💬 Talks
 - *2024.06*, Oral Presentation at the 34th Academic Meeting of the Chinese Chemical Society, Guangzhou, China [[Photo]](images/f9be59b9d29bae9d60bbb2e4a898867b.jpg) [[Abstract]](https://www.chemsoc.org.cn/meeting/34th/home/viewpaper.php?id=102458)
 - *2025.03*, Oral Presentation at the American Chemical Society Spring 2025 Meeting, San Diego, USA [[Photo]](images/7b46b29e4ff6e14fd8ecad309b504d2a.jpg) [[Abstract]](https://acs.digitellinc.com/live/34/session/551145)
-
+  
+# 💼 Working Experience
+- *2025.06 - present*, Junior Research Fellow, Department of Advanced Materials, Suzhou National Laboratory, Suzhou, China
   
 # 💻 Internships
 - *2019.10 - 2020.01*, National Institute for Materials Science (NIMS), Tsukuba, Japan
