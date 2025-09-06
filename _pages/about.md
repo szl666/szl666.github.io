@@ -247,7 +247,7 @@ Data-driven machine learning (ML) has earned remarkable achievements in accelera
 
 20. **Z. Song**, X. Chen, S. Dieb, et al. "Design of thermodynamically stable perovskites using machine learning." [*The 67th JSAP Spring Meeting 2020*, The Japan Society of Applied Physics, 2020: 3632-3632](https://www.jstage.jst.go.jp/article/jsapmeeting/2020.1/0/2020.1_3632/_article/-char/ja/).
 
-
+---
 # 🎯 Hobbies
 
 Beyond my research, I'm passionate about various activities that keep me balanced and inspired:
@@ -273,4 +273,5 @@ These games taught me the importance of precision, strategy, and patience - qual
 ## 🏸 **Badminton**
 I've maintained an amateur level in badminton, playing regularly during both high school and undergraduate years. While my master's and PhD studies have limited my court time, I still enjoy occasional games to stay active and maintain work-life balance.
 
+---
 
