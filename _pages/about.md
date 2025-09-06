@@ -275,7 +275,8 @@ During high school and undergraduate years, I played weekly, though this reduced
 ## 🏸 **Badminton**
 I enjoy playing badminton at a recreational level. I can manage basic shots like clears, net drops, and smashes, but I can't do proper footwork and my movement speed is slow. During high school, I played frequently with friends, though this became less regular during my undergraduate years. Throughout my master's and PhD studies, I still play occasionally as a fun way to stay active and take a break from research.
 
-
-
 ---
+
+*💡 Thank you for your interest in learning more about me! I'm always open to discussions, collaborations, and new connections. Feel free to reach out – I look forward to hearing from you!*
+
 
