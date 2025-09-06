@@ -257,20 +257,20 @@ Beyond my research, I'm passionate about various activities that keep me balance
 ## 🏎️ **Driving**
 I'm an avid driving enthusiast who obtained my driver's license immediately after high school. During my undergraduate years, I completed two long self-driving adventures across China:
 - **Summer 2015**: ~5,500 km journey in 15 days, traversing 11 provinces across central and southern China
-- **Summer 2016**: ~8,100 km journey in 21 days, traversing 14 provinces across northern, western, and central China
+- **Summer 2016**: ~9,100 km journey in 23 days, traversing 15 provinces across northern, western, and central China
 
 My passion for driving extends to the virtual world - I was once a sim racer with a complete racing simulator setup, including a force feedback steering wheel, shifter, handbrake, and three-pedal system (throttle, brake, and clutch). During high school, I set:
-- **7 track world records** in DiRT 3 🏆
-- **20 track world records** in WRC 3 🏆
+- **7 track world records** in [DiRT 3](https://en.wikipedia.org/wiki/Dirt_3) 🏆
+- **20 track world records** in [WRC 3](https://en.wikipedia.org/wiki/WRC_3:_FIA_World_Rally_Championship) 🏆
 
-Throughout my undergraduate years, I enjoyed racing simulators like Assetto Corsa and Forza Motorsport for relaxation, though I retired from competitive sim racing after starting my master's degree.
+Throughout my undergraduate years, I enjoyed racing simulators like [Assetto Corsa](https://assettocorsa.gg/) and [Forza Motorsport](https://forza.net/) for relaxation, and I **retired** from competitive sim racing after starting my master's degree.
 
 ## 🎱 **Cue Sports**
 I'm an amateur billiards player with a particular fondness for snooker and Chinese eight-ball:
 - **Snooker**: Personal best break of 48 points
 - **Chinese Eight-ball**: Occasional table clearances
 
-These games taught me the importance of precision, strategy, and patience - qualities that serve me well in research.
+During high school and undergraduate years, I played weekly, though this reduced to at most once a month during my master's and Ph.D. studies. These sports taught me the importance of precision, strategy, and patience - qualities that serve me well in research.
 
 ## 🏸 **Badminton**
 I enjoy playing badminton at a recreational level. I can manage basic shots like clears, net drops, and smashes, but I can't do proper footwork and my movement speed is slow. During high school, I played frequently with friends, though this became less regular during my undergraduate years. Throughout my master's and PhD studies, I still play occasionally as a fun way to stay active and take a break from research.
