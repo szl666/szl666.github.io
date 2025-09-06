@@ -40,7 +40,7 @@ I have published 16 peer-reviewed SCI papers with an h-index of 10, receiving to
 - *2024.07 - 2024.09*, Research Intern, Shanghai Artificial Intelligence Laboratory, Shanghai, China
 - *2019.10 - 2020.01*, Research Intern, National Institute for Materials Science (NIMS), Tsukuba, Japan
 
-# 🛠️ Skills
+# 💻 Skills
 
 ## Programming
 - **Languages**: Proficient in Python, Julia, C, Fortran and Shell scripting (Bash, Zsh, etc.)
