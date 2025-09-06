@@ -60,7 +60,7 @@ I have published 16 peer-reviewed SCI papers with an h-index of 10, receiving to
 - **First-Principles Calculations and Molecular Dynamics**: Expert in VASP, CP2K, Quantum ESPRESSO and LAMMPS
 - **Machine Learning Potentials**: GPUMD force field training and development
 
-
+---
 # 📝 Main Research Works
 
 <div class='paper-box'>
