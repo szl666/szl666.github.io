@@ -42,6 +42,27 @@ I have published 16 peer-reviewed SCI papers with an h-index of 10, receiving to
 - *2019.10 - 2020.01*, National Institute for Materials Science (NIMS), Tsukuba, Japan
 - *2024.07 - 2024.09*, Shanghai Artificial Intelligence Laboratory, Shanghai, China
 
+# 🛠️ Technical Skills
+
+## Programming
+- **Languages**: Proficient in Python, Julia, C, Fortran and Shell scripting (Bash, Zsh, etc.)
+- **AI-Powered Development**: Leverage modern AI tools like Cursor and Claude code to enhance productivity and achieve vibe coding.
+
+## Machine Learning
+- **General Frameworks**: Expert in scikit-learn, PyTorch, and TensorFlow
+- **Materials-Specific ML**:
+  - Graph Neural Networks (GNN) for materials property prediction - model development and innovation
+  - Generative models (GAN, VAE, Diffusion, Flow) for materials structure generation - model development and innovation
+  - Universal machine learning potentials - application and development
+- **Large Language Models**: Full parameter and LoRA fine-tuning, agent construction, and reinforcement learning fine-tuning
+- **Interpretable ML**: Development and application of interpretable ML algorithms such as symbolic regression
+- **Infrastructure**: Materials database development and deployment
+
+## Computational Materials Science
+- **First-Principles Calculations and Molecular Dynamics**: Expert in VASP, CP2K, Quantum ESPRESSO and LAMMPS
+- **Machine Learning Potentials**: GPUMD force field training and development
+
+
 # 📝 Main Research Works
 
 <div class='paper-box'>
