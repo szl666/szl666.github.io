@@ -259,7 +259,7 @@ I'm an avid driving enthusiast who obtained my driver's license immediately afte
 - **Summer 2015**: ~5,500 km journey in 15 days, traversing 11 provinces across central and southern China
 - **Summer 2016**: ~8,100 km journey in 21 days, traversing 14 provinces across northern, western, and central China
 
-My passion for driving extends to the virtual world - I was once a sim racer with a complete racing simulator setup, including a force feedback steering wheel, handbrake, and three-pedal system (throttle, brake, and clutch). During high school, I set:
+My passion for driving extends to the virtual world - I was once a sim racer with a complete racing simulator setup, including a force feedback steering wheel, shifter, handbrake, and three-pedal system (throttle, brake, and clutch). During high school, I set:
 - **7 track world records** in DiRT 3 🏆
 - **20 track world records** in WRC 3 🏆
 
