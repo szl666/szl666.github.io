@@ -246,3 +246,31 @@ Data-driven machine learning (ML) has earned remarkable achievements in accelera
 ### Conference Papers (1 paper)
 
 20. **Z. Song**, X. Chen, S. Dieb, et al. "Design of thermodynamically stable perovskites using machine learning." [*The 67th JSAP Spring Meeting 2020*, The Japan Society of Applied Physics, 2020: 3632-3632](https://www.jstage.jst.go.jp/article/jsapmeeting/2020.1/0/2020.1_3632/_article/-char/ja/).
+
+
+# 🎯 Hobbies & Interests
+
+Beyond my research, I'm passionate about various activities that keep me balanced and inspired:
+
+## 🏎️ **Driving**
+I'm an avid driving enthusiast who obtained my driver's license immediately after high school. During my undergraduate years, I completed two long self-driving adventures across China:
+- **Summer 2015**: ~5,500 km journey in 15 days, traversing 11 provinces across central and southern China
+- **Summer 2016**: ~8,100 km journey in 21 days, traversing 14 provinces across northern, western, and central China
+
+My passion for driving extends to the virtual world - I was once a sim racer. During high school, I set:
+- **7 track world records** in DiRT 3 🏆
+- **20 track world records** in WRC 3 🏆
+
+Throughout my undergraduate years, I enjoyed racing simulators like Assetto Corsa and Forza Motorsport for relaxation, though I retired from competitive sim racing after starting my master's degree.
+
+## 🎱 **Cue Sports**
+I'm an amateur billiards player with a particular fondness for snooker and Chinese eight-ball:
+- **Snooker**: Personal best break of 48 points
+- **Chinese Eight-ball**: Occasional table clearances
+- 
+These games taught me the importance of precision, strategy, and patience - qualities that serve me well in research.
+
+## 🏸 **Badminton**
+I've maintained an amateur level in badminton, playing regularly during both high school and undergraduate years. While my master's and PhD studies have limited my court time, I still enjoy occasional games to stay active and maintain work-life balance.
+
+
