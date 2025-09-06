@@ -37,10 +37,8 @@ I have published 16 peer-reviewed SCI papers with an h-index of 10, receiving to
   
 # 💼 Working Experiences
 - *2025.06 - present*, Junior Research Fellow, Department of Advanced Materials, Suzhou National Laboratory, Suzhou, China
-  
-# 💻 Internships
-- *2019.10 - 2020.01*, National Institute for Materials Science (NIMS), Tsukuba, Japan
-- *2024.07 - 2024.09*, Shanghai Artificial Intelligence Laboratory, Shanghai, China
+- *2024.07 - 2024.09*, Research Intern, Shanghai Artificial Intelligence Laboratory, Shanghai, China
+- *2019.10 - 2020.01*, Research Intern, National Institute for Materials Science (NIMS), Tsukuba, Japan
 
 # 🛠️ Skills
 
