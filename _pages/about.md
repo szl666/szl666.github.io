@@ -269,7 +269,7 @@ Throughout my undergraduate years, I enjoyed racing simulators like Assetto Cors
 I'm an amateur billiards player with a particular fondness for snooker and Chinese eight-ball:
 - **Snooker**: Personal best break of 48 points
 - **Chinese Eight-ball**: Occasional table clearances
-- 
+
 These games taught me the importance of precision, strategy, and patience - qualities that serve me well in research.
 
 ## 🏸 **Badminton**
