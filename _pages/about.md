@@ -248,7 +248,7 @@ Data-driven machine learning (ML) has earned remarkable achievements in accelera
 20. **Z. Song**, X. Chen, S. Dieb, et al. "Design of thermodynamically stable perovskites using machine learning." [*The 67th JSAP Spring Meeting 2020*, The Japan Society of Applied Physics, 2020: 3632-3632](https://www.jstage.jst.go.jp/article/jsapmeeting/2020.1/0/2020.1_3632/_article/-char/ja/).
 
 
-# 🎯 Hobbies & Interests
+# 🎯 Hobbies
 
 Beyond my research, I'm passionate about various activities that keep me balanced and inspired:
 
