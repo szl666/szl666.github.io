@@ -257,8 +257,8 @@ Data-driven machine learning (ML) has earned remarkable achievements in accelera
 ## Machine Learning
 - **General Frameworks**: Expert in scikit-learn, PyTorch, and TensorFlow
 - **Materials-Specific ML**:
-  - Graph Neural Networks (GNN) for materials property prediction - model development and innovation
   - Generative models (GAN, VAE, Diffusion, Flow) for materials structure generation - model development and innovation
+  - Graph Neural Networks (GNN) for materials property prediction - model development and innovation
   - Universal machine learning potentials - application and development
 - **Large Language Models**: Full parameter and LoRA fine-tuning, agent construction, and reinforcement learning fine-tuning
 - **Interpretable ML**: Development and application of interpretable ML algorithms such as symbolic regression
