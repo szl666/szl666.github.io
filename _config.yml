@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Zhilong Song"
+title                    : "Zhilong Song (宋志龙)"
 description              : "I am Dr. Zhilong Song, currently a Junior Research Fellow at the Department of Advanced Materials, Suzhou National Laboratory, working under the supervision of Prof. Jinlan Wang and Prof. Qisheng Wu. I received my Ph.D. degree in Physics from Southeast University, China, in June 2025."
 repository               : "szl666/szl666.github.io"
 google_scholar_stats_use_cdn : true
