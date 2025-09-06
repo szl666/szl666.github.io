@@ -273,7 +273,8 @@ I'm an amateur billiards player with a particular fondness for snooker and Chine
 These games taught me the importance of precision, strategy, and patience - qualities that serve me well in research.
 
 ## 🏸 **Badminton**
-I enjoy playing badminton at a recreational level. During high school, I played frequently with friends, though this became less regular during my undergraduate years. Throughout my master's and PhD studies, I still play occasionally as a fun way to stay active and take a break from research.
+I enjoy playing badminton at a recreational level. I can manage basic shots like clears, net drops, and smashes, but I can't do proper footwork and my movement speed is slow. During high school, I played frequently with friends, though this became less regular during my undergraduate years. Throughout my master's and PhD studies, I still play occasionally as a fun way to stay active and take a break from research.
+
 
 
 ---
