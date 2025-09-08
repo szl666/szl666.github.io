@@ -1,9 +1,11 @@
 {
   "build": {
     "env": {
-      "RUBY_VERSION": "3.3.0"
+      "LANG": "C.UTF-8",
+      "LC_ALL": "C.UTF-8",
+      "RUBYOPT": "-E utf-8"
     }
   },
-  "buildCommand": "bundle install && bundle exec jekyll build",
+  "buildCommand": "bundle install && bundle exec jekyll build --verbose",
   "outputDirectory": "_site"
 }

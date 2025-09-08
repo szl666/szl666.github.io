@@ -26,3 +26,6 @@ group :jekyll_plugins do
   gem 'hawkins'
 end
 ruby "3.3.0"
+
+# 确保 UTF-8 编码
+ENV['RUBYOPT'] = '-E utf-8'

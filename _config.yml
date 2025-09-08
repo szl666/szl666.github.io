@@ -162,3 +162,43 @@ compress_html:
   ignore:
     envs: development
 encoding: utf-8
+
+# 编码设置
+encoding: utf-8
+
+# 构建设置
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# SASS 设置 - 关键修复
+sass:
+  style: compressed
+  sass_dir: _sass
+
+# 插件设置
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# 排除文件
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - "*.gem"
+  - "*.gemspec"
+  - tools/
+  - docs/
+  - README.md
+  - LICENSE
+  - CODEOWNERS

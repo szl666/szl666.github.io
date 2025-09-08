@@ -1,4 +1,10 @@
 ---
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
 @import "{{ site.theme }}";
+
+/* 自定义样式 */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
