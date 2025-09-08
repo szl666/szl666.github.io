@@ -4,6 +4,7 @@
       "RUBY_VERSION": "3.0.0"
     }
   },
-  "buildCommand": "gem install bundler:2.2.19 && bundle update nokogiri && bundle install && bundle exec jekyll build",
+  "buildCommand": "bundle install && bundle exec jekyll build",
   "outputDirectory": "_site"
 }
+
