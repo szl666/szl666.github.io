@@ -1,9 +1,4 @@
 {
-  "functions": {
-    "api/**/*.rb": {
-      "runtime": "ruby@3.0.0"
-    }
-  },
   "build": {
     "env": {
       "RUBY_VERSION": "3.0.0"
@@ -12,3 +7,4 @@
   "buildCommand": "bundle install && bundle exec jekyll build",
   "outputDirectory": "_site"
 }
+
