@@ -311,5 +311,8 @@ DEPENDENCIES
   jekyll-feed
   jekyll-sitemap
 
+RUBY VERSION
+   ruby 3.3.7p123
+
 BUNDLED WITH
    2.6.3
