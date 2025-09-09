@@ -273,7 +273,7 @@ Data-driven machine learning (ML) has earned remarkable achievements in accelera
 ## Computational Materials Science
 - **First-Principles Calculations**: Expert in VASP, CP2K, Quantum ESPRESSO for material property calculations
 - **Machine Learning Potentials**: Proficient in GPUMD and DeePMD-kit for force field training and development
-- **Specialized Tools**: Expert in Pymatgen and ASE (Atomic Simulation Environment) for for general-purpose materials data manipulation
+- **Specialized Tools**: Expert in Pymatgen and ASE (Atomic Simulation Environment) for general-purpose materials data manipulation
 
 ---
 # 🎯 Hobbies
