@@ -3,11 +3,11 @@ main:
   - title: "About Me"
     url: "/#about-me"
     
-  - title: "Educations"
-    url: "/#-educations"
+  - title: "Education"
+    url: "/#-education"
     
-  - title: "Main Research Works"
-    url: "/#-main-research-works"
+  - title: "Key Research Contributions"
+    url: "/#-key-research-contributions"
     
   - title: "Publications"
     url: "/#-publications"
@@ -18,11 +18,11 @@ main:
   - title: "Invited Talks"
     url: "/#-talks"
 
-  - title: "Working Experiences"
-    url: "/#-working-experiences"
+  - title: "Work Experience"
+    url: "/#-work-experience"
 
-  - title: "Skills"
-    url: "/#-skills"
+  - title: "Technical Expertise"
+    url: "/#-technical-expertise"
 
   - title: "Hobbies"
     url: "/#-hobbies"
