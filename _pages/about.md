@@ -17,14 +17,14 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My research lies at the intersection of artificial intelligence and materials science, focusing on developing innovative methods and agents for automated materials discovery. I have contributed to research on three main topics: (1) generative models for the inverse design of functional materials, (2) agents based on large language models for synthesis prediction of crystal structures and scientific formula discovery, and (3) interpretable machine learning for catalyst design. My interdisciplinary work has led to the development of several innovative frameworks including MAGECS for guiding generative models to globally explore chemical space, SSAGEN for crystal structure generation with inherent stability and symmetry, CSLLM for accurate synthesizability prediction of crystal structures, and LLM-Feynman for universal scientific formula and theory discovery.
+My research lies at the intersection of artificial intelligence and materials science, focusing on developing innovative methods and agents for automated materials discovery. I have contributed to research on three main topics: (1) generative models for the inverse design of functional materials, (2) agents based on large language models for synthesis prediction of crystal structures and scientific formula discovery, and (3) interpretable machine learning for catalyst design. My interdisciplinary work has led to the development of several innovative frameworks including MAGECS (Material Generation with Efficient Global Chemical Space Search) for guiding generative models to globally explore chemical space, SSAGEN (Stability and Symmetry-Assured GENerative framework) for crystal structure generation with inherent stability and symmetry, CSLLM (Crystal Synthesis Large Language Models) for accurate synthesizability prediction of crystal structures, and LLM-Feynman for universal scientific formula and theory discovery.
 
 I have published 16 peer-reviewed SCI papers with an h-index of 10, receiving total <a href='https://scholar.google.com/citations?user=3MkXEhUAAAAJ&hl'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>. Among these, I am the first author on 7 papers, including 3 in Nature Communications, 1 in Materials Horizons, 1 in Advanced Functional Materials, and 1 in The Journal of Physical Chemistry Letters. Additionally, I have three important first-authored manuscripts currently under review, available as preprints. My research has achieved breakthroughs in automated inverse materials design, substantially improving discovery efficiency and success rates for novel functional materials.
 
 # 🎖 Honors and Awards
 - *2020.01* Top Prize in "HUAWEI Cup" The 16th Chinese Post-Graduate Mathematical Contest in Modeling, Award ratio: 1.3% (188 teams out of 14,014)
 
-# 📖 Educations
+# 📖 Education
 - *2021.09 - 2025.06*, Ph.D. in Physics, School of Physics, Southeast University, Nanjing
 - *2018.09 - 2021.06*, Master in Physics, Soochow Institute for Energy and Materials InnovationS, Soochow University, Suzhou
 - *2014.09 - 2018.06*, Bachelor in New Energy Science and Technology, Nanjing Tech University, Nanjing
@@ -35,12 +35,12 @@ I have published 16 peer-reviewed SCI papers with an h-index of 10, receiving to
 - *2024.06*, Oral Presentation at the 34th Academic Meeting of the Chinese Chemical Society, Guangzhou, China [[Photo]](images/f9be59b9d29bae9d60bbb2e4a898867b.jpg) [[Abstract]](https://www.chemsoc.org.cn/meeting/34th/home/viewpaper.php?id=102458)
 - *2025.03*, Oral Presentation at the American Chemical Society Spring 2025 Meeting, San Diego, USA [[Photo]](images/7b46b29e4ff6e14fd8ecad309b504d2a.jpg) [[Abstract]](https://acs.digitellinc.com/live/34/session/551145)
   
-# 💼 Working Experiences
+# 💼 Work Experience
 - *2025.06 - present*, Junior Research Fellow, Department of Advanced Materials, Suzhou National Laboratory, Suzhou, China
 - *2024.07 - 2024.09*, Research Intern, Shanghai Artificial Intelligence Laboratory, Shanghai, China
 - *2019.10 - 2020.01*, Research Intern, National Institute for Materials Science (NIMS), Tsukuba, Japan
 
-# 📝 Main Research Works
+# 📝 Key Research Contributions
 
 <div class='paper-box'>
   <div class='paper-box-image'>
@@ -248,14 +248,18 @@ Data-driven machine learning (ML) has earned remarkable achievements in accelera
 20. **Z. Song**, X. Chen, S. Dieb, et al. "Design of thermodynamically stable perovskites using machine learning." [*The 67th JSAP Spring Meeting 2020*, The Japan Society of Applied Physics, 2020: 3632-3632](https://www.jstage.jst.go.jp/article/jsapmeeting/2020.1/0/2020.1_3632/_article/-char/ja/).
 
 ---
-# 💻 Skills
+# 💻 Technical Expertise
+
+## Theoretical Foundations
+- **Physics & Chemistry**: Solid theoretical foundation in solid-state physics, quantum chemistry, density functional theory (DFT), and theoretical catalysis
+- **Computer Science**: Deep understanding of interpretable models, generative models， graph neural networks (GNNs) and autoregressive models.
 
 ## Programming
-- **Languages**: Proficient in Python, Julia, C, Fortran and Shell scripting (Bash, Zsh, etc.)
-- **AI-Powered Development**: Leverage modern AI tools like Cursor and Claude code to enhance productivity and achieve vibe coding.
+- **Languages**: Proficient in Python, Shell scripting (Bash, Zsh, Perl), Julia, MATLAB and Fortran  
+- **AI-Powered Development**: Proficient in AI-assisted development tools like Cursor and Claude code to enhance productivity and achieve vibe coding.
 
 ## Machine Learning
-- **General Frameworks**: Expert in scikit-learn, PyTorch, and TensorFlow
+- **General Frameworks**: Expert in PyTorch and TensorFlow
 - **Materials-Specific ML**:
   - Generative models (GAN, VAE, Diffusion, Flow) for materials structure generation - model development and innovation
   - Graph Neural Networks (GNN) for materials property prediction - model development and innovation
@@ -265,8 +269,9 @@ Data-driven machine learning (ML) has earned remarkable achievements in accelera
 - **Infrastructure**: Materials database development and deployment
 
 ## Computational Materials Science
-- **First-Principles Calculations and Molecular Dynamics**: Expert in VASP, CP2K, Quantum ESPRESSO and LAMMPS
-- **Machine Learning Potentials**: GPUMD force field training and development
+- **First-Principles Calculations**: Expert in VASP, CP2K, Quantum ESPRESSO for material property calculations
+- **Machine Learning Potentials**: Proficient in GPUMD and DeePMD-kit for force field training and development
+- **Specialized Tools**: Expert in Pymatgen and ASE (Atomic Simulation Environment) for for general-purpose materials data manipulation
 
 ---
 # 🎯 Hobbies
@@ -274,7 +279,7 @@ Data-driven machine learning (ML) has earned remarkable achievements in accelera
 Beyond my research, I'm passionate about various activities that keep me balanced and inspired:
 
 ## 🏎️ **Driving**
-I'm an avid driving enthusiast who obtained my driver's license immediately after high school. During my undergraduate years, I completed two long self-driving adventures across China:
+I'm passionate about driving and got my license right after graduating from high school. During my undergraduate years, I completed two long self-driving adventures across China:
 - **Summer 2015**: ~5,500 km journey in 15 days, traversing 11 provinces across central and southern China
 - **Summer 2016**: ~9,100 km journey in 23 days, traversing 15 provinces across northern, western, and central China
 
@@ -282,7 +287,8 @@ My passion for driving extends to the virtual world - I was once a sim racer wit
 - **7 track world records** in [DiRT 3](https://en.wikipedia.org/wiki/Dirt_3) 🏆
 - **20 track world records** in [WRC 3](https://en.wikipedia.org/wiki/WRC_3:_FIA_World_Rally_Championship) 🏆
 
-Throughout my undergraduate years, I enjoyed racing simulators like [Assetto Corsa](https://assettocorsa.gg/) and [Forza Motorsport](https://forza.net/) for relaxation, and I **retired** from competitive sim racing after starting my master's degree.
+Throughout my undergraduate years, I enjoyed racing simulators like [Assetto Corsa](https://assettocorsa.gg/) and [Forza Motorsport](https://forza.net/) for relaxation, and I **retired** from competitive sim racing after starting my master's degree. These experiences have taught me to embrace competition fearlessly - even when facing intense competition and pressure, I maintain 100% confidence and give my all to pursue opportunities, regardless of the outcome.
+
 
 ## 🎱 **Cue Sports**
 I'm an amateur billiards player with a particular fondness for snooker and Chinese eight-ball:
@@ -296,6 +302,6 @@ I enjoy playing badminton at a recreational level. I can manage basic shots like
 
 ---
 
-*💡 Thank you for your interest in learning more about me! I'm always open to discussions, collaborations, and new connections. Feel free to reach out – I look forward to hearing from you!*
+*💡 Thank you for taking the time to learn about my work and interests! I'm always open to discussions, collaborations, and new connections. Feel free to reach out （email: zhilong@seu.edu.cn, zhilong@email.cn, songzl@szlab.ac.cn）– I look forward to hearing from you!*
 
 
