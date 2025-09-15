@@ -1,0 +1,34 @@
+{
+  "container_type": "Author",
+  "filled": [
+    "basics",
+    "indices",
+    "counts"
+  ],
+  "scholar_id": "3MkXEhUAAAAJ",
+  "source": "AUTHOR_PROFILE_PAGE",
+  "name": "Zhilong Song",
+  "affiliation": "southeast university",
+  "organization": 5111565628253151701,
+  "interests": [
+    "materials science",
+    "machine learning"
+  ],
+  "email_domain": "@seu.edu.cn",
+  "citedby": 803,
+  "citedby5y": 802,
+  "hindex": 10,
+  "hindex5y": 10,
+  "i10index": 10,
+  "i10index5y": 10,
+  "cites_per_year": {
+    "2020": 17,
+    "2021": 69,
+    "2022": 155,
+    "2023": 175,
+    "2024": 175,
+    "2025": 208
+  },
+  "updated": "2025-09-15 13:41:44.817221",
+  "publications": {}
+}
