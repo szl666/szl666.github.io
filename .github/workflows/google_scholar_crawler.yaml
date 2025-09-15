@@ -31,7 +31,7 @@ jobs:
         # 添加重试机制
         for i in {1..3}; do
           echo "尝试第 $i 次..."
-          if python3 main.py; then
+          if GOOGLE_SCHOLAR_ID="${GOOGLE_SCHOLAR_ID}" python3 main.py; then
             echo "成功获取数据"
             break
           else
@@ -43,18 +43,20 @@ jobs:
             exit 1
           fi
         done
-      env: 
+      env:
         GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
         
     - name: Commit and push changes
       run: |
-        cd ./google_scholar_crawler/results
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add *.json
+        git add google_scholar_crawler/results/*.json
         if git diff --staged --quiet; then
           echo "没有变化，跳过提交"
         else
           git commit -m "Updated Citation Data - $(date '+%Y-%m-%d %H:%M:%S')"
+          # Push to main branch
+          git push origin main
+          # Push to google-scholar-stats branch
           git push origin HEAD:google-scholar-stats --force
         fi

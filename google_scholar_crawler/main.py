@@ -6,12 +6,17 @@ import time
 import random
 import signal
 import sys
+import platform
 
 class TimeoutException(Exception):
     pass
 
 def timeout_handler(signum, frame):
     raise TimeoutException("操作超时")
+
+def is_timeout_supported():
+    """检查是否支持signal超时"""
+    return platform.system() != 'Windows' and hasattr(signal, 'SIGALRM')
 
 def get_scholar_data_with_retry():
     """带重试机制和超时控制的Google Scholar数据获取"""
@@ -28,9 +33,15 @@ def get_scholar_data_with_retry():
         try:
             print(f"尝试获取数据 (第 {attempt + 1} 次)...")
             
-            # 设置超时
-            signal.signal(signal.SIGALRM, timeout_handler)
-            signal.alarm(180)  # 3分钟超时
+            # 设置超时（仅在支持的系统上）
+            timeout_set = False
+            if is_timeout_supported():
+                try:
+                    signal.signal(signal.SIGALRM, timeout_handler)
+                    signal.alarm(180)  # 3分钟超时
+                    timeout_set = True
+                except:
+                    pass
             
             # 添加随机延迟避免被检测
             delay = random.uniform(5, 15)
@@ -46,7 +57,8 @@ def get_scholar_data_with_retry():
             scholarly.fill(author, sections=['basics', 'indices', 'counts'])
             
             # 取消超时
-            signal.alarm(0)
+            if timeout_set:
+                signal.alarm(0)
             
             # 处理数据
             name = author['name']
@@ -66,10 +78,12 @@ def get_scholar_data_with_retry():
             
         except TimeoutException:
             print(f"第 {attempt + 1} 次尝试超时")
-            signal.alarm(0)
+            if timeout_set:
+                signal.alarm(0)
         except Exception as e:
             print(f"第 {attempt + 1} 次尝试失败: {str(e)}")
-            signal.alarm(0)
+            if 'timeout_set' in locals() and timeout_set:
+                signal.alarm(0)
             
         if attempt < max_retries - 1:
             delay = base_delay * (2 ** attempt) + random.uniform(0, 5)
