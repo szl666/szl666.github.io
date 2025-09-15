@@ -43,6 +43,8 @@ jobs:
             exit 1
           fi
         done
+      env: 
+        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
         
     - name: Commit and push changes
       run: |
@@ -56,5 +58,3 @@ jobs:
           git commit -m "Updated Citation Data - $(date '+%Y-%m-%d %H:%M:%S')"
           git push origin HEAD:google-scholar-stats --force
         fi
-      env: 
-        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
