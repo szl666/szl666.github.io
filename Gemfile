@@ -1,12 +1,14 @@
 source "https://rubygems.org"
 
-# Use GitHub Pages versions for compatibility
-gem "github-pages", group: :jekyll_plugins
+gem "jekyll", "~> 4.3.2"
+gem "kramdown-parser-gfm"
 
-# If you want to use Jekyll native, use this instead of github-pages
-# gem "jekyll", "~> 4.3.2"
+group :jekyll_plugins do
+  gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-sitemap"
+  gem "jekyll-seo-tag"
+end
 
-# Platforms
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", ">= 1", "< 3"
   gem "tzinfo-data"
