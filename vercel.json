@@ -1,0 +1,12 @@
+{
+  "build": {
+    "env": {
+      "BUNDLE_VERSION": "2",
+      "NODE_VERSION": "18",
+      "RUBY_VERSION": "3.2.0"
+    }
+  },
+  "buildCommand": "bundle install && bundle exec jekyll build",
+  "outputDirectory": "_site",
+  "installCommand": "gem install bundler:2.4.22"
+}
