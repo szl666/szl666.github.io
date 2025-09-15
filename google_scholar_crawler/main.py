@@ -18,11 +18,24 @@ def is_timeout_supported():
     """检查是否支持signal超时"""
     return platform.system() != 'Windows' and hasattr(signal, 'SIGALRM')
 
+def is_ci_environment():
+    """检测是否在CI环境中运行"""
+    return os.getenv('GITHUB_ACTIONS') == 'true' or os.getenv('CI') == 'true'
+
 def get_scholar_data_with_retry():
     """带重试机制和超时控制的Google Scholar数据获取"""
-    max_retries = 2  # 减少重试次数
-    base_delay = 10
-    
+    # 在CI环境中使用更激进的策略
+    if is_ci_environment():
+        max_retries = 1  # CI环境只试1次
+        base_delay = 5
+        timeout_seconds = 60  # 1分钟超时
+        print("检测到CI环境，使用快速模式")
+    else:
+        max_retries = 2  # 本地环境2次
+        base_delay = 10
+        timeout_seconds = 180  # 3分钟超时
+        print("本地环境，使用标准模式")
+
     # 配置scholarly使用更宽松的设置
     try:
         scholarly.use_proxy(http="http://proxy-server:port", https="https://proxy-server:port")
@@ -38,13 +51,16 @@ def get_scholar_data_with_retry():
             if is_timeout_supported():
                 try:
                     signal.signal(signal.SIGALRM, timeout_handler)
-                    signal.alarm(180)  # 3分钟超时
+                    signal.alarm(timeout_seconds)
                     timeout_set = True
                 except:
                     pass
             
-            # 添加随机延迟避免被检测
-            delay = random.uniform(5, 15)
+            # 添加随机延迟避免被检测（CI环境减少延迟）
+            if is_ci_environment():
+                delay = random.uniform(2, 5)  # CI环境减少延迟
+            else:
+                delay = random.uniform(5, 15)  # 本地环境较长延迟
             print(f"等待 {delay:.1f} 秒避免被检测...")
             time.sleep(delay)
             
@@ -66,7 +82,9 @@ def get_scholar_data_with_retry():
             
             # 只获取基本发表信息，不获取详细的publications避免超时
             if 'publications' in author:
-                author['publications'] = {v['author_pub_id']:v for v in author['publications'][:10]}  # 只取前10篇
+                # CI环境只取前5篇，本地环境取前10篇
+                pub_limit = 5 if is_ci_environment() else 10
+                author['publications'] = {v['author_pub_id']:v for v in author['publications'][:pub_limit]}
             else:
                 author['publications'] = {}
             

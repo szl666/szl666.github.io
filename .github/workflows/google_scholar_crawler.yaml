@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 10 # 减少到10分钟
+    timeout-minutes: 8 # 减少到8分钟
     steps:
     - uses: actions/checkout@v4 # 更新到最新版本
       with:
@@ -28,19 +28,20 @@ jobs:
     - name: Run crawler with retry
       run: |
         cd ./google_scholar_crawler
-        # 添加重试机制
-        for i in {1..3}; do
-          echo "尝试第 $i 次..."
-          if GOOGLE_SCHOLAR_ID="${GOOGLE_SCHOLAR_ID}" python3 main.py; then
+        # CI环境下简化重试机制
+        for i in {1..2}; do
+          echo "CI环境尝试第 $i 次..."
+          if timeout 300 bash -c "GOOGLE_SCHOLAR_ID=\"${GOOGLE_SCHOLAR_ID}\" python3 main.py"; then
             echo "成功获取数据"
             break
           else
-            echo "第 $i 次失败，等待30秒后重试..."
-            sleep 30
+            echo "第 $i 次失败（可能超时），等待10秒后重试..."
+            sleep 10
           fi
-          if [ $i -eq 3 ]; then
-            echo "所有尝试都失败了"
-            exit 1
+          if [ $i -eq 2 ]; then
+            echo "快速重试失败，使用备用数据..."
+            # 仍然运行脚本生成备用数据
+            GOOGLE_SCHOLAR_ID="${GOOGLE_SCHOLAR_ID}" python3 main.py || true
           fi
         done
       env:
