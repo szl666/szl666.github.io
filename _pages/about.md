@@ -305,6 +305,6 @@ I enjoy playing badminton at a recreational level. I can manage basic shots like
 
 ---
 
-*💡 Thank you for taking the time to learn about my work and interests! I'm always open to discussions, collaborations, and new connections. Feel free to reach out （email: zhilong@seu.edu.cn, zhilong@email.cn, songzl@szlab.ac.cn）– I look forward to hearing from you!*
+*💡 Thank you for taking the time to learn about my work and interests! I'm always open to discussions, collaborations, and new connections. Feel free to reach out （email: zhilong@ust.hk, zhilong@seu.edu.cn, zhilong@email.cn, songzl@szlab.ac.cn）– I look forward to hearing from you!*
 
 
