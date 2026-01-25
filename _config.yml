@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Zhilong Song (宋志龙)"
-description              : "I am Zhilong Song, currently a Junior Research Fellow at the Department of Advanced Materials, Suzhou National Laboratory, working under the supervision of Prof. Jinlan Wang and Prof. Qisheng Wu. I received my Ph.D. degree in Physics from Southeast University, China, in June 2025."
+description              : "I am Zhilong Song, currently a Postdoctoral Fellow at the Department of Chemistry, The Hong Kong University of Science and Technology. I received my Ph.D. degree in Physics from Southeast University in June 2025, under the supervision of Prof. Jinlan Wang."
 repository               : "szl666/szl666.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,12 +23,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Zhilong Song (宋志龙)"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "Southeast University"
-  location         : "Suzhou, China"
+  bio              : "The Hong Kong University of Science and Technology"
+  location         : "Hong kong, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=3MkXEhUAAAAJ&hl"
-  email            : "zhilong@seu.edu.cn"
+  email            : "zhilong@ust.hk"
   researchgate     : "https://www.researchgate.net/profile/Zhilong-Song-2#/"
   uri              :
   bitbucket        :
