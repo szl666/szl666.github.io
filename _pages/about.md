@@ -38,10 +38,10 @@ My interdisciplinary work has led to the development of several innovative frame
 - *2025.03*, Oral Presentation at the American Chemical Society Spring 2025 Meeting, San Diego, USA [[Photo]](images/7b46b29e4ff6e14fd8ecad309b504d2a.jpg) [[Abstract]](https://acs.digitellinc.com/live/34/session/551145)
   
 # 💼 Work Experience
-- *2026.01 - present*, *Postdoctoral Fellow*, Department of Chemistry, *The Hong Kong University of Science and Technology*, Hong Kong, China
-- *2025.06 - 2026.01*, *Junior Research Fellow*, Department of Advanced Materials, *Suzhou National Laboratory*, Suzhou, China
-- *2024.07 - 2024.09*, *Research Intern*, Department of Frontier Basic Research, *Shanghai Artificial Intelligence Laboratory*, Shanghai, China
-- *2019.10 - 2020.01*, *Research Intern*, Materials Data Platform Center, *National Institute for Materials Science (NIMS)*, Tsukuba, Japan
+- *2026.01 - present*, **Postdoctoral Fellow**, Department of Chemistry, **The Hong Kong University of Science and Technology**, Hong Kong, China
+- *2025.06 - 2026.01*, **Junior Research Fellow**, Department of Advanced Materials, **Suzhou National Laboratory**, Suzhou, China
+- *2024.07 - 2024.09*, **Research Intern**, Department of Frontier Basic Research, **Shanghai Artificial Intelligence Laboratory**, Shanghai, China
+- *2019.10 - 2020.01*, **Research Intern**, Materials Data Platform Center, **National Institute for Materials Science (NIMS)**, Tsukuba, Japan
 
 # 📝 Key Research Contributions
 
