@@ -8,6 +8,9 @@
         $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
             var totalCitation = data['citedby']
             document.getElementById('total_cit').innerHTML = totalCitation;
+            if (data['hindex'] && document.getElementById('h_index')) {
+                document.getElementById('h_index').innerHTML = data['hindex'];
+            }
             var citationEles = document.getElementsByClassName('show_paper_citations')
             Array.prototype.forEach.call(citationEles, element => {
                 var paperId = element.getAttribute('data')
