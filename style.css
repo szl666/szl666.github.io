@@ -808,7 +808,6 @@ a:hover {
 
 .research-card-image {
     position: relative;
-    border-radius: var(--radius-lg);
     overflow: hidden;
 }
 
@@ -819,13 +818,13 @@ a:hover {
     text-align: center;
     font-weight: 700;
     font-size: 1.05rem;
+    border-radius: var(--radius-md) var(--radius-md) 0 0;
     border-bottom: 1px solid rgba(99, 102, 241, 0.15);
 }
 
 .research-card-image img {
     width: 100%;
     display: block;
-    border-radius: 0 0 var(--radius-md) var(--radius-md);
 }
 
 .research-card-body {
