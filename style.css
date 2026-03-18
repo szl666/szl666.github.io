@@ -142,6 +142,7 @@ a:hover {
 }
 
 .nav-container {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -189,6 +190,8 @@ a:hover {
     color: var(--text-primary);
     background: var(--bg-tertiary);
 }
+
+.mobile-menu-toggle { display: none; }
 
 .nav-controls {
     display: flex;
@@ -1463,17 +1466,28 @@ a:hover {
     }
 
     .nav-links {
-        display: flex;
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-        scrollbar-width: none;
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        background: var(--bg-card);
+        backdrop-filter: var(--glass-blur);
+        border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+        border: var(--glass-border);
+        border-top: none;
+        padding: var(--space-sm);
         gap: 2px;
+        z-index: 100;
     }
-    .nav-links::-webkit-scrollbar { display: none; }
+    .nav-links.open { display: flex; }
     .nav-links a {
-        font-size: 0.75rem;
-        padding: var(--space-xs) var(--space-sm);
+        font-size: 0.85rem;
+        padding: var(--space-sm) var(--space-md);
+        border-radius: var(--radius-md);
     }
+    .mobile-menu-toggle { display: inline-flex; }
 
     .hero {
         padding: 120px var(--space-md) var(--space-2xl);

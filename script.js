@@ -25,6 +25,21 @@ if (themeToggle) {
     });
 }
 
+// ── Mobile Menu Toggle ───────────────────────────────────────────────────────
+const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+const navLinks = document.querySelector('.nav-links');
+if (mobileMenuToggle && navLinks) {
+    mobileMenuToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('open');
+    });
+    // Close menu when a link is clicked
+    navLinks.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+            navLinks.classList.remove('open');
+        });
+    });
+}
+
 // ── Smooth Scroll ────────────────────────────────────────────────────────────
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
