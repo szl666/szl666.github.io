@@ -9,7 +9,7 @@
 title                    : "Zhilong Song (宋志龙)"
 description              : "I am Zhilong Song, currently a Postdoctoral Fellow at the Department of Chemistry, The Hong Kong University of Science and Technology. I received my Ph.D. degree in Physics from Southeast University in June 2025, under the supervision of Prof. Jinlan Wang."
 repository               : "szl666/szl666.github.io"
-google_scholar_stats_use_cdn : true
+google_scholar_stats_use_cdn : false
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
