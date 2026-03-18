@@ -1,63 +1,47 @@
 name: Get Citation Data
 
-on: 
+on:
   schedule:
     - cron: '0 8 * * *'
-  workflow_dispatch: # 允许手动触发
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 8 # 减少到8分钟
+    timeout-minutes: 3
     steps:
-    - uses: actions/checkout@v4 # 更新到最新版本
+    - uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        
+
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
-        python-version: '3.9'
-        
+        python-version: '3.11'
+
     - name: Install dependencies
       run: |
         cd ./google_scholar_crawler
         pip install --upgrade pip
         pip install -r requirements.txt
-        
-    - name: Run crawler with retry
+
+    - name: Run crawler
       run: |
         cd ./google_scholar_crawler
-        # CI环境下简化重试机制
-        for i in {1..2}; do
-          echo "CI环境尝试第 $i 次..."
-          if timeout 300 bash -c "GOOGLE_SCHOLAR_ID=\"${GOOGLE_SCHOLAR_ID}\" python3 main.py"; then
-            echo "成功获取数据"
-            break
-          else
-            echo "第 $i 次失败（可能超时），等待10秒后重试..."
-            sleep 10
-          fi
-          if [ $i -eq 2 ]; then
-            echo "快速重试失败，使用备用数据..."
-            # 仍然运行脚本生成备用数据
-            GOOGLE_SCHOLAR_ID="${GOOGLE_SCHOLAR_ID}" python3 main.py || true
-          fi
-        done
+        python3 main.py
       env:
         GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
-        
+        SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+
     - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add google_scholar_crawler/results/*.json
+        git add -f google_scholar_crawler/results/*.json
         if git diff --staged --quiet; then
-          echo "没有变化，跳过提交"
+          echo "No changes, skipping commit"
         else
           git commit -m "Updated Citation Data - $(date '+%Y-%m-%d %H:%M:%S')"
-          # Push to main branch
           git push origin main
-          # Push to google-scholar-stats branch
           git push origin HEAD:google-scholar-stats --force
         fi

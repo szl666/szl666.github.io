@@ -1,182 +1,145 @@
-from scholarly import scholarly
 import json
-from datetime import datetime
 import os
-import time
-import random
-import signal
-import sys
-import platform
+from datetime import datetime
 
-class TimeoutException(Exception):
-    pass
+from serpapi import GoogleSearch
 
-def timeout_handler(signum, frame):
-    raise TimeoutException("操作超时")
 
-def is_timeout_supported():
-    """检查是否支持signal超时"""
-    return platform.system() != 'Windows' and hasattr(signal, 'SIGALRM')
+def get_author_data(scholar_id, api_key):
+    """Fetch author profile and citation stats from SerpAPI."""
+    params = {
+        "engine": "google_scholar_author",
+        "author_id": scholar_id,
+        "api_key": api_key,
+    }
+    search = GoogleSearch(params)
+    results = search.get_dict()
 
-def is_ci_environment():
-    """检测是否在CI环境中运行"""
-    return os.getenv('GITHUB_ACTIONS') == 'true' or os.getenv('CI') == 'true'
+    author = results.get("author", {})
+    cited_by = results.get("cited_by", {})
 
-def get_scholar_data_with_retry():
-    """带重试机制和超时控制的Google Scholar数据获取"""
-    # 在CI环境中使用更激进的策略
-    if is_ci_environment():
-        max_retries = 1  # CI环境只试1次
-        base_delay = 5
-        timeout_seconds = 60  # 1分钟超时
-        print("检测到CI环境，使用快速模式")
-    else:
-        max_retries = 2  # 本地环境2次
-        base_delay = 10
-        timeout_seconds = 180  # 3分钟超时
-        print("本地环境，使用标准模式")
+    # Extract total citations and h-index
+    table = cited_by.get("table", [])
+    total_citations = 0
+    h_index = 0
+    i10_index = 0
+    for row in table:
+        if "citations" in row:
+            total_citations = row["citations"].get("all", 0)
+        if "h_index" in row:
+            h_index = row["h_index"].get("all", 0)
+        if "i10_index" in row:
+            i10_index = row["i10_index"].get("all", 0)
 
-    # 配置scholarly使用更宽松的设置
-    try:
-        scholarly.use_proxy(http="http://proxy-server:port", https="https://proxy-server:port")
-    except:
-        pass  # 如果没有代理就跳过
-    
-    for attempt in range(max_retries):
-        try:
-            print(f"尝试获取数据 (第 {attempt + 1} 次)...")
-            
-            # 设置超时（仅在支持的系统上）
-            timeout_set = False
-            if is_timeout_supported():
-                try:
-                    signal.signal(signal.SIGALRM, timeout_handler)
-                    signal.alarm(timeout_seconds)
-                    timeout_set = True
-                except:
-                    pass
-            
-            # 添加随机延迟避免被检测（CI环境减少延迟）
-            if is_ci_environment():
-                delay = random.uniform(2, 5)  # CI环境减少延迟
-            else:
-                delay = random.uniform(5, 15)  # 本地环境较长延迟
-            print(f"等待 {delay:.1f} 秒避免被检测...")
-            time.sleep(delay)
-            
-            # 搜索作者
-            print("正在搜索作者信息...")
-            author = scholarly.search_author_id(os.environ['GOOGLE_SCHOLAR_ID'])
-            
-            # 填充基本信息
-            print("正在获取基本信息...")
-            scholarly.fill(author, sections=['basics', 'indices', 'counts'])
-            
-            # 取消超时
-            if timeout_set:
-                signal.alarm(0)
-            
-            # 处理数据
-            name = author['name']
-            author['updated'] = str(datetime.now())
-            
-            # 只获取基本发表信息，不获取详细的publications避免超时
-            if 'publications' in author:
-                # CI环境只取前5篇，本地环境取前10篇
-                pub_limit = 5 if is_ci_environment() else 10
-                author['publications'] = {v['author_pub_id']:v for v in author['publications'][:pub_limit]}
-            else:
-                author['publications'] = {}
-            
-            print(f"成功获取 {name} 的数据")
-            print(f"总引用数: {author.get('citedby', 0)}")
-            print(f"h-index: {author.get('hindex', 0)}")
-            
-            return author
-            
-        except TimeoutException:
-            print(f"第 {attempt + 1} 次尝试超时")
-            if timeout_set:
-                signal.alarm(0)
-        except Exception as e:
-            print(f"第 {attempt + 1} 次尝试失败: {str(e)}")
-            if 'timeout_set' in locals() and timeout_set:
-                signal.alarm(0)
-            
-        if attempt < max_retries - 1:
-            delay = base_delay * (2 ** attempt) + random.uniform(0, 5)
-            print(f"等待 {delay:.1f} 秒后重试...")
-            time.sleep(delay)
-        else:
-            # 如果所有尝试都失败，使用备用数据
-            print("所有尝试都失败，使用现有数据...")
-            return create_fallback_data()
-
-def create_fallback_data():
-    """创建备用数据，基于已有的gs_data.json"""
-    try:
-        # 尝试读取现有数据
-        if os.path.exists('../gs_data.json'):
-            with open('../gs_data.json', 'r', encoding='utf-8') as f:
-                existing_data = json.load(f)
-                existing_data['updated'] = str(datetime.now()) + " (fallback)"
-                return existing_data
-    except:
-        pass
-    
-    # 如果没有现有数据，创建基本结构
     return {
-        "name": "Zhilong Song",
-        "affiliation": "Southeast University", 
-        "citedby": 796,  # 从之前的数据
-        "hindex": 10,
-        "i10index": 10,
-        "publications": {},
-        "updated": str(datetime.now()) + " (fallback)",
-        "scholar_id": "3MkXEhUAAAAJ"
+        "name": author.get("name", ""),
+        "affiliation": author.get("affiliations", ""),
+        "citedby": total_citations,
+        "hindex": h_index,
+        "i10index": i10_index,
+        "scholar_id": scholar_id,
+        "updated": str(datetime.now()),
     }
 
+
+def get_publications(scholar_id, api_key):
+    """Fetch all publications with citation counts."""
+    publications = {}
+    start = 0
+
+    while True:
+        params = {
+            "engine": "google_scholar_author",
+            "author_id": scholar_id,
+            "api_key": api_key,
+            "start": start,
+            "num": 100,
+        }
+        search = GoogleSearch(params)
+        results = search.get_dict()
+
+        articles = results.get("articles", [])
+        if not articles:
+            break
+
+        for article in articles:
+            pub_id = article.get("citation_id", "")
+            publications[pub_id] = {
+                "bib": {
+                    "title": article.get("title", ""),
+                    "citation": article.get("citation", ""),
+                },
+                "num_citations": article.get("cited_by", {}).get("value", 0),
+                "author_pub_id": pub_id,
+            }
+
+        start += len(articles)
+        # SerpAPI returns up to 100 per page
+        if len(articles) < 100:
+            break
+
+    return publications
+
+
+def create_fallback_data():
+    """Use existing data if API call fails."""
+    fallback_path = "results/gs_data.json"
+    if os.path.exists(fallback_path):
+        with open(fallback_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            data["updated"] = str(datetime.now()) + " (fallback)"
+            return data
+
+    return {
+        "name": "Zhilong Song",
+        "affiliation": "The Hong Kong University of Science and Technology",
+        "citedby": 959,
+        "hindex": 12,
+        "i10index": 12,
+        "publications": {},
+        "updated": str(datetime.now()) + " (fallback)",
+        "scholar_id": "3MkXEhUAAAAJ",
+    }
+
+
 def main():
-    try:
-        # 获取数据
-        author = get_scholar_data_with_retry()
-        
-        # 创建输出目录
-        os.makedirs('results', exist_ok=True)
-        
-        # 保存完整数据
-        with open('results/gs_data.json', 'w', encoding='utf-8') as outfile:
-            json.dump(author, outfile, ensure_ascii=False, indent=2)
-        
-        # 保存shields.io格式数据
-        shieldio_data = {
-            "schemaVersion": 1,
-            "label": "citations",
-            "message": f"{author.get('citedby', 0)}",
-        }
-        with open('results/gs_data_shieldsio.json', 'w', encoding='utf-8') as outfile:
-            json.dump(shieldio_data, outfile, ensure_ascii=False, indent=2)
-        
-        print("数据保存成功!")
-        
-    except Exception as e:
-        print(f"获取数据失败: {str(e)}")
-        # 即使失败也不退出，使用备用数据
+    scholar_id = os.environ.get("GOOGLE_SCHOLAR_ID", "3MkXEhUAAAAJ")
+    api_key = os.environ.get("SERPAPI_KEY", "")
+
+    if not api_key:
+        print("SERPAPI_KEY not set, using fallback data")
         author = create_fallback_data()
-        
-        os.makedirs('results', exist_ok=True)
-        with open('results/gs_data.json', 'w', encoding='utf-8') as outfile:
-            json.dump(author, outfile, ensure_ascii=False, indent=2)
-        
-        shieldio_data = {
-            "schemaVersion": 1,
-            "label": "citations", 
-            "message": f"{author.get('citedby', 0)}",
-        }
-        with open('results/gs_data_shieldsio.json', 'w', encoding='utf-8') as outfile:
-            json.dump(shieldio_data, outfile, ensure_ascii=False, indent=2)
-        
-        print("使用备用数据保存成功!")
+    else:
+        try:
+            print("Fetching author data from SerpAPI...")
+            author = get_author_data(scholar_id, api_key)
+
+            print("Fetching publications...")
+            author["publications"] = get_publications(scholar_id, api_key)
+
+            print(f"Name: {author['name']}")
+            print(f"Total citations: {author['citedby']}")
+            print(f"h-index: {author['hindex']}")
+            print(f"Publications: {len(author['publications'])}")
+        except Exception as e:
+            print(f"API call failed: {e}")
+            author = create_fallback_data()
+
+    os.makedirs("results", exist_ok=True)
+
+    with open("results/gs_data.json", "w", encoding="utf-8") as f:
+        json.dump(author, f, ensure_ascii=False, indent=2)
+
+    shieldio_data = {
+        "schemaVersion": 1,
+        "label": "citations",
+        "message": str(author.get("citedby", 0)),
+    }
+    with open("results/gs_data_shieldsio.json", "w", encoding="utf-8") as f:
+        json.dump(shieldio_data, f, ensure_ascii=False, indent=2)
+
+    print("Data saved successfully!")
+
 
 if __name__ == "__main__":
     main()
