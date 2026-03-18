@@ -373,7 +373,7 @@ function fetchScholarStats(cfg) {
     fetch(cfg.scholarStatsUrl)
         .then(res => res.json())
         .then(data => {
-            const citations = data.citations || 0;
+            const citations = data.citedby || data.citations || 0;
             const hIndex = data.hindex || data.h_index || 0;
 
             // Update hero stats
