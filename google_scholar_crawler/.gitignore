@@ -1,4 +1,5 @@
 *.json
+!results/*.json
 .DS_Store
 /push.sh
 
