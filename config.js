@@ -10,11 +10,11 @@ const USER_CONFIG = {
   email:      "zhilong@ust.hk",
   photo:      "images/android-chrome-512x512.png",
 
-  bio: `I work at the frontier where <strong class="highlight">artificial intelligence</strong> meets <strong class="highlight">materials science</strong>. A central challenge in this field is venturing beyond known structures to create entirely new ones with exceptional properties. To address this, I develop new generative models for the inverse design of stable functional materials, optimization frameworks that steer these generative models to explore vast property landscapes toward desired targets, autonomous agents that assess whether predicted structures can be synthesized and recommend viable synthetic routes, and interpretable machine learning methods that reveal the mechanistic origins of material performance.`,
+  bio: `I work at the frontier where <strong class="highlight">artificial intelligence</strong> meets <strong class="highlight">materials science</strong>. A central challenge in this field is venturing beyond known structures to create entirely new ones with exceptional properties. To address this, I develop new generative models for the inverse design of novel and stable materials structures, optimization frameworks that steer generative models to explore vast property space toward desired targets, autonomous agents that assess whether predicted structures can be synthesized and recommend viable synthetic routes, and interpretable machine learning methods that reveal the mechanistic origins of material performance.`,
 
   bioExtra: `These efforts have resulted in 21 peer-reviewed publications with an h-index of <strong id="h_index_intro" class="highlight">12</strong> and total <strong id="total_citations_bio" class="highlight">citations</strong>. Among them, 8 are first-authored — including <strong class="highlight">3 in Nature Communications</strong>, <strong class="highlight">1 in Materials Horizons</strong>, <strong class="highlight">1 in Advanced Functional Materials</strong>, and <strong class="highlight">1 in The Journal of Physical Chemistry Letters</strong> — with two additional first-authored preprints currently under review.`,
 
-  bioExtra2: `This research has produced a suite of interconnected frameworks: <strong><a href="https://arxiv.org/abs/2507.19307">SSAGEN</a></strong> generates crystal structures with intrinsic stability, symmetry, and controllability; <strong><a href="https://www.nature.com/articles/s41467-024-55613-z">MAGECS</a></strong> guides generative models to efficiently navigate the global chemical space toward target properties; <strong><a href="https://www.nature.com/articles/s41467-025-61778-y">CSLLM</a></strong> predicts the synthesizability of arbitrary crystal structures and recommends synthetic routes; and <strong><a href="https://arxiv.org/abs/2503.06512">LLM-Feynman</a></strong> distills interpretable scientific formulas from data and domain knowledge. Together, they close the loop from structure generation through property optimization and synthesizability assessment to mechanistic understanding, offering a step toward more efficient computational materials discovery.`,
+  bioExtra2: `This research has produced a suite of interconnected frameworks: <strong><a href="https://arxiv.org/abs/2507.19307">SSAGEN</a></strong> generates crystal structures with intrinsic stability, symmetry, and controllability; <strong><a href="https://www.nature.com/articles/s41467-024-55613-z">MAGECS</a></strong> guides generative models to efficiently explore the global chemical space toward target properties; <strong><a href="https://www.nature.com/articles/s41467-025-61778-y">CSLLM</a></strong> predicts the synthesizability of arbitrary crystal structures and recommends synthetic routes; and <strong><a href="https://arxiv.org/abs/2503.06512">LLM-Feynman</a></strong> distills interpretable scientific formulas from data and domain knowledge. Together, they close the loop from structure generation through property optimization and synthesizability assessment to mechanistic understanding, offering a step toward more efficient computational materials discovery.`,
 
   stats: [
     { value: "21",  label: "Publications", id: "stat-pubs" },
@@ -318,33 +318,33 @@ const USER_CONFIG = {
     {
       category: "Theoretical Foundations",
       items: [
-        { label: "Physics & Chemistry", desc: "Solid theoretical foundation in solid-state physics, quantum chemistry, density functional theory (DFT), and theoretical catalysis" },
-        { label: "Computer Science", desc: "Deep understanding of interpretable models, generative models, graph neural networks (GNNs) and autoregressive models" },
+        { label: "Physics & Chemistry", desc: "Strong foundation in solid-state physics, quantum chemistry, density functional theory (DFT), and theoretical catalysis" },
+        { label: "Computer Science", desc: "Deep understanding of generative models, graph neural networks (GNNs), autoregressive models, and interpretable machine learning" },
       ],
     },
     {
       category: "Programming",
       items: [
-        { label: "Languages", desc: "Proficient in Python, Shell scripting (Bash, Zsh, Perl), Julia, MATLAB and Fortran" },
-        { label: "AI-Powered Development", desc: "Proficient in AI-assisted development tools like Cursor and Claude Code to enhance productivity and achieve vibe coding" },
+        { label: "Languages", desc: "Python, Bash/Zsh, Julia, MATLAB, and Fortran for scientific computing, workflow automation, and research software development" },
+        { label: "Vibe Coding", desc: "Heavy user of Claude Code, Codex, Cursor, OpenCode, and OpenClaw for code development" },
       ],
     },
     {
-      category: "Machine Learning",
+      category: "Machine Learning & Agent System",
       items: [
-        { label: "General Frameworks", desc: "Expert in PyTorch and TensorFlow" },
-        { label: "Materials-Specific ML", desc: "Generative models (GAN, VAE, Diffusion, Flow) for materials structure generation; Graph Neural Networks (GNN) for materials property prediction; Universal machine learning potentials" },
-        { label: "Large Language Models", desc: "Full parameter and LoRA fine-tuning, agent construction, and reinforcement learning fine-tuning" },
-        { label: "Interpretable ML", desc: "Development and application of interpretable ML algorithms such as symbolic regression" },
-        { label: "Infrastructure", desc: "Materials database development and deployment" },
+        { label: "Core Stack", desc: "PyTorch, TensorFlow, and the Github & Hugging Face ecosystem for model development, training, fine-tuning, and deployment" },
+        { label: "Generative Modeling", desc: "GAN, VAE, diffusion, flow, and autoregressive models for crystal structure generation" },
+        { label: "Agent Development", desc: "Self-evolving multi-agent system construction, zero-parameter agent reinforcement learning fine-tuning, and traditional full-parameter/LoRA/OLoRA LLM fine-tuning" },
+        { label: "Interpretable ML", desc: "Symbolic regression and causal machine learning for extracting scientific formulas and mechanistic insights" },
       ],
     },
     {
       category: "Computational Materials Science",
       items: [
-        { label: "First-Principles Calculations", desc: "Expert in VASP, CP2K, Quantum ESPRESSO for material property calculations" },
-        { label: "Machine Learning Potentials", desc: "Proficient in GPUMD and DeePMD-kit for force field training and development" },
-        { label: "Specialized Tools", desc: "Expert in Pymatgen and ASE (Atomic Simulation Environment) for general-purpose materials data manipulation" },
+        { label: "First-Principles Calculations", desc: "VASP, CP2K, and Quantum ESPRESSO for structure, stability, and property calculations" },
+        { label: "Machine Learning Potentials", desc: "GPUMD, DeePMD-kit, and universal machine learning potentials for atomistic simulation and force-field development" },
+        { label: "Scientific Tooling", desc: "Pymatgen, ASE, and high-throughput materials workflows for data generation, screening, and analysis" },
+        { label: "Research Infrastructure", desc: "Materials database construction, workflow automation, reproducible experiments, and model-serving pipelines" },
       ],
     },
   ],
