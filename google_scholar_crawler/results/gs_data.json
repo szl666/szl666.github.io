@@ -1,18 +1,18 @@
 {
   "name": "Zhilong Song",
   "affiliation": "Hong Kong University of Science and Technology",
-  "citedby": 986,
+  "citedby": 988,
   "hindex": 12,
   "i10index": 13,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-03-26 08:46:47.156334",
+  "updated": "2026-03-27 08:43:15.767205",
   "publications": {
     "3MkXEhUAAAAJ:blknAaTinKkC": {
       "bib": {
         "title": "Simple descriptor derived from symbolic regression accelerating the discovery of new perovskite catalysts",
         "citation": ""
       },
-      "num_citations": 409,
+      "num_citations": 410,
       "author_pub_id": "3MkXEhUAAAAJ:blknAaTinKkC"
     },
     "3MkXEhUAAAAJ:NMxIlDl6LWMC": {
@@ -52,7 +52,7 @@
         "title": "Inverse design with deep generative models: next step in materials discovery",
         "citation": ""
       },
-      "num_citations": 42,
+      "num_citations": 43,
       "author_pub_id": "3MkXEhUAAAAJ:vRqMK49ujn8C"
     },
     "3MkXEhUAAAAJ:OcBU2YAGkTUC": {
