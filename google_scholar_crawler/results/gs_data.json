@@ -1,11 +1,11 @@
 {
   "name": "Zhilong Song",
   "affiliation": "Hong Kong University of Science and Technology",
-  "citedby": 992,
+  "citedby": 994,
   "hindex": 12,
   "i10index": 13,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-03-30 09:05:39.480299",
+  "updated": "2026-03-31 08:51:31.745291",
   "publications": {
     "3MkXEhUAAAAJ:blknAaTinKkC": {
       "bib": {
@@ -36,7 +36,7 @@
         "title": "Achieving high-quality Sn–Pb perovskite films on complementary metal-oxide-semiconductor-compatible metal/silicon substrates for efficient imaging array",
         "citation": ""
       },
-      "num_citations": 70,
+      "num_citations": 71,
       "author_pub_id": "3MkXEhUAAAAJ:qjMakFHDy7sC"
     },
     "3MkXEhUAAAAJ:86PQX7AUzd4C": {
@@ -116,7 +116,7 @@
         "title": "LLM-Feynman: leveraging large language models for universal scientific formula and theory discovery",
         "citation": ""
       },
-      "num_citations": 8,
+      "num_citations": 9,
       "author_pub_id": "3MkXEhUAAAAJ:8d8msizDQcsC"
     },
     "3MkXEhUAAAAJ:xtoqd-5pKcoC": {
