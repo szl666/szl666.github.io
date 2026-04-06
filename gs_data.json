@@ -1,18 +1,18 @@
 {
   "name": "Zhilong Song",
   "affiliation": "Hong Kong University of Science and Technology",
-  "citedby": 996,
+  "citedby": 1001,
   "hindex": 12,
   "i10index": 13,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-04-05 08:36:30.094067",
+  "updated": "2026-04-06 09:02:41.368973",
   "publications": {
     "3MkXEhUAAAAJ:blknAaTinKkC": {
       "bib": {
         "title": "Simple descriptor derived from symbolic regression accelerating the discovery of new perovskite catalysts",
         "citation": ""
       },
-      "num_citations": 411,
+      "num_citations": 412,
       "author_pub_id": "3MkXEhUAAAAJ:blknAaTinKkC"
     },
     "3MkXEhUAAAAJ:NMxIlDl6LWMC": {
@@ -36,7 +36,7 @@
         "title": "Achieving high-quality Sn–Pb perovskite films on complementary metal-oxide-semiconductor-compatible metal/silicon substrates for efficient imaging array",
         "citation": ""
       },
-      "num_citations": 71,
+      "num_citations": 72,
       "author_pub_id": "3MkXEhUAAAAJ:qjMakFHDy7sC"
     },
     "3MkXEhUAAAAJ:86PQX7AUzd4C": {
@@ -44,7 +44,7 @@
         "title": "Inverse design of promising electrocatalysts for CO2 reduction via generative models and bird swarm algorithm",
         "citation": ""
       },
-      "num_citations": 45,
+      "num_citations": 47,
       "author_pub_id": "3MkXEhUAAAAJ:86PQX7AUzd4C"
     },
     "3MkXEhUAAAAJ:vRqMK49ujn8C": {
@@ -60,7 +60,7 @@
         "title": "Accurate prediction of synthesizability and precursors of 3D crystal structures via large language models",
         "citation": ""
       },
-      "num_citations": 38,
+      "num_citations": 39,
       "author_pub_id": "3MkXEhUAAAAJ:OcBU2YAGkTUC"
     },
     "3MkXEhUAAAAJ:RGFaLdJalmkC": {
