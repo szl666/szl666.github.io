@@ -1,11 +1,11 @@
 {
-  "name": "",
-  "affiliation": "",
-  "citedby": 0,
-  "hindex": 0,
-  "i10index": 0,
+  "name": "Zhilong Song",
+  "affiliation": "Hong Kong University of Science and Technology",
+  "citedby": 1003,
+  "hindex": 12,
+  "i10index": 13,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-04-10 09:01:58.301361",
+  "updated": "2026-04-11 08:36:17.931509",
   "publications": {
     "3MkXEhUAAAAJ:blknAaTinKkC": {
       "bib": {
@@ -92,7 +92,7 @@
         "title": "Machine learning‐assisted design of nitrogen‐rich covalent triazine frameworks photocatalysts",
         "citation": ""
       },
-      "num_citations": 17,
+      "num_citations": 18,
       "author_pub_id": "3MkXEhUAAAAJ:VaXvl8Fpj5cC"
     },
     "3MkXEhUAAAAJ:TFP_iSt0sucC": {
