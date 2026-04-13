@@ -1,11 +1,11 @@
 {
-  "name": "Zhilong Song",
-  "affiliation": "Hong Kong University of Science and Technology",
-  "citedby": 1003,
-  "hindex": 12,
-  "i10index": 13,
+  "name": "",
+  "affiliation": "",
+  "citedby": 0,
+  "hindex": 0,
+  "i10index": 0,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-04-12 08:40:22.487044",
+  "updated": "2026-04-13 09:49:28.662735",
   "publications": {
     "3MkXEhUAAAAJ:blknAaTinKkC": {
       "bib": {
@@ -36,7 +36,7 @@
         "title": "Achieving high-quality Sn–Pb perovskite films on complementary metal-oxide-semiconductor-compatible metal/silicon substrates for efficient imaging array",
         "citation": ""
       },
-      "num_citations": 72,
+      "num_citations": 73,
       "author_pub_id": "3MkXEhUAAAAJ:qjMakFHDy7sC"
     },
     "3MkXEhUAAAAJ:86PQX7AUzd4C": {
