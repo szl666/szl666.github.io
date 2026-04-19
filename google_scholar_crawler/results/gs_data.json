@@ -1,18 +1,18 @@
 {
-  "name": "Zhilong Song",
-  "affiliation": "Hong Kong University of Science and Technology",
-  "citedby": 1010,
-  "hindex": 12,
-  "i10index": 13,
+  "name": "",
+  "affiliation": "",
+  "citedby": 0,
+  "hindex": 0,
+  "i10index": 0,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-04-18 08:41:30.691856",
+  "updated": "2026-04-19 08:45:40.581427",
   "publications": {
     "3MkXEhUAAAAJ:blknAaTinKkC": {
       "bib": {
         "title": "Simple descriptor derived from symbolic regression accelerating the discovery of new perovskite catalysts",
         "citation": ""
       },
-      "num_citations": 413,
+      "num_citations": 414,
       "author_pub_id": "3MkXEhUAAAAJ:blknAaTinKkC"
     },
     "3MkXEhUAAAAJ:NMxIlDl6LWMC": {
@@ -92,7 +92,7 @@
         "title": "Machine learning‐assisted design of nitrogen‐rich covalent triazine frameworks photocatalysts",
         "citation": ""
       },
-      "num_citations": 18,
+      "num_citations": 19,
       "author_pub_id": "3MkXEhUAAAAJ:VaXvl8Fpj5cC"
     },
     "3MkXEhUAAAAJ:TFP_iSt0sucC": {
