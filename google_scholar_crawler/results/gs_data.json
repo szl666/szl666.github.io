@@ -1,10 +1,179 @@
 {
   "name": "Zhilong Song",
   "affiliation": "Hong Kong University of Science and Technology",
-  "citedby": 1015,
+  "citedby": 1016,
   "hindex": 12,
   "i10index": 13,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-04-21 09:19:37.077834",
-  "publications": {}
+  "updated": "2026-04-22 09:13:59.422127",
+  "publications": {
+    "3MkXEhUAAAAJ:blknAaTinKkC": {
+      "bib": {
+        "title": "Simple descriptor derived from symbolic regression accelerating the discovery of new perovskite catalysts",
+        "citation": ""
+      },
+      "num_citations": 414,
+      "author_pub_id": "3MkXEhUAAAAJ:blknAaTinKkC"
+    },
+    "3MkXEhUAAAAJ:NMxIlDl6LWMC": {
+      "bib": {
+        "title": "Visible-Light Photocatalytic CO2 Reduction Using Metal-Organic Framework Derived Ni(OH)2 Nanocages: A Synergy from Multiple Light Reflection, Static Charge …",
+        "citation": ""
+      },
+      "num_citations": 150,
+      "author_pub_id": "3MkXEhUAAAAJ:NMxIlDl6LWMC"
+    },
+    "3MkXEhUAAAAJ:M3NEmzRMIkIC": {
+      "bib": {
+        "title": "Machine learning in materials design: Algorithm and application",
+        "citation": ""
+      },
+      "num_citations": 79,
+      "author_pub_id": "3MkXEhUAAAAJ:M3NEmzRMIkIC"
+    },
+    "3MkXEhUAAAAJ:qjMakFHDy7sC": {
+      "bib": {
+        "title": "Achieving high-quality Sn–Pb perovskite films on complementary metal-oxide-semiconductor-compatible metal/silicon substrates for efficient imaging array",
+        "citation": ""
+      },
+      "num_citations": 73,
+      "author_pub_id": "3MkXEhUAAAAJ:qjMakFHDy7sC"
+    },
+    "3MkXEhUAAAAJ:86PQX7AUzd4C": {
+      "bib": {
+        "title": "Inverse design of promising electrocatalysts for CO2 reduction via generative models and bird swarm algorithm",
+        "citation": ""
+      },
+      "num_citations": 52,
+      "author_pub_id": "3MkXEhUAAAAJ:86PQX7AUzd4C"
+    },
+    "3MkXEhUAAAAJ:vRqMK49ujn8C": {
+      "bib": {
+        "title": "Inverse design with deep generative models: next step in materials discovery",
+        "citation": ""
+      },
+      "num_citations": 46,
+      "author_pub_id": "3MkXEhUAAAAJ:vRqMK49ujn8C"
+    },
+    "3MkXEhUAAAAJ:OcBU2YAGkTUC": {
+      "bib": {
+        "title": "Accurate prediction of synthesizability and precursors of 3D crystal structures via large language models",
+        "citation": ""
+      },
+      "num_citations": 42,
+      "author_pub_id": "3MkXEhUAAAAJ:OcBU2YAGkTUC"
+    },
+    "3MkXEhUAAAAJ:d1gkVwhDpl0C": {
+      "bib": {
+        "title": "Single-phase alkylammonium cesium lead iodide quasi-2D perovskites for color-tunable and spectrum-stable red LEDs",
+        "citation": ""
+      },
+      "num_citations": 33,
+      "author_pub_id": "3MkXEhUAAAAJ:d1gkVwhDpl0C"
+    },
+    "3MkXEhUAAAAJ:9vf0nzSNQJEC": {
+      "bib": {
+        "title": "Distilling universal activity descriptors for perovskite catalysts from multiple data sources via multi-task symbolic regression",
+        "citation": ""
+      },
+      "num_citations": 32,
+      "author_pub_id": "3MkXEhUAAAAJ:9vf0nzSNQJEC"
+    },
+    "3MkXEhUAAAAJ:RGFaLdJalmkC": {
+      "bib": {
+        "title": "Going Beyond the d‐Band Center to Describe CO2 Activation on Single‐Atom Alloys",
+        "citation": ""
+      },
+      "num_citations": 32,
+      "author_pub_id": "3MkXEhUAAAAJ:RGFaLdJalmkC"
+    },
+    "3MkXEhUAAAAJ:VaXvl8Fpj5cC": {
+      "bib": {
+        "title": "Machine learning‐assisted design of nitrogen‐rich covalent triazine frameworks photocatalysts",
+        "citation": ""
+      },
+      "num_citations": 18,
+      "author_pub_id": "3MkXEhUAAAAJ:VaXvl8Fpj5cC"
+    },
+    "3MkXEhUAAAAJ:TFP_iSt0sucC": {
+      "bib": {
+        "title": "Optimization of depth-graded multilayer structure for x-ray optics using machine learning",
+        "citation": ""
+      },
+      "num_citations": 16,
+      "author_pub_id": "3MkXEhUAAAAJ:TFP_iSt0sucC"
+    },
+    "3MkXEhUAAAAJ:eq2jaN3J8jMC": {
+      "bib": {
+        "title": "Adaptive Design of Alloys for CO2 Activation and Methanation via Reinforcement Learning Monte Carlo Tree Search Algorithm",
+        "citation": ""
+      },
+      "num_citations": 10,
+      "author_pub_id": "3MkXEhUAAAAJ:eq2jaN3J8jMC"
+    },
+    "3MkXEhUAAAAJ:8d8msizDQcsC": {
+      "bib": {
+        "title": "LLM-Feynman: leveraging large language models for universal scientific formula and theory discovery",
+        "citation": ""
+      },
+      "num_citations": 9,
+      "author_pub_id": "3MkXEhUAAAAJ:8d8msizDQcsC"
+    },
+    "3MkXEhUAAAAJ:xtoqd-5pKcoC": {
+      "bib": {
+        "title": "How the spacer influences the stability of 2D perovskites?",
+        "citation": ""
+      },
+      "num_citations": 7,
+      "author_pub_id": "3MkXEhUAAAAJ:xtoqd-5pKcoC"
+    },
+    "3MkXEhUAAAAJ:BJbdYPG6LGMC": {
+      "bib": {
+        "title": "T2MAT (text-to-material): A universal agent for generating material structures with goal properties from a single sentence",
+        "citation": ""
+      },
+      "num_citations": 3,
+      "author_pub_id": "3MkXEhUAAAAJ:BJbdYPG6LGMC"
+    },
+    "3MkXEhUAAAAJ:NyGDZy8z5eUC": {
+      "bib": {
+        "title": "Continuous discovery of novel 2D materials via dual active learning-driven generative models",
+        "citation": ""
+      },
+      "num_citations": null,
+      "author_pub_id": "3MkXEhUAAAAJ:NyGDZy8z5eUC"
+    },
+    "3MkXEhUAAAAJ:F9fV5C73w3QC": {
+      "bib": {
+        "title": "Stability and Symmetry-Assured Crystal Structure Generation for Inverse Design of Photocatalysts in Water Splitting",
+        "citation": ""
+      },
+      "num_citations": null,
+      "author_pub_id": "3MkXEhUAAAAJ:F9fV5C73w3QC"
+    },
+    "3MkXEhUAAAAJ:IUKN3-7HHlwC": {
+      "bib": {
+        "title": "Feature-Extended Descriptor Construction for Prediction of Consecutive Elementary Reaction Energies in Methane Oxidation",
+        "citation": ""
+      },
+      "num_citations": null,
+      "author_pub_id": "3MkXEhUAAAAJ:IUKN3-7HHlwC"
+    },
+    "3MkXEhUAAAAJ:F1b5ZUV5XREC": {
+      "bib": {
+        "title": "AI-driven materials design: paradigm shift from small data to big data",
+        "citation": ""
+      },
+      "num_citations": null,
+      "author_pub_id": "3MkXEhUAAAAJ:F1b5ZUV5XREC"
+    },
+    "3MkXEhUAAAAJ:zA6iFVUQeVQC": {
+      "bib": {
+        "title": "Design of thermodynamically stable perovskites using machine learning",
+        "citation": ""
+      },
+      "num_citations": null,
+      "author_pub_id": "3MkXEhUAAAAJ:zA6iFVUQeVQC"
+    }
+  }
 }
