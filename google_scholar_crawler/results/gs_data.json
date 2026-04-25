@@ -1,18 +1,18 @@
 {
   "name": "Zhilong Song",
   "affiliation": "Hong Kong University of Science and Technology",
-  "citedby": 1018,
+  "citedby": 1025,
   "hindex": 12,
   "i10index": 13,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-04-24 09:25:50.495253",
+  "updated": "2026-04-25 08:44:00.576763",
   "publications": {
     "3MkXEhUAAAAJ:blknAaTinKkC": {
       "bib": {
         "title": "Simple descriptor derived from symbolic regression accelerating the discovery of new perovskite catalysts",
         "citation": ""
       },
-      "num_citations": 414,
+      "num_citations": 416,
       "author_pub_id": "3MkXEhUAAAAJ:blknAaTinKkC"
     },
     "3MkXEhUAAAAJ:NMxIlDl6LWMC": {
@@ -60,8 +60,16 @@
         "title": "Accurate prediction of synthesizability and precursors of 3D crystal structures via large language models",
         "citation": ""
       },
-      "num_citations": 43,
+      "num_citations": 44,
       "author_pub_id": "3MkXEhUAAAAJ:OcBU2YAGkTUC"
+    },
+    "3MkXEhUAAAAJ:RGFaLdJalmkC": {
+      "bib": {
+        "title": "Going Beyond the d‐Band Center to Describe CO2 Activation on Single‐Atom Alloys",
+        "citation": ""
+      },
+      "num_citations": 34,
+      "author_pub_id": "3MkXEhUAAAAJ:RGFaLdJalmkC"
     },
     "3MkXEhUAAAAJ:d1gkVwhDpl0C": {
       "bib": {
@@ -78,14 +86,6 @@
       },
       "num_citations": 32,
       "author_pub_id": "3MkXEhUAAAAJ:9vf0nzSNQJEC"
-    },
-    "3MkXEhUAAAAJ:RGFaLdJalmkC": {
-      "bib": {
-        "title": "Going Beyond the d‐Band Center to Describe CO2 Activation on Single‐Atom Alloys",
-        "citation": ""
-      },
-      "num_citations": 32,
-      "author_pub_id": "3MkXEhUAAAAJ:RGFaLdJalmkC"
     },
     "3MkXEhUAAAAJ:VaXvl8Fpj5cC": {
       "bib": {
@@ -132,7 +132,7 @@
         "title": "T2MAT (text-to-material): A universal agent for generating material structures with goal properties from a single sentence",
         "citation": ""
       },
-      "num_citations": 3,
+      "num_citations": 4,
       "author_pub_id": "3MkXEhUAAAAJ:BJbdYPG6LGMC"
     },
     "3MkXEhUAAAAJ:F1b5ZUV5XREC": {
@@ -140,7 +140,7 @@
         "title": "AI-driven materials design: paradigm shift from small data to big data",
         "citation": ""
       },
-      "num_citations": 1,
+      "num_citations": 2,
       "author_pub_id": "3MkXEhUAAAAJ:F1b5ZUV5XREC"
     },
     "3MkXEhUAAAAJ:NyGDZy8z5eUC": {
