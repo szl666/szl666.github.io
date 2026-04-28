@@ -1,11 +1,11 @@
 {
   "name": "Zhilong Song",
   "affiliation": "Hong Kong University of Science and Technology",
-  "citedby": 1026,
+  "citedby": 1028,
   "hindex": 12,
   "i10index": 14,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-04-27 10:09:29.697244",
+  "updated": "2026-04-28 10:08:41.674411",
   "publications": {
     "3MkXEhUAAAAJ:blknAaTinKkC": {
       "bib": {
@@ -44,7 +44,7 @@
         "title": "Inverse design of promising electrocatalysts for CO2 reduction via generative models and bird swarm algorithm",
         "citation": ""
       },
-      "num_citations": 52,
+      "num_citations": 53,
       "author_pub_id": "3MkXEhUAAAAJ:86PQX7AUzd4C"
     },
     "3MkXEhUAAAAJ:vRqMK49ujn8C": {
@@ -103,6 +103,14 @@
       "num_citations": 16,
       "author_pub_id": "3MkXEhUAAAAJ:TFP_iSt0sucC"
     },
+    "3MkXEhUAAAAJ:eq2jaN3J8jMC": {
+      "bib": {
+        "title": "Adaptive Design of Alloys for CO2 Activation and Methanation via Reinforcement Learning Monte Carlo Tree Search Algorithm",
+        "citation": ""
+      },
+      "num_citations": 11,
+      "author_pub_id": "3MkXEhUAAAAJ:eq2jaN3J8jMC"
+    },
     "3MkXEhUAAAAJ:8d8msizDQcsC": {
       "bib": {
         "title": "LLM-Feynman: leveraging large language models for universal scientific formula and theory discovery",
@@ -110,14 +118,6 @@
       },
       "num_citations": 10,
       "author_pub_id": "3MkXEhUAAAAJ:8d8msizDQcsC"
-    },
-    "3MkXEhUAAAAJ:eq2jaN3J8jMC": {
-      "bib": {
-        "title": "Adaptive Design of Alloys for CO2 Activation and Methanation via Reinforcement Learning Monte Carlo Tree Search Algorithm",
-        "citation": ""
-      },
-      "num_citations": 10,
-      "author_pub_id": "3MkXEhUAAAAJ:eq2jaN3J8jMC"
     },
     "3MkXEhUAAAAJ:xtoqd-5pKcoC": {
       "bib": {
