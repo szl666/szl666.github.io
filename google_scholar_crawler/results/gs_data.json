@@ -1,18 +1,18 @@
 {
   "name": "Zhilong Song",
   "affiliation": "Hong Kong University of Science and Technology",
-  "citedby": 1042,
+  "citedby": 1044,
   "hindex": 12,
   "i10index": 14,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-05-10 09:24:20.382635",
+  "updated": "2026-05-11 10:55:46.354074",
   "publications": {
     "3MkXEhUAAAAJ:blknAaTinKkC": {
       "bib": {
         "title": "Simple descriptor derived from symbolic regression accelerating the discovery of new perovskite catalysts",
         "citation": ""
       },
-      "num_citations": 421,
+      "num_citations": 422,
       "author_pub_id": "3MkXEhUAAAAJ:blknAaTinKkC"
     },
     "3MkXEhUAAAAJ:NMxIlDl6LWMC": {
@@ -71,6 +71,14 @@
       "num_citations": 34,
       "author_pub_id": "3MkXEhUAAAAJ:RGFaLdJalmkC"
     },
+    "3MkXEhUAAAAJ:9vf0nzSNQJEC": {
+      "bib": {
+        "title": "Distilling universal activity descriptors for perovskite catalysts from multiple data sources via multi-task symbolic regression",
+        "citation": ""
+      },
+      "num_citations": 33,
+      "author_pub_id": "3MkXEhUAAAAJ:9vf0nzSNQJEC"
+    },
     "3MkXEhUAAAAJ:d1gkVwhDpl0C": {
       "bib": {
         "title": "Single-phase alkylammonium cesium lead iodide quasi-2D perovskites for color-tunable and spectrum-stable red LEDs",
@@ -78,14 +86,6 @@
       },
       "num_citations": 33,
       "author_pub_id": "3MkXEhUAAAAJ:d1gkVwhDpl0C"
-    },
-    "3MkXEhUAAAAJ:9vf0nzSNQJEC": {
-      "bib": {
-        "title": "Distilling universal activity descriptors for perovskite catalysts from multiple data sources via multi-task symbolic regression",
-        "citation": ""
-      },
-      "num_citations": 32,
-      "author_pub_id": "3MkXEhUAAAAJ:9vf0nzSNQJEC"
     },
     "3MkXEhUAAAAJ:VaXvl8Fpj5cC": {
       "bib": {
