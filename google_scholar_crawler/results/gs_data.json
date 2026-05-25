@@ -1,18 +1,18 @@
 {
   "name": "Zhilong Song",
   "affiliation": "Hong Kong University of Science and Technology",
-  "citedby": 1055,
+  "citedby": 1060,
   "hindex": 12,
   "i10index": 14,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-05-24 09:49:42.583429",
+  "updated": "2026-05-25 11:48:07.219003",
   "publications": {
     "3MkXEhUAAAAJ:blknAaTinKkC": {
       "bib": {
         "title": "Simple descriptor derived from symbolic regression accelerating the discovery of new perovskite catalysts",
         "citation": ""
       },
-      "num_citations": 425,
+      "num_citations": 426,
       "author_pub_id": "3MkXEhUAAAAJ:blknAaTinKkC"
     },
     "3MkXEhUAAAAJ:NMxIlDl6LWMC": {
@@ -71,6 +71,14 @@
       "num_citations": 34,
       "author_pub_id": "3MkXEhUAAAAJ:9vf0nzSNQJEC"
     },
+    "3MkXEhUAAAAJ:d1gkVwhDpl0C": {
+      "bib": {
+        "title": "Single-phase alkylammonium cesium lead iodide quasi-2D perovskites for color-tunable and spectrum-stable red LEDs",
+        "citation": ""
+      },
+      "num_citations": 34,
+      "author_pub_id": "3MkXEhUAAAAJ:d1gkVwhDpl0C"
+    },
     "3MkXEhUAAAAJ:RGFaLdJalmkC": {
       "bib": {
         "title": "Going Beyond the d‐Band Center to Describe CO2 Activation on Single‐Atom Alloys",
@@ -78,14 +86,6 @@
       },
       "num_citations": 33,
       "author_pub_id": "3MkXEhUAAAAJ:RGFaLdJalmkC"
-    },
-    "3MkXEhUAAAAJ:d1gkVwhDpl0C": {
-      "bib": {
-        "title": "Single-phase alkylammonium cesium lead iodide quasi-2D perovskites for color-tunable and spectrum-stable red LEDs",
-        "citation": ""
-      },
-      "num_citations": 33,
-      "author_pub_id": "3MkXEhUAAAAJ:d1gkVwhDpl0C"
     },
     "3MkXEhUAAAAJ:VaXvl8Fpj5cC": {
       "bib": {
@@ -108,7 +108,7 @@
         "title": "Adaptive Design of Alloys for CO2 Activation and Methanation via Reinforcement Learning Monte Carlo Tree Search Algorithm",
         "citation": ""
       },
-      "num_citations": 11,
+      "num_citations": 12,
       "author_pub_id": "3MkXEhUAAAAJ:eq2jaN3J8jMC"
     },
     "3MkXEhUAAAAJ:8d8msizDQcsC": {
@@ -124,7 +124,7 @@
         "title": "How the spacer influences the stability of 2D perovskites?",
         "citation": ""
       },
-      "num_citations": 7,
+      "num_citations": 9,
       "author_pub_id": "3MkXEhUAAAAJ:xtoqd-5pKcoC"
     },
     "3MkXEhUAAAAJ:BJbdYPG6LGMC": {
