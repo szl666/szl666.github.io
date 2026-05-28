@@ -1,18 +1,18 @@
 {
   "name": "Zhilong Song",
   "affiliation": "Hong Kong University of Science and Technology",
-  "citedby": 1063,
+  "citedby": 1067,
   "hindex": 12,
   "i10index": 14,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-05-27 11:31:55.153628",
+  "updated": "2026-05-28 11:32:26.943220",
   "publications": {
     "3MkXEhUAAAAJ:blknAaTinKkC": {
       "bib": {
         "title": "Simple descriptor derived from symbolic regression accelerating the discovery of new perovskite catalysts",
         "citation": ""
       },
-      "num_citations": 427,
+      "num_citations": 428,
       "author_pub_id": "3MkXEhUAAAAJ:blknAaTinKkC"
     },
     "3MkXEhUAAAAJ:NMxIlDl6LWMC": {
@@ -44,7 +44,7 @@
         "title": "Inverse design of promising electrocatalysts for CO2 reduction via generative models and bird swarm algorithm",
         "citation": ""
       },
-      "num_citations": 58,
+      "num_citations": 59,
       "author_pub_id": "3MkXEhUAAAAJ:86PQX7AUzd4C"
     },
     "3MkXEhUAAAAJ:vRqMK49ujn8C": {
@@ -52,7 +52,7 @@
         "title": "Inverse design with deep generative models: next step in materials discovery",
         "citation": ""
       },
-      "num_citations": 51,
+      "num_citations": 52,
       "author_pub_id": "3MkXEhUAAAAJ:vRqMK49ujn8C"
     },
     "3MkXEhUAAAAJ:OcBU2YAGkTUC": {
@@ -71,6 +71,14 @@
       "num_citations": 35,
       "author_pub_id": "3MkXEhUAAAAJ:9vf0nzSNQJEC"
     },
+    "3MkXEhUAAAAJ:RGFaLdJalmkC": {
+      "bib": {
+        "title": "Going Beyond the d‐Band Center to Describe CO2 Activation on Single‐Atom Alloys",
+        "citation": ""
+      },
+      "num_citations": 34,
+      "author_pub_id": "3MkXEhUAAAAJ:RGFaLdJalmkC"
+    },
     "3MkXEhUAAAAJ:d1gkVwhDpl0C": {
       "bib": {
         "title": "Single-phase alkylammonium cesium lead iodide quasi-2D perovskites for color-tunable and spectrum-stable red LEDs",
@@ -78,14 +86,6 @@
       },
       "num_citations": 34,
       "author_pub_id": "3MkXEhUAAAAJ:d1gkVwhDpl0C"
-    },
-    "3MkXEhUAAAAJ:RGFaLdJalmkC": {
-      "bib": {
-        "title": "Going Beyond the d‐Band Center to Describe CO2 Activation on Single‐Atom Alloys",
-        "citation": ""
-      },
-      "num_citations": 33,
-      "author_pub_id": "3MkXEhUAAAAJ:RGFaLdJalmkC"
     },
     "3MkXEhUAAAAJ:VaXvl8Fpj5cC": {
       "bib": {
