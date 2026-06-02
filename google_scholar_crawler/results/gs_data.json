@@ -1,11 +1,11 @@
 {
   "name": "Zhilong Song",
   "affiliation": "Hong Kong University of Science and Technology",
-  "citedby": 1070,
+  "citedby": 1071,
   "hindex": 12,
   "i10index": 14,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-06-01 13:30:14.999172",
+  "updated": "2026-06-02 11:59:32.705293",
   "publications": {
     "3MkXEhUAAAAJ:blknAaTinKkC": {
       "bib": {
@@ -44,7 +44,7 @@
         "title": "Inverse design of promising electrocatalysts for CO2 reduction via generative models and bird swarm algorithm",
         "citation": ""
       },
-      "num_citations": 59,
+      "num_citations": 60,
       "author_pub_id": "3MkXEhUAAAAJ:86PQX7AUzd4C"
     },
     "3MkXEhUAAAAJ:vRqMK49ujn8C": {
