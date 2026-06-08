@@ -1,11 +1,11 @@
 {
   "name": "Zhilong Song",
   "affiliation": "Hong Kong University of Science and Technology",
-  "citedby": 1075,
+  "citedby": 1078,
   "hindex": 12,
   "i10index": 14,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-06-07 10:23:56.551708",
+  "updated": "2026-06-08 12:23:32.308805",
   "publications": {
     "3MkXEhUAAAAJ:blknAaTinKkC": {
       "bib": {
@@ -28,7 +28,7 @@
         "title": "Machine learning in materials design: Algorithm and application",
         "citation": ""
       },
-      "num_citations": 80,
+      "num_citations": 81,
       "author_pub_id": "3MkXEhUAAAAJ:M3NEmzRMIkIC"
     },
     "3MkXEhUAAAAJ:qjMakFHDy7sC": {
@@ -44,7 +44,7 @@
         "title": "Inverse design of promising electrocatalysts for CO2 reduction via generative models and bird swarm algorithm",
         "citation": ""
       },
-      "num_citations": 61,
+      "num_citations": 62,
       "author_pub_id": "3MkXEhUAAAAJ:86PQX7AUzd4C"
     },
     "3MkXEhUAAAAJ:vRqMK49ujn8C": {
@@ -52,7 +52,7 @@
         "title": "Inverse design with deep generative models: next step in materials discovery",
         "citation": ""
       },
-      "num_citations": 53,
+      "num_citations": 54,
       "author_pub_id": "3MkXEhUAAAAJ:vRqMK49ujn8C"
     },
     "3MkXEhUAAAAJ:OcBU2YAGkTUC": {
