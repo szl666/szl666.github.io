@@ -1,11 +1,11 @@
 {
   "name": "Zhilong Song",
   "affiliation": "Hong Kong University of Science and Technology",
-  "citedby": 1083,
+  "citedby": 1085,
   "hindex": 12,
   "i10index": 14,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-06-15 13:49:15.896087",
+  "updated": "2026-06-16 12:47:50.454125",
   "publications": {
     "3MkXEhUAAAAJ:blknAaTinKkC": {
       "bib": {
@@ -52,7 +52,7 @@
         "title": "Inverse design with deep generative models: next step in materials discovery",
         "citation": ""
       },
-      "num_citations": 54,
+      "num_citations": 55,
       "author_pub_id": "3MkXEhUAAAAJ:vRqMK49ujn8C"
     },
     "3MkXEhUAAAAJ:OcBU2YAGkTUC": {
@@ -132,7 +132,7 @@
         "title": "T2MAT (text-to-material): A universal agent for generating material structures with goal properties from a single sentence",
         "citation": ""
       },
-      "num_citations": 4,
+      "num_citations": 5,
       "author_pub_id": "3MkXEhUAAAAJ:BJbdYPG6LGMC"
     },
     "3MkXEhUAAAAJ:F1b5ZUV5XREC": {
