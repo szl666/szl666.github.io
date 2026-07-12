@@ -5,7 +5,7 @@
   "hindex": 13,
   "i10index": 15,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-07-11 09:21:10.119208",
+  "updated": "2026-07-12 09:45:20.516638",
   "publications": {
     "3MkXEhUAAAAJ:blknAaTinKkC": {
       "bib": {
@@ -182,22 +182,6 @@
       },
       "num_citations": null,
       "author_pub_id": "3MkXEhUAAAAJ:zA6iFVUQeVQC"
-    },
-    "3MkXEhUAAAAJ:MpfHP-DdYjUC": {
-      "bib": {
-        "title": "autonomous heterogeneous catalyst discovery with a self-evolving multi-agent digital twin",
-        "citation": ""
-      },
-      "num_citations": null,
-      "author_pub_id": "3MkXEhUAAAAJ:MpfHP-DdYjUC"
-    },
-    "3MkXEhUAAAAJ:7Hz3ACDFbsoC": {
-      "bib": {
-        "title": "autonomous heterogeneous catalyst discovery with a self-evolving multi-agent digital twin",
-        "citation": ""
-      },
-      "num_citations": null,
-      "author_pub_id": "3MkXEhUAAAAJ:7Hz3ACDFbsoC"
     }
   }
 }
