@@ -229,8 +229,11 @@ function populatePublications(cfg) {
         `;
     }
 
+    const firstAuthor = pubs.firstAuthor || [];
+    const preprints = firstAuthor.filter(p => /^arXiv/i.test(p.venue)).length;
+
     container.innerHTML =
-        renderGroup('First Author Papers', pubs.firstAuthor, `${pubs.firstAuthor?.length || 0} published + 2 preprints`) +
+        renderGroup('First Author Papers', pubs.firstAuthor, `${firstAuthor.length - preprints} published + ${preprints} preprints`) +
         renderGroup('Co-first Author Papers', pubs.coFirstAuthor, pubs.coFirstAuthor?.length || 0) +
         renderGroup('Co-author Papers', pubs.coAuthor, pubs.coAuthor?.length || 0) +
         renderGroup('Conference Papers', pubs.conference, pubs.conference?.length || 0);
