@@ -5,14 +5,14 @@
   "hindex": 13,
   "i10index": 15,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-07-26 09:52:58.723841",
+  "updated": "2026-07-27 11:13:19.423252",
   "publications": {
     "3MkXEhUAAAAJ:blknAaTinKkC": {
       "bib": {
         "title": "Simple descriptor derived from symbolic regression accelerating the discovery of new perovskite catalysts",
         "citation": ""
       },
-      "num_citations": 441,
+      "num_citations": 440,
       "author_pub_id": "3MkXEhUAAAAJ:blknAaTinKkC"
     },
     "3MkXEhUAAAAJ:NMxIlDl6LWMC": {
@@ -92,7 +92,7 @@
         "title": "Machine learning‐assisted design of nitrogen‐rich covalent triazine frameworks photocatalysts",
         "citation": ""
       },
-      "num_citations": 19,
+      "num_citations": 20,
       "author_pub_id": "3MkXEhUAAAAJ:VaXvl8Fpj5cC"
     },
     "3MkXEhUAAAAJ:TFP_iSt0sucC": {
@@ -145,7 +145,7 @@
     },
     "3MkXEhUAAAAJ:NyGDZy8z5eUC": {
       "bib": {
-        "title": "Continuous discovery of novel 2D materials via dual active learning-driven generative models",
+        "title": "Continuous discovery of novel 2D materials via dual active learning-driven generative models.",
         "citation": ""
       },
       "num_citations": 1,
