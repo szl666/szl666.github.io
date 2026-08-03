@@ -41,7 +41,7 @@ My interdisciplinary work has led to the development of several innovative frame
   
 # 💼 Work Experience
 - *2026.01 - present*, **Postdoctoral Fellow**, Department of Chemistry, **The Hong Kong University of Science and Technology**, Hong Kong, China
-- *2025.06 - 2026.01*, **Junior Research Fellow**, Department of Advanced Materials, **Suzhou National Laboratory**, Suzhou, China
+- *2025.06 - 2026.01*, **Junior Research Fellow**, Department of Frontier Materials, **Suzhou National Laboratory**, Suzhou, China
 - *2024.07 - 2024.09*, **Research Intern**, Department of Frontier Basic Research, **Shanghai Artificial Intelligence Laboratory**, Shanghai, China
 - *2019.10 - 2020.01*, **Research Intern**, Materials Data Platform Center, **National Institute for Materials Science (NIMS)**, Tsukuba, Japan
 

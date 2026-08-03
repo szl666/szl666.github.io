@@ -93,7 +93,7 @@ const USER_CONFIG = {
   // ── Work Experience ──────────────────────────────────────────────────────
   experience: [
     { period: "2026.01 \u2013 present", role: "Postdoctoral Fellow",   institution: "Department of Chemistry, The Hong Kong University of Science and Technology, Hong Kong, China" },
-    { period: "2025.06 \u2013 2026.01", role: "Junior Research Fellow", institution: "Department of Advanced Materials, Suzhou National Laboratory, Suzhou, China" },
+    { period: "2025.06 \u2013 2026.01", role: "Junior Research Fellow", institution: "Department of Frontier Materials, Suzhou National Laboratory, Suzhou, China" },
     { period: "2024.07 \u2013 2024.09", role: "Research Intern",       institution: "Department of Frontier Basic Research, Shanghai Artificial Intelligence Laboratory, Shanghai, China" },
     { period: "2019.10 \u2013 2020.01", role: "Research Intern",       institution: "Materials Data Platform Center, National Institute for Materials Science (NIMS), Tsukuba, Japan" },
   ],
