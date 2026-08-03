@@ -325,7 +325,7 @@ I'm an amateur billiards player with a particular fondness for snooker and Chine
 - **Snooker**: Personal best break of 48 points
 - **Chinese Eight-ball**: Occasional table clearances
 
-My potting is reasonably accurate, and for position play I usually know which route to take and where to strike the cue ball; judging the pace is what I most often get wrong.
+My potting is reasonably reliable, and I can usually read the position: the line the cue ball needs to take, and where to strike it for the right screw or side. Judging the weight of the shot, the force I put into the cue ball, is what lets me down.
 
 During high school and undergraduate years, I played weekly, though this reduced to at most once a month during my master's and Ph.D. studies; I have kept following professional snooker closely throughout. These sports taught me the importance of precision, strategy, and patience - qualities that serve me well in research.
 
