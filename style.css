@@ -230,10 +230,7 @@ a:hover {
 .moon-icon { display: none; }
 [data-theme="dark"] .sun-icon { display: none; }
 [data-theme="dark"] .moon-icon { display: block; }
-[data-theme="dark"] .theme-label::after { content: "Light"; }
-[data-theme="light"] .theme-label::after { content: "Dark"; }
-.theme-label { font-size: 0; }
-.theme-label::after { font-size: 0.85rem; }
+/* The theme label text is set by script.js so it can follow the active language. */
 
 /* ========================================
    Hero - Layered Glass Layout
@@ -953,6 +950,13 @@ a:hover {
     color: var(--text-muted);
 }
 
+.talk-topic {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    font-style: italic;
+    line-height: 1.5;
+}
+
 .talk-links {
     display: flex;
     gap: var(--space-sm);
@@ -1457,6 +1461,12 @@ a:hover {
     }
 
     .mobile-menu-toggle { display: inline-flex; }
+
+    /* Three buttons share the pill on narrow screens: keep icons, drop the
+       labels except the short language one. */
+    .nav-btn { padding: 8px 10px; }
+    .nav-btn-label { display: none; }
+    .lang-toggle .nav-btn-label { display: inline; }
 
     .hero-content {
         grid-template-columns: 1fr;

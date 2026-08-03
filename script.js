@@ -1,3 +1,39 @@
+// ── Language ─────────────────────────────────────────────────────────────────
+// English is the default; the choice is remembered per browser.
+const LANG_KEY = 'lang';
+let currentLang = localStorage.getItem(LANG_KEY) === 'zh' ? 'zh' : 'en';
+
+function t(key) {
+    const dict = (typeof I18N !== 'undefined' && I18N[currentLang]) || {};
+    return dict[key];
+}
+
+// Chinese content only overrides the keys it defines; the rest (publications,
+// links, emails, ...) is inherited from the English config.
+function activeConfig() {
+    if (currentLang === 'zh' && typeof USER_CONFIG_ZH !== 'undefined') {
+        return { ...USER_CONFIG, ...USER_CONFIG_ZH };
+    }
+    return USER_CONFIG;
+}
+
+function applyStaticStrings() {
+    document.documentElement.setAttribute('lang', t('htmlLang'));
+
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+        const value = t(el.dataset.i18n);
+        if (typeof value === 'string') el.textContent = value;
+    });
+
+    const langLabel = document.querySelector('.lang-label');
+    if (langLabel) langLabel.textContent = t('langToggle');
+
+    const langBtn = document.getElementById('langToggle');
+    if (langBtn) langBtn.setAttribute('aria-label', t('langToggleAria'));
+
+    updateThemeLabel();
+}
+
 // ── Theme Toggle ─────────────────────────────────────────────────────────────
 const themeToggle = document.getElementById('themeToggle');
 const html = document.documentElement;
@@ -9,7 +45,7 @@ updateThemeLabel();
 function updateThemeLabel() {
     const label = document.querySelector('.theme-label');
     if (label) {
-        label.textContent = html.getAttribute('data-theme') === 'dark' ? 'Light' : 'Dark';
+        label.textContent = html.getAttribute('data-theme') === 'dark' ? t('themeToLight') : t('themeToDark');
     }
 }
 
@@ -81,8 +117,12 @@ if (navbar) {
 }
 
 // ── Scroll Animations ────────────────────────────────────────────────────────
+let scrollObserver = null;
+
 function initScrollAnimations() {
-    const observer = new IntersectionObserver((entries) => {
+    if (scrollObserver) scrollObserver.disconnect();
+
+    scrollObserver = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 entry.target.classList.add('visible');
@@ -90,14 +130,14 @@ function initScrollAnimations() {
         });
     }, { threshold: 0.1 });
 
-    document.querySelectorAll('.scroll-animate').forEach(el => observer.observe(el));
+    document.querySelectorAll('.scroll-animate').forEach(el => scrollObserver.observe(el));
 }
 
 // ── Config Population ────────────────────────────────────────────────────────
-document.addEventListener('DOMContentLoaded', () => {
-    if (typeof USER_CONFIG === 'undefined') return;
-    const cfg = USER_CONFIG;
+function renderAll() {
+    const cfg = activeConfig();
 
+    applyStaticStrings();
     populateSimpleFields(cfg);
     populateHeroBio(cfg);
     populateHeroStats(cfg);
@@ -110,20 +150,36 @@ document.addEventListener('DOMContentLoaded', () => {
     populateExpertise(cfg);
     populateHobbies(cfg);
     populateContact(cfg);
-    fetchScholarStats(cfg);
+    applyScholarStats();
     initScrollAnimations();
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    if (typeof USER_CONFIG === 'undefined') return;
+
+    renderAll();
+    fetchScholarStats(USER_CONFIG);
+
+    const langToggle = document.getElementById('langToggle');
+    if (langToggle) {
+        langToggle.addEventListener('click', () => {
+            currentLang = currentLang === 'zh' ? 'en' : 'zh';
+            localStorage.setItem(LANG_KEY, currentLang);
+            renderAll();
+        });
+    }
 });
 
 function populateSimpleFields(cfg) {
     document.querySelectorAll('[data-config]').forEach(el => {
         const key = el.dataset.config;
         if (key === 'role_university') {
-            el.textContent = `${cfg.role} at ${cfg.university}`;
+            el.textContent = t('roleUniversity')(cfg.role, cfg.university);
         } else if (cfg[key] !== undefined) {
             el.textContent = cfg[key];
         }
     });
-    if (cfg.name) document.title = `${cfg.name} | Academic Homepage`;
+    if (cfg.name) document.title = `${cfg.name} | ${t('pageTitleSuffix')}`;
     if (cfg.photo) {
         const av = document.querySelector('.image-placeholder, .hero-photo');
         if (av) {
@@ -180,7 +236,7 @@ function populateHonors(cfg) {
         <div class="honor-item scroll-animate">
             <span class="honor-date">${h.date}</span>
             <div class="honor-content">
-                <span class="honor-badge">Award</span>
+                <span class="honor-badge">${t('awardBadge')}</span>
                 <div>
                     <div class="honor-title">${h.title}</div>
                     <div class="honor-detail">${h.detail}</div>
@@ -202,10 +258,10 @@ function populatePublications(cfg) {
     if (summary) {
         summary.innerHTML = `
             <p class="pub-summary-text">
-                Total: <strong>${totalCount} papers</strong> |
-                <a href="https://scholar.google.com/citations?user=${cfg.scholarId}&hl" target="_blank" rel="noopener">Google Scholar Profile</a> |
-                Citations: <strong><span id="pub-citations">---</span></strong> |
-                h-index: <strong><span id="pub-hindex">---</span></strong>
+                ${t('pubTotal')(totalCount)} |
+                <a href="https://scholar.google.com/citations?user=${cfg.scholarId}&hl" target="_blank" rel="noopener">${t('scholarProfile')}</a> |
+                ${t('citationsLabel')}: <strong><span id="pub-citations">---</span></strong> |
+                ${t('hIndexLabel')}: <strong><span id="pub-hindex">---</span></strong>
             </p>
         `;
     }
@@ -233,10 +289,10 @@ function populatePublications(cfg) {
     const preprints = firstAuthor.filter(p => /^arXiv/i.test(p.venue)).length;
 
     container.innerHTML =
-        renderGroup('First Author Papers', pubs.firstAuthor, `${firstAuthor.length - preprints} published + ${preprints} preprints`) +
-        renderGroup('Co-first Author Papers', pubs.coFirstAuthor, pubs.coFirstAuthor?.length || 0) +
-        renderGroup('Co-author Papers', pubs.coAuthor, pubs.coAuthor?.length || 0) +
-        renderGroup('Conference Papers', pubs.conference, pubs.conference?.length || 0);
+        renderGroup(t('groupFirstAuthor'), pubs.firstAuthor, t('firstAuthorCount')(firstAuthor.length - preprints, preprints)) +
+        renderGroup(t('groupCoFirstAuthor'), pubs.coFirstAuthor, pubs.coFirstAuthor?.length || 0) +
+        renderGroup(t('groupCoAuthor'), pubs.coAuthor, pubs.coAuthor?.length || 0) +
+        renderGroup(t('groupConference'), pubs.conference, pubs.conference?.length || 0);
 }
 
 function populateKeyResearch(cfg) {
@@ -252,7 +308,7 @@ function populateKeyResearch(cfg) {
                 <h3 class="research-title"><a href="${r.url}" target="_blank" rel="noopener">${r.title}</a></h3>
                 <p class="research-authors">${r.authors}</p>
                 <details class="research-abstract">
-                    <summary>Abstract</summary>
+                    <summary>${t('abstract')}</summary>
                     <p>${r.abstract}</p>
                 </details>
             </div>
@@ -263,18 +319,19 @@ function populateKeyResearch(cfg) {
 function populateTalks(cfg) {
     const el = document.getElementById('cfg-talks');
     if (!el || !cfg.talks) return;
-    el.innerHTML = cfg.talks.map(t => `
+    el.innerHTML = cfg.talks.map(talk => `
         <div class="talk-item scroll-animate">
             <div class="talk-photo">
-                <img src="${t.photo}" alt="${t.title}" loading="lazy">
+                <img src="${talk.photo}" alt="${talk.title}" loading="lazy">
             </div>
             <div class="talk-info">
-                <span class="talk-date">${t.date}</span>
-                <h3 class="talk-title">${t.title}</h3>
-                <p class="talk-location">${t.location}</p>
+                <span class="talk-date">${talk.date}</span>
+                <h3 class="talk-title">${talk.title}</h3>
+                <p class="talk-location">${talk.location}</p>
+                ${talk.topic ? `<p class="talk-topic">${talk.topic}</p>` : ''}
                 <div class="talk-links">
-                    <a href="${t.photo}" target="_blank" class="pub-link">Photo</a>
-                    <a href="${t.abstract}" target="_blank" class="pub-link">Abstract</a>
+                    <a href="${talk.photo}" target="_blank" class="pub-link">${t('talkPhotoLink')}</a>
+                    ${talk.abstract ? `<a href="${talk.abstract}" target="_blank" class="pub-link">${t('talkAbstractLink')}</a>` : ''}
                 </div>
             </div>
         </div>
@@ -289,7 +346,7 @@ function populateExperience(cfg) {
     let content = '';
 
     if (exp.length) {
-        content += `<div class="exp-column"><div class="exp-category"><h3>Work Experience</h3></div>${exp.map(e => `
+        content += `<div class="exp-column"><div class="exp-category"><h3>${t('workExperience')}</h3></div>${exp.map(e => `
             <div class="exp-item scroll-animate">
                 <div class="exp-period">${e.period}</div>
                 <div class="exp-details">
@@ -301,7 +358,7 @@ function populateExperience(cfg) {
     }
 
     if (edu.length) {
-        content += `<div class="exp-column"><div class="exp-category"><h3>Education</h3></div>${edu.map(e => `
+        content += `<div class="exp-column"><div class="exp-category"><h3>${t('education')}</h3></div>${edu.map(e => `
             <div class="exp-item scroll-animate">
                 <div class="exp-period">${e.period}</div>
                 <div class="exp-details">
@@ -385,35 +442,47 @@ function populateContact(cfg) {
 }
 
 // ── Google Scholar Stats ─────────────────────────────────────────────────────
+// Cached so the numbers can be re-applied after a language switch re-renders
+// the sections that host them.
+let scholarStats = null;
+
+function applyScholarStats() {
+    if (!scholarStats) return;
+    const { citations, hIndex } = scholarStats;
+
+    // Hero stats
+    const citEl = document.getElementById('stat-citations');
+    if (citEl) citEl.textContent = citations;
+
+    const hEl = document.getElementById('stat-hindex');
+    if (hEl) hEl.textContent = hIndex;
+
+    // Bio inline
+    const bioCit = document.getElementById('total_citations_bio');
+    if (bioCit) bioCit.textContent = t('citationsInline')(citations);
+
+    const bioH = document.getElementById('h_index_intro');
+    if (bioH) bioH.textContent = hIndex;
+
+    // Publications summary
+    const pubCit = document.getElementById('pub-citations');
+    if (pubCit) pubCit.textContent = citations;
+
+    const pubH = document.getElementById('pub-hindex');
+    if (pubH) pubH.textContent = hIndex;
+}
+
 function fetchScholarStats(cfg) {
     if (!cfg.scholarStatsUrl) return;
 
     fetch(cfg.scholarStatsUrl)
         .then(res => res.json())
         .then(data => {
-            const citations = data.citedby || data.citations || 0;
-            const hIndex = data.hindex || data.h_index || 0;
-
-            // Update hero stats
-            const citEl = document.getElementById('stat-citations');
-            if (citEl) citEl.textContent = citations;
-
-            const hEl = document.getElementById('stat-hindex');
-            if (hEl) hEl.textContent = hIndex;
-
-            // Update bio inline
-            const bioCit = document.getElementById('total_citations_bio');
-            if (bioCit) bioCit.textContent = `${citations} citations`;
-
-            const bioH = document.getElementById('h_index_intro');
-            if (bioH) bioH.textContent = hIndex;
-
-            // Update publications summary
-            const pubCit = document.getElementById('pub-citations');
-            if (pubCit) pubCit.textContent = citations;
-
-            const pubH = document.getElementById('pub-hindex');
-            if (pubH) pubH.textContent = hIndex;
+            scholarStats = {
+                citations: data.citedby || data.citations || 0,
+                hIndex: data.hindex || data.h_index || 0,
+            };
+            applyScholarStats();
         })
         .catch(err => {
             // Silently fail - static fallback values remain

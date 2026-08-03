@@ -65,6 +65,20 @@ const USER_CONFIG = {
       photo:    "images/7b46b29e4ff6e14fd8ecad309b504d2a.jpg",
       abstract: "https://acs.digitellinc.com/live/34/session/551145",
     },
+    {
+      date:     "2026.04",
+      title:    "Invited Talk at the 1st China “AI + Advanced Materials” Conference",
+      location: "Nansha, Guangzhou, China",
+      topic:    "Inverse design and synthesizability prediction of novel stable material structures",
+      photo:    "images/ai-new-materials-2026.jpg",
+    },
+    {
+      date:     "2026.07",
+      title:    "Invited Talk at the Chinese Materials Conference 2026",
+      location: "Wuhan, China",
+      topic:    "CatDT: Autonomous heterogeneous catalyst discovery with a self-evolving multi-agent digital twin",
+      photo:    "images/cmc-2026.jpg",
+    },
   ],
 
   // ── Education ────────────────────────────────────────────────────────────

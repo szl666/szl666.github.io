@@ -36,6 +36,8 @@ My interdisciplinary work has led to the development of several innovative frame
 # 💬 Talks
 - *2024.06*, Oral Presentation at the 34th Academic Meeting of the Chinese Chemical Society, Guangzhou, China [[Photo]](images/f9be59b9d29bae9d60bbb2e4a898867b.jpg) [[Abstract]](https://www.chemsoc.org.cn/meeting/34th/home/viewpaper.php?id=102458)
 - *2025.03*, Oral Presentation at the American Chemical Society Spring 2025 Meeting, San Diego, USA [[Photo]](images/7b46b29e4ff6e14fd8ecad309b504d2a.jpg) [[Abstract]](https://acs.digitellinc.com/live/34/session/551145)
+- *2026.04*, Invited Talk at the 1st China "AI + Advanced Materials" Conference, Nansha, Guangzhou, China — *Inverse design and synthesizability prediction of novel stable material structures* [[Photo]](images/ai-new-materials-2026.jpg)
+- *2026.07*, Invited Talk at the Chinese Materials Conference 2026, Wuhan, China — *CatDT: Autonomous heterogeneous catalyst discovery with a self-evolving multi-agent digital twin* [[Photo]](images/cmc-2026.jpg)
   
 # 💼 Work Experience
 - *2026.01 - present*, **Postdoctoral Fellow**, Department of Chemistry, **The Hong Kong University of Science and Technology**, Hong Kong, China

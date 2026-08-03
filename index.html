@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a href="#about" class="skip-link">Skip to main content</a>
+    <a href="#about" class="skip-link" data-i18n="skipLink">Skip to main content</a>
 
     <!-- Navigation -->
     <nav class="navbar" role="navigation" aria-label="Main navigation">
@@ -27,22 +27,29 @@
                 <span class="logo-bracket">]</span>
             </a>
             <div class="nav-links">
-                <a href="#about">About</a>
-                <a href="#key-research">Research</a>
-                <a href="#experience">Experience</a>
-                <a href="#publications">Publications</a>
-                <a href="#honors">Honors</a>
-                <a href="#talks">Talks</a>
-                <a href="#expertise">Expertise</a>
-                <a href="#hobbies">Hobbies</a>
-                <a href="#contact">Contact</a>
+                <a href="#about" data-i18n="navAbout">About</a>
+                <a href="#key-research" data-i18n="navKeyResearch">Research</a>
+                <a href="#experience" data-i18n="navExperience">Experience</a>
+                <a href="#publications" data-i18n="navPublications">Publications</a>
+                <a href="#honors" data-i18n="navHonors">Honors</a>
+                <a href="#talks" data-i18n="navTalks">Talks</a>
+                <a href="#expertise" data-i18n="navExpertise">Expertise</a>
+                <a href="#hobbies" data-i18n="navHobbies">Hobbies</a>
+                <a href="#contact" data-i18n="navContact">Contact</a>
             </div>
             <div class="nav-controls">
                 <button type="button" class="nav-btn mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
                     <svg class="nav-btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M3 12h18M3 6h18M3 18h18"/>
                     </svg>
-                    <span class="nav-btn-label">Menu</span>
+                    <span class="nav-btn-label" data-i18n="menu">Menu</span>
+                </button>
+                <button type="button" class="nav-btn lang-toggle" id="langToggle" aria-label="Switch to Chinese">
+                    <svg class="nav-btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"/>
+                        <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                    </svg>
+                    <span class="nav-btn-label lang-label">中文</span>
                 </button>
                 <button type="button" class="nav-btn theme-toggle" id="themeToggle" aria-label="Toggle theme">
                     <svg class="nav-btn-icon sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -67,7 +74,7 @@
         </div>
         <div class="hero-content">
             <div class="hero-text">
-                <p class="hero-greeting">Hello, I'm</p>
+                <p class="hero-greeting" data-i18n="heroGreeting">Hello, I'm</p>
                 <h1 class="hero-name" data-config="name">Zhilong Song</h1>
                 <p class="hero-title" data-config="role_university">Postdoctoral Fellow at The Hong Kong University of Science and Technology</p>
                 <div class="hero-description" id="hero-bio">
@@ -83,8 +90,8 @@
                     </div>
                 </div>
                 <div class="hero-cta">
-                    <a href="#publications" class="btn btn-primary">View Publications</a>
-                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                    <a href="#publications" class="btn btn-primary" data-i18n="ctaPublications">View Publications</a>
+                    <a href="#contact" class="btn btn-secondary" data-i18n="ctaContact">Get in Touch</a>
                 </div>
             </div>
             <div class="hero-image">
@@ -104,7 +111,7 @@
     <section id="key-research" class="section">
         <div class="section-container">
             <h2 class="section-title">
-                <span class="title-icon">//</span> Key Research Contributions
+                <span class="title-icon">//</span> <span data-i18n="titleKeyResearch">Key Research Contributions</span>
             </h2>
             <div id="cfg-key-research" class="key-research-grid">
                 <!-- Populated by script.js -->
@@ -116,7 +123,7 @@
     <section id="experience" class="section section-alt">
         <div class="section-container">
             <h2 class="section-title">
-                <span class="title-icon">//</span> Experience
+                <span class="title-icon">//</span> <span data-i18n="titleExperience">Experience</span>
             </h2>
             <div class="experience-grid" id="cfg-experience">
                 <!-- Populated by script.js -->
@@ -128,7 +135,7 @@
     <section id="publications" class="section">
         <div class="section-container">
             <h2 class="section-title">
-                <span class="title-icon">//</span> Publications
+                <span class="title-icon">//</span> <span data-i18n="titlePublications">Publications</span>
             </h2>
             <div class="pub-summary" id="pub-summary">
                 <!-- Populated by script.js -->
@@ -143,7 +150,7 @@
     <section id="honors" class="section section-alt">
         <div class="section-container">
             <h2 class="section-title">
-                <span class="title-icon">//</span> Honors and Awards
+                <span class="title-icon">//</span> <span data-i18n="titleHonors">Honors and Awards</span>
             </h2>
             <div id="cfg-honors" class="honors-list">
                 <!-- Populated by script.js -->
@@ -155,7 +162,7 @@
     <section id="talks" class="section">
         <div class="section-container">
             <h2 class="section-title">
-                <span class="title-icon">//</span> Talks
+                <span class="title-icon">//</span> <span data-i18n="titleTalks">Talks</span>
             </h2>
             <div id="cfg-talks" class="talks-list">
                 <!-- Populated by script.js -->
@@ -167,7 +174,7 @@
     <section id="expertise" class="section section-alt">
         <div class="section-container">
             <h2 class="section-title">
-                <span class="title-icon">//</span> Technical Expertise
+                <span class="title-icon">//</span> <span data-i18n="titleExpertise">Technical Expertise</span>
             </h2>
             <div id="cfg-expertise" class="expertise-grid">
                 <!-- Populated by script.js -->
@@ -179,7 +186,7 @@
     <section id="hobbies" class="section">
         <div class="section-container">
             <h2 class="section-title">
-                <span class="title-icon">//</span> Hobbies
+                <span class="title-icon">//</span> <span data-i18n="titleHobbies">Hobbies</span>
             </h2>
             <div id="cfg-hobbies" class="hobbies-grid">
                 <!-- Populated by script.js -->
@@ -191,10 +198,10 @@
     <section id="contact" class="section section-alt">
         <div class="section-container">
             <h2 class="section-title">
-                <span class="title-icon">//</span> Contact
+                <span class="title-icon">//</span> <span data-i18n="titleContact">Contact</span>
             </h2>
             <div class="contact-content" id="cfg-contact">
-                <p class="contact-intro">Thank you for taking the time to learn about my work and interests! I'm always open to discussions, collaborations, and new connections. Feel free to reach out - I look forward to hearing from you!</p>
+                <p class="contact-intro" data-i18n="contactIntro">Thank you for taking the time to learn about my work and interests! I'm always open to discussions, collaborations, and new connections. Feel free to reach out - I look forward to hearing from you!</p>
                 <div class="contact-links" id="contact-links">
                     <!-- Populated by script.js -->
                 </div>
@@ -205,7 +212,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="footer-content">
-            <p>&copy; 2026 Zhilong Song. Deployed with Vercel.</p>
+            <p data-i18n="footer">&copy; 2026 Zhilong Song. Deployed with Vercel.</p>
         </div>
     </footer>
 
@@ -216,7 +223,9 @@
         </svg>
     </button>
 
+    <script src="i18n.js"></script>
     <script src="config.js"></script>
+    <script src="config.zh.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
