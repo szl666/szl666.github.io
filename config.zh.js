@@ -206,7 +206,7 @@ const USER_CONFIG_ZH = {
 <li><a href="https://en.wikipedia.org/wiki/Dirt_3" target="_blank">尘埃 3（DiRT 3）</a>中的 <strong>7 项赛道世界纪录</strong></li>
 <li><a href="https://en.wikipedia.org/wiki/WRC_3:_FIA_World_Rally_Championship" target="_blank">WRC 3</a> 中的 <strong>20 项赛道世界纪录</strong></li>
 </ul>
-本科期间，我把 <a href="https://assettocorsa.gg/" target="_blank">神力科莎（Assetto Corsa）</a>和 <a href="https://forza.net/" target="_blank">极限竞速（Forza Motorsport）</a>这类模拟赛车当作放松方式，读研之后便从竞技模拟赛车中<strong>退役</strong>了。这些经历让我学会毫无畏惧地面对竞争——即便面对激烈的竞争和压力，我依然保持 100 分的信心，全力以赴地争取机会，而不去纠结结果。
+本科期间，我把 <a href="https://assettocorsa.gg/" target="_blank">神力科莎（Assetto Corsa）</a>、<a href="https://forza.net/" target="_blank">极限竞速（Forza Motorsport）</a>和 <a href="https://www.iracing.com/" target="_blank">iRacing</a> 这类模拟赛车当作放松方式，读研之后便从竞技模拟赛车中<strong>退役</strong>了。这些经历让我学会毫无畏惧地面对竞争——即便面对激烈的竞争和压力，我依然保持 100 分的信心，全力以赴地争取机会，而不去纠结结果。
 <br><br>
 如今我偶尔还会去开卡丁车，但对日常道路驾驶已不再那么热衷。因为无论是否是性能车，无论城区还是高速，激烈驾驶既不安全，而且和模拟赛车比，怎么开都觉得太慢。我转而成了自动驾驶技术的爱好者，尤其是华为的 ADS 系统。`,
     },
