@@ -325,7 +325,7 @@ I'm an amateur billiards player with a particular fondness for snooker and Chine
 - **Snooker**: Personal best break of 48 points
 - **Chinese Eight-ball**: Occasional table clearances
 
-During high school and undergraduate years, I played weekly, though this reduced to at most once a month during my master's and Ph.D. studies. These sports taught me the importance of precision, strategy, and patience - qualities that serve me well in research.
+During high school and undergraduate years, I played weekly, though this reduced to at most once a month during my master's and Ph.D. studies; I have kept following professional snooker closely throughout. These sports taught me the importance of precision, strategy, and patience - qualities that serve me well in research.
 
 ## 🏸 **Badminton**
 I enjoy playing badminton at a recreational level. I can manage basic shots like clears, net drops, and smashes, but I can't do proper footwork and my movement speed is slow. During high school, I played frequently with friends, though this became less regular during my undergraduate years. Throughout my master's and PhD studies, I still play occasionally as a fun way to stay active and take a break from research.

@@ -405,7 +405,7 @@ These days I still take a go-kart out once in a while, but everyday driving on p
 <li><strong>Snooker</strong>: Personal best break of 48 points</li>
 <li><strong>Chinese Eight-ball</strong>: Occasional table clearances</li>
 </ul>
-During high school and undergraduate years, I played weekly, though this reduced to at most once a month during my master's and Ph.D. studies. These sports taught me the importance of precision, strategy, and patience - qualities that serve me well in research.`,
+During high school and undergraduate years, I played weekly, though this reduced to at most once a month during my master's and Ph.D. studies; I have kept following professional snooker closely throughout. These sports taught me the importance of precision, strategy, and patience - qualities that serve me well in research.`,
     },
     {
       name: "Badminton",
