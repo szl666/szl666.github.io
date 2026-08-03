@@ -13,7 +13,7 @@ const USER_CONFIG_ZH = {
 
   bioExtra: `这些工作已形成 22 篇论文，h 因子为 <strong id="h_index_intro" class="highlight">12</strong>，累计<strong id="total_citations_bio" class="highlight">引用</strong>。其中 9 篇为第一作者，包括 <strong class="highlight">3 篇 Nature Communications</strong>、<strong class="highlight">1 篇 Materials Horizons</strong>、<strong class="highlight">1 篇 Advanced Functional Materials</strong> 和 <strong class="highlight">1 篇 The Journal of Physical Chemistry Letters</strong>，另有 3 篇第一作者预印本正在审稿中。`,
 
-  bioExtra2: `这些研究构成了一套彼此衔接的框架：<strong><a href="https://arxiv.org/abs/2606.05050">CatDT</a></strong> 仅凭一个体相晶体和一句话描述，即可构建可自我演化、感知工况的催化剂数字孪生；<strong><a href="https://arxiv.org/abs/2507.19307">SCGEN</a></strong> 生成兼具本征稳定性、新颖性与精确可控性的晶体结构；<strong><a href="https://www.nature.com/articles/s41467-024-55613-z">MAGECS</a></strong> 引导生成模型在全局化学空间中高效搜索目标性质；<strong><a href="https://www.nature.com/articles/s41467-025-61778-y">CSLLM</a></strong> 预测任意晶体结构的可合成性并推荐合成路线；<strong><a href="https://arxiv.org/abs/2503.06512">FormulaAgent</a></strong> 从数据与领域知识中提炼可解释的科学公式。它们串联起从结构生成、性质优化、可合成性评估、催化过程模拟到机理理解的完整链条，为更高效的计算材料发现提供了一条可行路径。`,
+  bioExtra2: `这些研究构成了一套彼此衔接的框架：<strong><a href="https://arxiv.org/abs/2606.05050">CatDT</a></strong> 仅凭一个体相晶体和一句话描述，即可构建可自我演化、感知工况的催化剂数字孪生；<strong><a href="https://arxiv.org/abs/2507.19307">SCGEN</a></strong> 生成兼具本征稳定性、新颖性与精确可控性的晶体结构；<strong><a href="https://www.nature.com/articles/s41467-024-55613-z">MAGECS</a></strong> 引导生成模型在全局化学空间中高效搜索具备目标性质的材料；<strong><a href="https://www.nature.com/articles/s41467-025-61778-y">CSLLM</a></strong> 预测任意晶体结构的可合成性并推荐合成路线；<strong><a href="https://arxiv.org/abs/2503.06512">FormulaAgent</a></strong> 从数据与领域知识中提炼可解释的科学公式。它们串联起从结构生成、性质优化、可合成性评估、催化过程模拟到机理理解的完整链条，为更高效的计算材料发现提供了一条可行路径。`,
 
   stats: [
     { value: "22",  label: "论文",   id: "stat-pubs" },
@@ -74,7 +74,7 @@ const USER_CONFIG_ZH = {
   // ── 工作经历 ──────────────────────────────────────────────────────────────
   experience: [
     { period: "2026.01 – 至今",     role: "博士后研究员", institution: "香港科技大学化学系，中国香港" },
-    { period: "2025.06 – 2026.01", role: "助理研究员",   institution: "苏州实验室先进材料部，中国苏州" },
+    { period: "2025.06 – 2026.01", role: "助理研究员",   institution: "苏州实验室前沿材料部，中国苏州" },
     { period: "2024.07 – 2024.09", role: "研究实习生",   institution: "上海人工智能实验室前沿基础研究部，中国上海" },
     { period: "2019.10 – 2020.01", role: "研究实习生",   institution: "日本国立材料科学研究所（NIMS）材料数据平台中心，日本筑波" },
   ],
@@ -86,7 +86,7 @@ const USER_CONFIG_ZH = {
       image:   "images/catdt.png",
       title:   "基于自演化多智能体数字孪生的自主多相催化剂发现",
       url:     "https://arxiv.org/abs/2606.05050",
-      authors: "<strong>宋志龙</strong>、张宗民、程立雪",
+      authors: "<strong>宋志龙</strong>、Zongmin Zhang、Lixue Cheng",
       abstract: "理论催化有望大幅加速催化剂的发现，但机器学习的预测结果往往与实验存在偏差，且局限于少数材料体系，根本原因在于缺乏一个忠实、能感知工况的模拟器。我们提出 CatDT（Catalysis Digital Twin），一个可自我演化的多智能体系统，能够为真实工作状态下的催化剂构建自主数字孪生。仅需一个体相晶体和一句自然语言的反应描述，8 个智能体与 27 个工具便可在单张 GPU 上于 5–30 分钟内完成晶面预测、表面重构、路径排序、过渡态搜索与动力学计算。其中两项创新起到决定性作用：UniMech 能够针对任意表面上的任意反应构建并剪枝反应网络，以低于穷举枚举 10³ 倍以上的代价找到主导路径；记忆增强的强化学习回路则实现了能垒计算的自动化，通过从每一次 NEB 的成功与失败中学习，将成功率从 41% 提升到 84%。在 7 个基准体系上，所有预测结果均落在实验值的 0.5–2 倍以内，而实验值本身跨越四个数量级。作为设计引擎使用时，CatDT 提出了可与铂基工业催化剂媲美的非贵金属丙烷脱氢催化剂，其中 Ni@ZrO₂ 覆盖层的模拟丙烯转换频率达 1.63 s⁻¹，选择性接近 100%。CatDT 由此表明，科学计算的可靠性并非来自模型本身的能力，而是来自围绕模型构建的工程化框架：确定性工具、持久化记忆，以及经过验证的自我改进。",
     },
     {
@@ -94,7 +94,7 @@ const USER_CONFIG_ZH = {
       image:   "images/csllm.png",
       title:   "基于大语言模型的三维晶体结构可合成性与前驱体精准预测",
       url:     "https://www.nature.com/articles/s41467-025-61778-y",
-      authors: "<strong>宋志龙</strong>、卢帅华、鞠明刚、周琼花、王金兰",
+      authors: "<strong>宋志龙</strong>、陆帅华、巨明刚、周跫桦、王金兰",
       abstract: "评估晶体结构的可合成性，是将理论材料转化为实际应用的关键一步。然而，常用于筛选可合成结构的热力学或动力学稳定性，与真实的可合成性之间存在显著差距。为此，我们发展了晶体合成大语言模型框架（CSLLM），利用三个专用大语言模型分别预测任意三维晶体结构的可合成性、可能的合成方法与合适的前驱体。我们构建了包含可合成／不可合成晶体结构的完整数据集，并设计了一种高效的晶体结构文本表示方法用于微调大语言模型。可合成性模型达到了 98.6% 的最高准确率，显著优于基于热力学与动力学稳定性的传统筛选方法，并在复杂度远超训练数据的实验结构上展现出出色的泛化能力。此外，方法模型与前驱体模型在常见二元、三元化合物上的合成方法分类与固相合成前驱体识别准确率均超过 90%。借助 CSLLM，我们成功识别出数万个可合成的理论结构，并用高精度图神经网络模型预测了它们的 23 项关键性质。",
     },
     {
@@ -102,7 +102,7 @@ const USER_CONFIG_ZH = {
       image:   "images/bsa.png",
       title:   "基于生成模型与鸟群算法的 CO₂ 还原电催化剂逆向设计",
       url:     "https://www.nature.com/articles/s41467-024-55613-z",
-      authors: "<strong>宋志龙</strong>、范林锋、卢帅华、凌崇益、周琼花、王金兰",
+      authors: "<strong>宋志龙</strong>、范林丰、陆帅华、凌崇益、周跫桦、王金兰",
       abstract: "直接生成具有最优性能的材料结构，是材料设计领域长期追求的目标。传统生成模型往往难以高效探索全局化学空间，其作用范围被局限在局部区域。为此，我们提出了 MAGECS 框架（Material Generation with Efficient Global Chemical Space Search），通过将鸟群算法与有监督图神经网络相结合，使生成模型能够在广阔的化学空间中有效导航，定向搜索具有目标性质的材料。将其应用于 CO₂ 还原（CO₂RR）合金电催化剂的设计，MAGECS 生成了超过 25 万个结构，高活性结构的比例达到 35%，相比随机生成提升了 2.5 倍。我们合成并表征了预测得到的五种合金——CuAl、AlPd、Sn₂Pd₅、Sn₉Pd₇ 和 CuAlSe₂，其中两种的 CO₂RR 法拉第效率接近 90%。这项工作展示了 MAGECS 在功能材料开发中的潜力，为完全自动化、人工智能驱动的材料设计铺平了道路。",
     },
     {
@@ -110,7 +110,7 @@ const USER_CONFIG_ZH = {
       image:   "images/scgen.png",
       title:   "本征稳定、新颖且可控晶体结构的物理约束生成式设计",
       url:     "https://arxiv.org/abs/2507.19307",
-      authors: "<strong>宋志龙</strong>、周琼花、凌崇益、李强、程立雪、王金兰",
+      authors: "<strong>宋志龙</strong>、周跫桦、凌崇益、李强、Lixue Cheng、王金兰",
       abstract: "生成式逆向设计正在重塑功能晶体材料的发现方式。然而，现有生成模型难以在同一个训练好的模型中同时兼顾稳定性、新颖性与精确可控性。我们从一个关键的物理认识出发解决这一难题：晶体的多样性主要由其晶体学信息（CI，即组分、空间群与晶格）决定，而一旦 CI 固定，稳定的原子构型就只剩下少数几种。基于这一认识，我们提出了 SCGEN（stable and controllable crystal structure generation），一个包含两个部分的物理约束生成模型：变分自编码器负责采样多样且物理合理的 CI，受对称性与 Wyckoff 位置约束的优化器则借助通用机器学习势寻找稳定的原子位置。在约两百万个结构上的基准测试表明，SCGEN 在保持相当新颖性的同时达到了最优的稳定性，并能以 100% 的成功率满足任意指定的组分、空间群、晶格或它们的联合约束，且无需针对任务重新训练。应用于光催化全解水时，基于 SCGEN 的性质导向优化生成了 20 万个候选结构，并从中筛选出 22 个兼具稳定性、活性与可合成性的光催化剂。通过将 CI 生成与坐标优化解耦，SCGEN 建立了一种物理约束的逆向设计范式，能够按需给出可直接合成的晶体，而非需要事后修补、弛豫或重新训练的结构。",
     },
     {
@@ -118,7 +118,7 @@ const USER_CONFIG_ZH = {
       image:   "images/formulaagent.png",
       title:   "FormulaAgent：面向自主科学公式发现的模型无关自优化智能体",
       url:     "https://arxiv.org/abs/2503.06512",
-      authors: "<strong>宋志龙</strong>、周琼花、任春锦、曹志鹏、鞠明刚、张秀云、凌崇益、王金兰",
+      authors: "<strong>宋志龙</strong>、周跫桦、任春锦、曹志鹏、巨明刚、张秀云、凌崇益、王金兰",
       abstract: "大语言模型已成为跨学科知识整合与预测的有力工具，但受幻觉和领域知识融入不足的限制，它们推导具有物理内涵公式的能力仍然有限。为此，我们发展了 FormulaAgent，一个模型无关的智能体，它利用领域知识进行迭代自评估，并将打过分的公式累积为记忆，从而驱动科学公式的自优化发现。消融实验表明，FormulaAgent 能够抑制幻觉，并在准确性与简洁性上同时优于传统符号回归。我们在覆盖二维与体相体系的 20 种材料性质上验证了其广泛适用性，R² 值介于 0.72 至 0.96 之间，同时保持完全的解析可解释性。尤其在二维材料可合成性任务上，该智能体发现了一个紧凑且可解释的公式（S = −HG·ER + MV + C），预测准确率达 93%，远高于基于热力学稳定性的方法（60%）。通过以物理认识引导优化、而非单纯拟合数据，这项工作为紧凑、可迁移且具有物理意义的科学公式的自动化发现建立了一种可扩展的范式。",
     },
     {
@@ -126,7 +126,7 @@ const USER_CONFIG_ZH = {
       image:   "images/t2mat.png",
       title:   "T2MAT：从一句话生成目标性质材料结构的通用智能体",
       url:     "https://www.sciencedirect.com/science/article/pii/S1000681825001699",
-      authors: "<strong>宋志龙</strong>、卢帅华、周琼花、王金兰",
+      authors: "<strong>宋志龙</strong>、陆帅华、周跫桦、王金兰",
       abstract: "人工智能生成内容（AIGC）——即无需人工干预、由人工智能系统自主产生的内容——已在多个领域显著提升了效率。然而，材料科学中的 AIGC 仍面临两方面挑战：既要高效发现超越现有数据库的新材料，又要保证晶体结构的不变性与稳定性。为此，我们开发了端到端智能体 T2MAT（text-to-material），它能够将用户输入的文本转化为超越现有数据库、具有目标性质的新材料结构逆向设计，并通过对化学空间的充分探索和全自动第一性原理验证加以保障。我们还提出了专门用于捕捉长程相互作用的图神经网络 CGTNet（Crystal Graph Transformer NETwork），大幅提升了性质预测的精度与数据效率，从而增强了逆向设计的可靠性。凭借这些工作，T2MAT 降低了对人类专业经验的依赖，加速了高性能功能材料的发现，为真正自主的材料设计开辟了道路。",
     },
     {
@@ -134,7 +134,7 @@ const USER_CONFIG_ZH = {
       image:   "images/miut.png",
       title:   "符号回归导出的简单描述符加速新型钙钛矿催化剂的发现",
       url:     "http://www.nature.com/articles/s41467-020-17263-9",
-      authors: '翁百程<sup>#</sup>、<strong>宋志龙<sup>#</sup></strong>、朱日龙、颜清宇、孙庆德、Corey G Grice、Yanfa Yan、尹万健',
+      authors: 'Baicheng Weng<sup>#</sup>、<strong>宋志龙<sup>#</sup></strong>、Rilong Zhu、Qingyu Yan、Qingde Sun、Corey G Grice、Yanfa Yan、尹万健',
       abstract: "符号回归（SR）是一种可解释机器学习方法，用于构建最能拟合给定数据的数学公式。在这项工作中，我们用符号回归指导具有更高析氧反应（OER）活性的新型氧化物钙钛矿催化剂的设计，并识别出一个简单的描述符 μ/t，其中 μ 与 t 分别为八面体因子与容忍因子。借助该描述符，我们加速发现了一系列 OER 活性更优的新型氧化物钙钛矿催化剂，成功合成了五种新的氧化物钙钛矿并表征了它们的 OER 活性。其中四种位列本征活性最高的氧化物钙钛矿催化剂之中。这一结果表明，符号回归在数据驱动的新材料设计与发现中具有重要潜力。",
     },
     {
@@ -142,7 +142,7 @@ const USER_CONFIG_ZH = {
       image:   "images/mtsr.png",
       title:   "基于多任务符号回归从多源数据中提炼钙钛矿催化剂的普适活性描述符",
       url:     "https://pubs.rsc.org/en/content/articlehtml/2023/mh/d3mh00157a",
-      authors: "<strong>宋志龙</strong>、王骁、刘芳婷、周琼花、尹万健、吴昊、邓伟侨、王金兰",
+      authors: "<strong>宋志龙</strong>、Xiao Wang、Fangting Liu、周跫桦、尹万健、Hao Wu、Weiqiao Deng、王金兰",
       abstract: "通过数据驱动的机器学习方法建立活性描述符，可以加速高活性、低成本电催化剂的设计。尽管文献中已积累了大量电催化剂的活性数据，但由于实验或计算条件各异，来自不同论文的数据往往不可直接比较。在这项工作中，我们采用可解释机器学习方法——多任务符号回归——从多组实验数据中共同学习，构建了无需计算或实验即可评估氧化物钙钛矿析氧反应（OER）性能的普适活性描述符，并取得了很高的精度与泛化能力。结合贝叶斯优化的参数，我们预测了一系列 OER 活性优异的双钙钛矿，并通过第一性原理计算进一步评估。最终，两种机器学习预测的镍基钙钛矿被成功合成并通过实验表征，展现出最佳的 OER 活性。这项工作为利用多源数据拓展机器学习材料设计开辟了新途径。",
     },
     {
@@ -150,7 +150,7 @@ const USER_CONFIG_ZH = {
       image:   "images/mcts.png",
       title:   "基于强化学习蒙特卡洛树搜索算法的 CO₂ 活化与甲烷化合金自适应设计",
       url:     "https://pubs.acs.org/doi/abs/10.1021/acs.jpclett.3c00242",
-      authors: "<strong>宋志龙</strong>、周琼花、卢帅华、Sae Dieb、凌崇益、王金兰",
+      authors: "<strong>宋志龙</strong>、周跫桦、陆帅华、Sae Dieb、凌崇益、王金兰",
       abstract: "数据驱动的机器学习在加速材料设计方面已取得显著成果，但高度依赖高质量数据的获取。在这项工作中，我们发展了一套自适应设计框架，能够从零数据出发、以尽可能少的第一性原理（DFT）计算搜索最优材料。该框架将自动化 DFT 计算与改进的强化学习蒙特卡洛树搜索算法（MCTS-PG）相结合。作为一个成功的应用实例，我们在 200 步 MCTS-PG 之内快速识别出用于 CO₂ 活化与甲烷化的目标合金催化剂，最终筛选出 7 个对 CO₂ 甲烷化兼具高理论活性与选择性的合金表面，并通过完整的自由能计算加以验证。这一自适应设计框架能够以极少的 DFT 计算快速探索具有目标性质的材料。",
     },
   ],
