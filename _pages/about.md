@@ -315,7 +315,7 @@ My passion for driving extends to the virtual world - I was once a sim racer wit
 - **7 track world records** in [DiRT 3](https://en.wikipedia.org/wiki/Dirt_3) 🏆
 - **20 track world records** in [WRC 3](https://en.wikipedia.org/wiki/WRC_3:_FIA_World_Rally_Championship) 🏆
 
-Throughout my undergraduate years, I enjoyed racing simulators like [Assetto Corsa](https://assettocorsa.gg/), [Forza Motorsport](https://forza.net/), and [iRacing](https://www.iracing.com/) for relaxation, took a few wins and pole positions in online races, and **retired** from competitive sim racing after starting my master's degree. These experiences have taught me to embrace competition fearlessly - even when facing intense competition and pressure, I maintain 100% confidence and give my all to pursue opportunities, regardless of the outcome.
+Throughout my undergraduate years, I enjoyed racing simulators like [Assetto Corsa](https://assettocorsa.gg/), [Forza Motorsport](https://forza.net/), and [iRacing](https://www.iracing.com/) for relaxation, took multiple wins and pole positions in their online races, and **retired** from competitive sim racing after starting my master's degree. These experiences have taught me to embrace competition fearlessly - even when facing intense competition and pressure, I maintain 100% confidence and give my all to pursue opportunities, regardless of the outcome.
 
 These days I still take a go-kart out once in a while, but everyday driving on public roads no longer excites me. Performance car or not, in the city or on the highway, pushing hard is unsafe, and after a racing simulator it feels far too slow however you drive. I have become an enthusiast of autonomous driving technology instead, especially Huawei's ADS.
 
