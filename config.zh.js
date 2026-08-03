@@ -134,7 +134,7 @@ const USER_CONFIG_ZH = {
       image:   "images/miut.png",
       title:   "符号回归导出的简单描述符加速新型钙钛矿催化剂的发现",
       url:     "http://www.nature.com/articles/s41467-020-17263-9",
-      authors: 'Baicheng Weng<sup>#</sup>、<strong>宋志龙<sup>#</sup></strong>、Rilong Zhu、Qingyu Yan、Qingde Sun、Corey G Grice、Yanfa Yan、尹万健',
+      authors: 'Baicheng Weng<sup>#</sup>、<strong>宋志龙<sup>#</sup></strong>、Rilong Zhu、颜清宇、孙庆德、Corey G Grice、Yanfa Yan、尹万健',
       abstract: "符号回归（SR）是一种可解释机器学习方法，用于构建最能拟合给定数据的数学公式。在这项工作中，我们用符号回归指导具有更高析氧反应（OER）活性的新型氧化物钙钛矿催化剂的设计，并识别出一个简单的描述符 μ/t，其中 μ 与 t 分别为八面体因子与容忍因子。借助该描述符，我们加速发现了一系列 OER 活性更优的新型氧化物钙钛矿催化剂，成功合成了五种新的氧化物钙钛矿并表征了它们的 OER 活性。其中四种位列本征活性最高的氧化物钙钛矿催化剂之中。这一结果表明，符号回归在数据驱动的新材料设计与发现中具有重要潜力。",
     },
     {
