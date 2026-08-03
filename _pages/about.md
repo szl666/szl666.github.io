@@ -317,6 +317,8 @@ My passion for driving extends to the virtual world - I was once a sim racer wit
 
 Throughout my undergraduate years, I enjoyed racing simulators like [Assetto Corsa](https://assettocorsa.gg/) and [Forza Motorsport](https://forza.net/) for relaxation, and I **retired** from competitive sim racing after starting my master's degree. These experiences have taught me to embrace competition fearlessly - even when facing intense competition and pressure, I maintain 100% confidence and give my all to pursue opportunities, regardless of the outcome.
 
+These days I still take a go-kart out once in a while, but driving itself no longer excites me the way it used to. I have become an enthusiast of autonomous driving technology instead, especially Huawei's ADS.
+
 
 ## 🎱 **Cue Sports**
 I'm an amateur billiards player with a particular fondness for snooker and Chinese eight-ball:

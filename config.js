@@ -393,7 +393,9 @@ My passion for driving extends to the virtual world - I was once a sim racer wit
 <li><strong>7 track world records</strong> in <a href="https://en.wikipedia.org/wiki/Dirt_3" target="_blank">DiRT 3</a></li>
 <li><strong>20 track world records</strong> in <a href="https://en.wikipedia.org/wiki/WRC_3:_FIA_World_Rally_Championship" target="_blank">WRC 3</a></li>
 </ul>
-Throughout my undergraduate years, I enjoyed racing simulators like <a href="https://assettocorsa.gg/" target="_blank">Assetto Corsa</a> and <a href="https://forza.net/" target="_blank">Forza Motorsport</a> for relaxation, and I <strong>retired</strong> from competitive sim racing after starting my master's degree. These experiences have taught me to embrace competition fearlessly - even when facing intense competition and pressure, I maintain 100% confidence and give my all to pursue opportunities, regardless of the outcome.`,
+Throughout my undergraduate years, I enjoyed racing simulators like <a href="https://assettocorsa.gg/" target="_blank">Assetto Corsa</a> and <a href="https://forza.net/" target="_blank">Forza Motorsport</a> for relaxation, and I <strong>retired</strong> from competitive sim racing after starting my master's degree. These experiences have taught me to embrace competition fearlessly - even when facing intense competition and pressure, I maintain 100% confidence and give my all to pursue opportunities, regardless of the outcome.
+<br><br>
+These days I still take a go-kart out once in a while, but driving itself no longer excites me the way it used to. I have become an enthusiast of autonomous driving technology instead, especially Huawei's ADS.`,
     },
     {
       name: "Cue Sports",
