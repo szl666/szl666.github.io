@@ -395,7 +395,7 @@ My passion for driving extends to the virtual world - I was once a sim racer wit
 </ul>
 Throughout my undergraduate years, I enjoyed racing simulators like <a href="https://assettocorsa.gg/" target="_blank">Assetto Corsa</a> and <a href="https://forza.net/" target="_blank">Forza Motorsport</a> for relaxation, and I <strong>retired</strong> from competitive sim racing after starting my master's degree. These experiences have taught me to embrace competition fearlessly - even when facing intense competition and pressure, I maintain 100% confidence and give my all to pursue opportunities, regardless of the outcome.
 <br><br>
-These days I still take a go-kart out once in a while, but everyday driving on public roads no longer excites me. In the city or on the highway, pushing hard is unsafe and, next to a racing simulator, barely feels fast at all. I have become an enthusiast of autonomous driving technology instead, especially Huawei's ADS.`,
+These days I still take a go-kart out once in a while, but everyday driving on public roads no longer excites me. In the city or on the highway, pushing hard is unsafe, and after a racing simulator it feels slow however you drive. I have become an enthusiast of autonomous driving technology instead, especially Huawei's ADS.`,
     },
     {
       name: "Cue Sports",
