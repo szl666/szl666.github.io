@@ -1,11 +1,11 @@
 {
   "name": "Zhilong Song",
   "affiliation": "Hong Kong University of Science and Technology",
-  "citedby": 1161,
+  "citedby": 1163,
   "hindex": 13,
   "i10index": 15,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-08-03 11:15:37.874401",
+  "updated": "2026-08-04 10:30:17.131005",
   "publications": {
     "3MkXEhUAAAAJ:blknAaTinKkC": {
       "bib": {
@@ -20,7 +20,7 @@
         "title": "Visible-Light Photocatalytic CO2 Reduction Using Metal-Organic Framework Derived Ni(OH)2 Nanocages: A Synergy from Multiple Light Reflection, Static Charge …",
         "citation": ""
       },
-      "num_citations": 155,
+      "num_citations": 156,
       "author_pub_id": "3MkXEhUAAAAJ:NMxIlDl6LWMC"
     },
     "3MkXEhUAAAAJ:M3NEmzRMIkIC": {
@@ -60,7 +60,7 @@
         "title": "Inverse design with deep generative models: next step in materials discovery",
         "citation": ""
       },
-      "num_citations": 61,
+      "num_citations": 62,
       "author_pub_id": "3MkXEhUAAAAJ:vRqMK49ujn8C"
     },
     "3MkXEhUAAAAJ:9vf0nzSNQJEC": {
@@ -161,7 +161,7 @@
     },
     "3MkXEhUAAAAJ:F9fV5C73w3QC": {
       "bib": {
-        "title": "Stability and Symmetry-Assured Crystal Structure Generation for Inverse Design of Photocatalysts in Water Splitting",
+        "title": "Physics-grounded generative design of inherently stable, novel and controllable crystal structures",
         "citation": ""
       },
       "num_citations": null,
