@@ -25,7 +25,7 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'hawkins'
 end
-ruby "3.3.0"
+ruby ">= 3.2.0"
 
 # 确保 UTF-8 编码
 ENV['RUBYOPT'] = '-E utf-8'
