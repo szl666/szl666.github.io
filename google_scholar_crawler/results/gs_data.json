@@ -1,18 +1,18 @@
 {
   "name": "Zhilong Song",
   "affiliation": "Hong Kong University of Science and Technology",
-  "citedby": 1164,
+  "citedby": 1169,
   "hindex": 13,
   "i10index": 15,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-08-08 08:32:32.551269",
+  "updated": "2026-08-09 08:33:52.158681",
   "publications": {
     "3MkXEhUAAAAJ:blknAaTinKkC": {
       "bib": {
         "title": "Simple descriptor derived from symbolic regression accelerating the discovery of new perovskite catalysts",
         "citation": ""
       },
-      "num_citations": 460,
+      "num_citations": 463,
       "author_pub_id": "3MkXEhUAAAAJ:blknAaTinKkC"
     },
     "3MkXEhUAAAAJ:NMxIlDl6LWMC": {
@@ -20,8 +20,16 @@
         "title": "Visible-Light Photocatalytic CO2 Reduction Using Metal-Organic Framework Derived Ni(OH)2 Nanocages: A Synergy from Multiple Light Reflection, Static Charge …",
         "citation": ""
       },
-      "num_citations": 156,
+      "num_citations": 155,
       "author_pub_id": "3MkXEhUAAAAJ:NMxIlDl6LWMC"
+    },
+    "3MkXEhUAAAAJ:86PQX7AUzd4C": {
+      "bib": {
+        "title": "Inverse design of promising electrocatalysts for CO2 reduction via generative models and bird swarm algorithm",
+        "citation": ""
+      },
+      "num_citations": 81,
+      "author_pub_id": "3MkXEhUAAAAJ:86PQX7AUzd4C"
     },
     "3MkXEhUAAAAJ:M3NEmzRMIkIC": {
       "bib": {
@@ -30,14 +38,6 @@
       },
       "num_citations": 81,
       "author_pub_id": "3MkXEhUAAAAJ:M3NEmzRMIkIC"
-    },
-    "3MkXEhUAAAAJ:86PQX7AUzd4C": {
-      "bib": {
-        "title": "Inverse design of promising electrocatalysts for CO2 reduction via generative models and bird swarm algorithm",
-        "citation": ""
-      },
-      "num_citations": 79,
-      "author_pub_id": "3MkXEhUAAAAJ:86PQX7AUzd4C"
     },
     "3MkXEhUAAAAJ:qjMakFHDy7sC": {
       "bib": {
@@ -151,6 +151,14 @@
       "num_citations": 1,
       "author_pub_id": "3MkXEhUAAAAJ:NyGDZy8z5eUC"
     },
+    "3MkXEhUAAAAJ:IUKN3-7HHlwC": {
+      "bib": {
+        "title": "Feature-Extended Descriptor Construction for Prediction of Consecutive Elementary Reaction Energies in Methane Oxidation",
+        "citation": ""
+      },
+      "num_citations": 1,
+      "author_pub_id": "3MkXEhUAAAAJ:IUKN3-7HHlwC"
+    },
     "3MkXEhUAAAAJ:PaBasH6fAo0C": {
       "bib": {
         "title": "Autonomous heterogeneous catalyst discovery with a self-evolving multi-agent digital twin",
@@ -166,14 +174,6 @@
       },
       "num_citations": null,
       "author_pub_id": "3MkXEhUAAAAJ:F9fV5C73w3QC"
-    },
-    "3MkXEhUAAAAJ:IUKN3-7HHlwC": {
-      "bib": {
-        "title": "Feature-Extended Descriptor Construction for Prediction of Consecutive Elementary Reaction Energies in Methane Oxidation",
-        "citation": ""
-      },
-      "num_citations": null,
-      "author_pub_id": "3MkXEhUAAAAJ:IUKN3-7HHlwC"
     },
     "3MkXEhUAAAAJ:zA6iFVUQeVQC": {
       "bib": {
