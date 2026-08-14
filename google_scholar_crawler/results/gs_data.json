@@ -1,11 +1,11 @@
 {
   "name": "Zhilong Song",
   "affiliation": "Hong Kong University of Science and Technology",
-  "citedby": 1178,
+  "citedby": 1179,
   "hindex": 13,
   "i10index": 15,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-08-13 09:05:03.266131",
+  "updated": "2026-08-14 09:02:01.178668",
   "publications": {
     "3MkXEhUAAAAJ:blknAaTinKkC": {
       "bib": {
@@ -116,7 +116,7 @@
         "title": "Adaptive Design of Alloys for CO2 Activation and Methanation via Reinforcement Learning Monte Carlo Tree Search Algorithm",
         "citation": ""
       },
-      "num_citations": 12,
+      "num_citations": 13,
       "author_pub_id": "3MkXEhUAAAAJ:eq2jaN3J8jMC"
     },
     "3MkXEhUAAAAJ:xtoqd-5pKcoC": {
