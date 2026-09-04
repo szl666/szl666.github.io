@@ -1,18 +1,18 @@
 {
   "name": "Zhilong Song",
   "affiliation": "Hong Kong University of Science and Technology",
-  "citedby": 1201,
+  "citedby": 1210,
   "hindex": 13,
   "i10index": 15,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-09-03 12:27:18.040343",
+  "updated": "2026-09-04 12:25:07.941034",
   "publications": {
     "3MkXEhUAAAAJ:blknAaTinKkC": {
       "bib": {
         "title": "Simple descriptor derived from symbolic regression accelerating the discovery of new perovskite catalysts",
         "citation": ""
       },
-      "num_citations": 476,
+      "num_citations": 478,
       "author_pub_id": "3MkXEhUAAAAJ:blknAaTinKkC"
     },
     "3MkXEhUAAAAJ:NMxIlDl6LWMC": {
@@ -28,7 +28,7 @@
         "title": "Inverse design of promising electrocatalysts for CO2 reduction via generative models and bird swarm algorithm",
         "citation": ""
       },
-      "num_citations": 86,
+      "num_citations": 88,
       "author_pub_id": "3MkXEhUAAAAJ:86PQX7AUzd4C"
     },
     "3MkXEhUAAAAJ:M3NEmzRMIkIC": {
@@ -52,7 +52,7 @@
         "title": "Accurate prediction of synthesizability and precursors of 3D crystal structures via large language models",
         "citation": ""
       },
-      "num_citations": 71,
+      "num_citations": 72,
       "author_pub_id": "3MkXEhUAAAAJ:OcBU2YAGkTUC"
     },
     "3MkXEhUAAAAJ:vRqMK49ujn8C": {
@@ -60,7 +60,7 @@
         "title": "Inverse design with deep generative models: next step in materials discovery",
         "citation": ""
       },
-      "num_citations": 62,
+      "num_citations": 63,
       "author_pub_id": "3MkXEhUAAAAJ:vRqMK49ujn8C"
     },
     "3MkXEhUAAAAJ:9vf0nzSNQJEC": {
@@ -68,7 +68,7 @@
         "title": "Distilling universal activity descriptors for perovskite catalysts from multiple data sources via multi-task symbolic regression",
         "citation": ""
       },
-      "num_citations": 39,
+      "num_citations": 41,
       "author_pub_id": "3MkXEhUAAAAJ:9vf0nzSNQJEC"
     },
     "3MkXEhUAAAAJ:RGFaLdJalmkC": {
@@ -103,6 +103,14 @@
       "num_citations": 16,
       "author_pub_id": "3MkXEhUAAAAJ:TFP_iSt0sucC"
     },
+    "3MkXEhUAAAAJ:xtoqd-5pKcoC": {
+      "bib": {
+        "title": "How the spacer influences the stability of 2D perovskites?",
+        "citation": ""
+      },
+      "num_citations": 13,
+      "author_pub_id": "3MkXEhUAAAAJ:xtoqd-5pKcoC"
+    },
     "3MkXEhUAAAAJ:8d8msizDQcsC": {
       "bib": {
         "title": "LLM-Feynman: leveraging large language models for universal scientific formula and theory discovery",
@@ -118,14 +126,6 @@
       },
       "num_citations": 13,
       "author_pub_id": "3MkXEhUAAAAJ:eq2jaN3J8jMC"
-    },
-    "3MkXEhUAAAAJ:xtoqd-5pKcoC": {
-      "bib": {
-        "title": "How the spacer influences the stability of 2D perovskites?",
-        "citation": ""
-      },
-      "num_citations": 12,
-      "author_pub_id": "3MkXEhUAAAAJ:xtoqd-5pKcoC"
     },
     "3MkXEhUAAAAJ:BJbdYPG6LGMC": {
       "bib": {
