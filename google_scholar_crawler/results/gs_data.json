@@ -1,11 +1,11 @@
 {
   "name": "Zhilong Song",
   "affiliation": "Hong Kong University of Science and Technology",
-  "citedby": 1210,
+  "citedby": 1212,
   "hindex": 13,
   "i10index": 15,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-09-04 12:25:07.941034",
+  "updated": "2026-09-05 11:31:33.983753",
   "publications": {
     "3MkXEhUAAAAJ:blknAaTinKkC": {
       "bib": {
@@ -52,7 +52,7 @@
         "title": "Accurate prediction of synthesizability and precursors of 3D crystal structures via large language models",
         "citation": ""
       },
-      "num_citations": 72,
+      "num_citations": 73,
       "author_pub_id": "3MkXEhUAAAAJ:OcBU2YAGkTUC"
     },
     "3MkXEhUAAAAJ:vRqMK49ujn8C": {
@@ -60,7 +60,7 @@
         "title": "Inverse design with deep generative models: next step in materials discovery",
         "citation": ""
       },
-      "num_citations": 63,
+      "num_citations": 64,
       "author_pub_id": "3MkXEhUAAAAJ:vRqMK49ujn8C"
     },
     "3MkXEhUAAAAJ:9vf0nzSNQJEC": {
@@ -158,6 +158,14 @@
       },
       "num_citations": 1,
       "author_pub_id": "3MkXEhUAAAAJ:IUKN3-7HHlwC"
+    },
+    "3MkXEhUAAAAJ:CB2v5VPnA5kC": {
+      "bib": {
+        "title": "Autonomous discovery of new structure-plausibility laws for explainable and rapid crystal diagnosis and screening",
+        "citation": ""
+      },
+      "num_citations": null,
+      "author_pub_id": "3MkXEhUAAAAJ:CB2v5VPnA5kC"
     },
     "3MkXEhUAAAAJ:PaBasH6fAo0C": {
       "bib": {
