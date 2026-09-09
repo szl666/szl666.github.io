@@ -1,11 +1,11 @@
 {
   "name": "Zhilong Song",
   "affiliation": "Hong Kong University of Science and Technology",
-  "citedby": 1213,
+  "citedby": 1215,
   "hindex": 13,
   "i10index": 15,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-09-08 12:29:43.959785",
+  "updated": "2026-09-09 12:37:09.552544",
   "publications": {
     "3MkXEhUAAAAJ:blknAaTinKkC": {
       "bib": {
@@ -36,7 +36,7 @@
         "title": "Machine learning in materials design: Algorithm and application",
         "citation": ""
       },
-      "num_citations": 83,
+      "num_citations": 84,
       "author_pub_id": "3MkXEhUAAAAJ:M3NEmzRMIkIC"
     },
     "3MkXEhUAAAAJ:qjMakFHDy7sC": {
@@ -103,6 +103,14 @@
       "num_citations": 16,
       "author_pub_id": "3MkXEhUAAAAJ:TFP_iSt0sucC"
     },
+    "3MkXEhUAAAAJ:eq2jaN3J8jMC": {
+      "bib": {
+        "title": "Adaptive Design of Alloys for CO2 Activation and Methanation via Reinforcement Learning Monte Carlo Tree Search Algorithm",
+        "citation": ""
+      },
+      "num_citations": 14,
+      "author_pub_id": "3MkXEhUAAAAJ:eq2jaN3J8jMC"
+    },
     "3MkXEhUAAAAJ:xtoqd-5pKcoC": {
       "bib": {
         "title": "How the spacer influences the stability of 2D perovskites?",
@@ -118,14 +126,6 @@
       },
       "num_citations": 13,
       "author_pub_id": "3MkXEhUAAAAJ:8d8msizDQcsC"
-    },
-    "3MkXEhUAAAAJ:eq2jaN3J8jMC": {
-      "bib": {
-        "title": "Adaptive Design of Alloys for CO2 Activation and Methanation via Reinforcement Learning Monte Carlo Tree Search Algorithm",
-        "citation": ""
-      },
-      "num_citations": 13,
-      "author_pub_id": "3MkXEhUAAAAJ:eq2jaN3J8jMC"
     },
     "3MkXEhUAAAAJ:BJbdYPG6LGMC": {
       "bib": {
