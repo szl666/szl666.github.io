@@ -1,11 +1,11 @@
 {
   "name": "Zhilong Song",
   "affiliation": "Hong Kong University of Science and Technology",
-  "citedby": 1221,
+  "citedby": 1223,
   "hindex": 13,
   "i10index": 15,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-09-14 14:38:00.889187",
+  "updated": "2026-09-15 13:02:38.789209",
   "publications": {
     "3MkXEhUAAAAJ:blknAaTinKkC": {
       "bib": {
@@ -28,7 +28,7 @@
         "title": "Inverse design of promising electrocatalysts for CO2 reduction via generative models and bird swarm algorithm",
         "citation": ""
       },
-      "num_citations": 89,
+      "num_citations": 90,
       "author_pub_id": "3MkXEhUAAAAJ:86PQX7AUzd4C"
     },
     "3MkXEhUAAAAJ:M3NEmzRMIkIC": {
@@ -135,6 +135,14 @@
       "num_citations": 8,
       "author_pub_id": "3MkXEhUAAAAJ:BJbdYPG6LGMC"
     },
+    "3MkXEhUAAAAJ:NyGDZy8z5eUC": {
+      "bib": {
+        "title": "Continuous discovery of novel 2D materials via dual active learning-driven generative models",
+        "citation": ""
+      },
+      "num_citations": 2,
+      "author_pub_id": "3MkXEhUAAAAJ:NyGDZy8z5eUC"
+    },
     "3MkXEhUAAAAJ:F1b5ZUV5XREC": {
       "bib": {
         "title": "AI-driven materials design: paradigm shift from small data to big data",
@@ -142,14 +150,6 @@
       },
       "num_citations": 2,
       "author_pub_id": "3MkXEhUAAAAJ:F1b5ZUV5XREC"
-    },
-    "3MkXEhUAAAAJ:NyGDZy8z5eUC": {
-      "bib": {
-        "title": "Continuous discovery of novel 2D materials via dual active learning-driven generative models",
-        "citation": ""
-      },
-      "num_citations": 1,
-      "author_pub_id": "3MkXEhUAAAAJ:NyGDZy8z5eUC"
     },
     "3MkXEhUAAAAJ:IUKN3-7HHlwC": {
       "bib": {
