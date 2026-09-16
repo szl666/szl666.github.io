@@ -19,7 +19,7 @@ redirect_from:
 
 My research lies at the intersection of artificial intelligence and materials science, focusing on developing innovative methods and agents for automated materials discovery. I have contributed to research on four main topics: (1) generative models for the inverse design of functional materials, (2) agents based on large language models for synthesis prediction of crystal structures and scientific formula discovery, (3) multi-agent systems that autonomously simulate working catalysts, and (4) interpretable machine learning for catalyst design. 
 
-I have published 23 papers with an h-index of <span id="h_index_intro">12</span>, receiving total <a href='https://scholar.google.com/citations?user=3MkXEhUAAAAJ&hl'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>. Among these, I am the first author on 10 papers, including 3 in Nature Communications, 1 in Materials Horizons, 1 in Advanced Functional Materials, and 1 in The Journal of Physical Chemistry Letters. Additionally, I have four important first-authored manuscripts currently under review, available as preprints. 
+I have published 23 papers with an h-index of <span id="h_index_intro">13</span>, receiving total <a href='https://scholar.google.com/citations?user=3MkXEhUAAAAJ&hl'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>. Among these, I am the first author on 10 papers, including 3 in Nature Communications, 1 in Materials Horizons, 1 in Advanced Functional Materials, and 1 in The Journal of Physical Chemistry Letters. Additionally, I have four important first-authored manuscripts currently under review, available as preprints. 
 
 My interdisciplinary work has led to the development of several innovative frameworks including CatDT (Catalysis Digital Twin), a self-evolving multi-agent system that builds a condition-aware digital twin of a working catalyst from a bulk crystal and a single sentence, MAGECS (Material Generation with Efficient Global Chemical Space Search) for guiding generative models to globally explore chemical space, SCGEN (Stable and Controllable crystal structure GENeration) for physics-grounded generation of inherently stable, novel and controllable crystals, CSLLM (Crystal Synthesis Large Language Models) for accurate synthesizability prediction of crystal structures, FormulaAgent for universal scientific formula and theory discovery, and PRIS (Plausibility Rules for Inorganic Structures), eight one-line, mechanism-labelled laws that explain why a proposed crystal is implausible before any expensive calculation. My research has substantially improved discovery efficiency and success rates for novel functional materials.
 
@@ -51,7 +51,7 @@ My interdisciplinary work has led to the development of several innovative frame
   <div class='paper-box-image'>
     <div style="position: relative; width: 100%;">
       <div style="background-color: #E6F3FF; padding: 8px; text-align: center; font-weight: bold; border-radius: 8px 8px 0 0;">
-        arXiv: 2609.01209
+        arXiv: 2609.01209 · Nat. Comput. Sci. (under review)
       </div>
       <img src='images/pris.png' alt="sym" width="100%" style="display: block; border-radius: 0 0 8px 8px;">
     </div>
@@ -240,7 +240,7 @@ Data-driven machine learning (ML) has earned remarkable achievements in accelera
 # 📚 Publications
 
 
-## Total: 23 papers, <a href='https://scholar.google.com/citations?user=3MkXEhUAAAAJ&hl'>Google Scholar Profile</a> | <a href='https://scholar.google.com/citations?user=3MkXEhUAAAAJ&hl'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> | h-index: <span id="h_index">12</span>
+## Total: 23 papers, <a href='https://scholar.google.com/citations?user=3MkXEhUAAAAJ&hl'>Google Scholar Profile</a> | <a href='https://scholar.google.com/citations?user=3MkXEhUAAAAJ&hl'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> | h-index: <span id="h_index">13</span>
 
 ### First Author Papers (6 published + 4 preprints)
 
@@ -252,13 +252,13 @@ Data-driven machine learning (ML) has earned remarkable achievements in accelera
 
 4. **Z. Song**, Q. Zhou, S. Lu, et al. "Adaptive design of alloys for CO₂ activation and methanation via reinforcement learning Monte Carlo tree search algorithm." [**_The Journal of Physical Chemistry Letters_**, 2023, 14(14): 3594-3601](https://pubs.acs.org/doi/abs/10.1021/acs.jpclett.3c00242).
 
-5. **Z. Song**, Z. Zhang, L. Cheng. "Autonomous heterogeneous catalyst discovery with a self-evolving multi-agent digital twin." 2026, [**_arXiv:2606.05050_**](https://arxiv.org/abs/2606.05050). (Under review at Nature Communications)
+5. **Z. Song**, Z. Zhang, L. Cheng. "Autonomous heterogeneous catalyst discovery with a self-evolving multi-agent digital twin." 2026, [**_arXiv:2606.05050_**](https://arxiv.org/abs/2606.05050). (Under review at Nat. Commun.)
 
 6. **Z. Song**, Q. Zhou, C. Ling, et al. "Physics-grounded generative design of inherently stable, novel and controllable crystal structures." 2025, [**_arXiv:2507.19307_**](https://arxiv.org/abs/2507.19307). (Under review at J. Am. Chem. Soc.)
 
-7. **Z. Song**, Q. Zhou, C. Ren, et al. "FormulaAgent: A Model-Agnostic Self-Optimizing Agent for Autonomous Scientific Formula Discovery." 2025, [**_arXiv:2503.06512_**](https://arxiv.org/abs/2503.06512). (Under revision at Science Bulletin)
+7. **Z. Song**, Q. Zhou, C. Ren, et al. "FormulaAgent: A Model-Agnostic Self-Optimizing Agent for Autonomous Scientific Formula Discovery." 2025, [**_arXiv:2503.06512_**](https://arxiv.org/abs/2503.06512). (Under revision at Sci. Bull.)
 
-8. **Z. Song**, L. Cheng. "Autonomous discovery of new structure-plausibility laws for explainable and rapid crystal diagnosis and screening." 2026, [**_arXiv:2609.01209_**](https://arxiv.org/abs/2609.01209). (Under review)
+8. **Z. Song**, L. Cheng. "Autonomous discovery of new structure-plausibility laws for explainable and rapid crystal diagnosis and screening." 2026, [**_arXiv:2609.01209_**](https://arxiv.org/abs/2609.01209). (Under review at Nat. Comput. Sci.)
 
 9. **Z. Song**, S. Lu, Q. Zhou, et al. "T2MAT (text-to-materials): A universal agent for generating material structures with goal properties from a single sentence." [**_Acta Physico-Chimica Sinica_**, 2026, 42(5): 100213](https://www.sciencedirect.com/science/article/pii/S1000681825001699).
 

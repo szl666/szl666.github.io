@@ -12,12 +12,12 @@ const USER_CONFIG = {
 
   bio: `I work at the frontier where <strong class="highlight">artificial intelligence</strong> meets <strong class="highlight">materials science</strong>. A central challenge in this field is venturing beyond known structures to create entirely new ones with exceptional properties. To address this, I develop new generative models for the inverse design of novel and stable materials structures, optimization frameworks that steer generative models to explore vast property space toward desired targets, multi-agent systems that simulate working catalysts and assess whether predicted structures can be synthesized, and interpretable machine learning methods that reveal the mechanistic origins of material performance.`,
 
-  bioExtra: `These efforts have resulted in 23 publications with an h-index of <strong id="h_index_intro" class="highlight">12</strong> and total <strong id="total_citations_bio" class="highlight">citations</strong>. Among them, 10 are first-authored — including <strong class="highlight">3 in Nature Communications</strong>, <strong class="highlight">1 in Materials Horizons</strong>, <strong class="highlight">1 in Advanced Functional Materials</strong>, and <strong class="highlight">1 in The Journal of Physical Chemistry Letters</strong> — together with four first-authored preprints currently under review.`,
+  bioExtra: `These efforts have resulted in 23 publications with an h-index of <strong id="h_index_intro" class="highlight">13</strong> and total <strong id="total_citations_bio" class="highlight">citations</strong>. Among them, 10 are first-authored — including <strong class="highlight">3 in Nature Communications</strong>, <strong class="highlight">1 in Materials Horizons</strong>, <strong class="highlight">1 in Advanced Functional Materials</strong>, and <strong class="highlight">1 in The Journal of Physical Chemistry Letters</strong> — together with four first-authored preprints currently under review.`,
 
   bioExtra2: `This research has produced a suite of interconnected frameworks: <strong><a href="https://arxiv.org/abs/2606.05050">CatDT</a></strong> builds a self-evolving, condition-aware digital twin of a working catalyst from a bulk crystal and a single sentence; <strong><a href="https://arxiv.org/abs/2507.19307">SCGEN</a></strong> generates crystal structures with inherent stability, novelty, and precise controllability; <strong><a href="https://www.nature.com/articles/s41467-024-55613-z">MAGECS</a></strong> guides generative models to efficiently explore the global chemical space toward target properties; <strong><a href="https://www.nature.com/articles/s41467-025-61778-y">CSLLM</a></strong> predicts the synthesizability of arbitrary crystal structures and recommends synthetic routes; <strong><a href="https://arxiv.org/abs/2503.06512">FormulaAgent</a></strong> distills interpretable scientific formulas from data and domain knowledge; and <strong><a href="https://arxiv.org/abs/2609.01209">PRIS</a></strong> gives eight one-line, mechanism-labelled plausibility laws that say why a proposed crystal is implausible before any expensive calculation. Together, they close the loop from structure generation through property optimization, synthesizability assessment, and catalytic simulation to mechanistic understanding, offering a step toward more efficient computational materials discovery.`,
 
   stats: [
-    { value: "22",  label: "Publications", id: "stat-pubs" },
+    { value: "23",  label: "Publications", id: "stat-pubs" },
     { value: "---", label: "Citations",    id: "stat-citations" },
     { value: "---", label: "h-index",      id: "stat-hindex" },
   ],
@@ -101,7 +101,7 @@ const USER_CONFIG = {
   // ── Key Research Contributions ───────────────────────────────────────────
   keyResearch: [
     {
-      badge:   "arXiv: 2609.01209",
+      badge:   "arXiv: 2609.01209 · Nat. Comput. Sci. (under review)",
       image:   "images/pris.png",
       title:   "Autonomous discovery of new structure-plausibility laws for explainable and rapid crystal diagnosis and screening",
       url:     "https://arxiv.org/abs/2609.01209",
@@ -217,7 +217,7 @@ const USER_CONFIG = {
         num: 5, year: 2026,
         text: '<strong>Z. Song</strong>, Z. Zhang, L. Cheng. "Autonomous heterogeneous catalyst discovery with a self-evolving multi-agent digital twin."',
         venue: "arXiv:2606.05050",
-        venueDetail: "2026 (Under review at Nature Communications)",
+        venueDetail: "2026 (Under review at Nat. Commun.)",
         url: "https://arxiv.org/abs/2606.05050",
       },
       {
@@ -231,14 +231,14 @@ const USER_CONFIG = {
         num: 7, year: 2025,
         text: '<strong>Z. Song</strong>, Q. Zhou, C. Ren, et al. "FormulaAgent: A Model-Agnostic Self-Optimizing Agent for Autonomous Scientific Formula Discovery."',
         venue: "arXiv:2503.06512",
-        venueDetail: "2025 (Under revision at Science Bulletin)",
+        venueDetail: "2025 (Under revision at Sci. Bull.)",
         url: "https://arxiv.org/abs/2503.06512",
       },
       {
         num: 8, year: 2026,
         text: '<strong>Z. Song</strong>, L. Cheng. "Autonomous discovery of new structure-plausibility laws for explainable and rapid crystal diagnosis and screening."',
         venue: "arXiv:2609.01209",
-        venueDetail: "2026 (Under review)",
+        venueDetail: "2026 (Under review at Nat. Comput. Sci.)",
         url: "https://arxiv.org/abs/2609.01209",
       },
       {

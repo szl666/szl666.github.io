@@ -11,12 +11,12 @@ const USER_CONFIG_ZH = {
 
   bio: `我的研究处在<strong class="highlight">人工智能</strong>与<strong class="highlight">材料科学</strong>的交叉前沿。这一领域的核心挑战，在于跳出已知结构的范围，创造出全新且性能优异的材料。为此，我发展用于新型稳定材料结构逆向设计的生成模型，构建引导生成模型在广阔性质空间中定向搜索的优化框架，开发能够自主模拟真实工况下催化剂、并判断预测结构能否被合成的多智能体系统，以及揭示材料性能微观机理的可解释机器学习方法。`,
 
-  bioExtra: `这些工作已形成 23 篇论文，h 因子为 <strong id="h_index_intro" class="highlight">12</strong>，累计<strong id="total_citations_bio" class="highlight">引用</strong>。其中 10 篇为第一作者，包括 <strong class="highlight">3 篇 Nature Communications</strong>、<strong class="highlight">1 篇 Materials Horizons</strong>、<strong class="highlight">1 篇 Advanced Functional Materials</strong> 和 <strong class="highlight">1 篇 The Journal of Physical Chemistry Letters</strong>，另有 4 篇第一作者预印本正在审稿中。`,
+  bioExtra: `这些工作已形成 23 篇论文，h 因子为 <strong id="h_index_intro" class="highlight">13</strong>，累计<strong id="total_citations_bio" class="highlight">引用</strong>。其中 10 篇为第一作者，包括 <strong class="highlight">3 篇 Nature Communications</strong>、<strong class="highlight">1 篇 Materials Horizons</strong>、<strong class="highlight">1 篇 Advanced Functional Materials</strong> 和 <strong class="highlight">1 篇 The Journal of Physical Chemistry Letters</strong>，另有 4 篇第一作者预印本正在审稿中。`,
 
   bioExtra2: `这些研究构成了一套彼此衔接的框架：<strong><a href="https://arxiv.org/abs/2606.05050">CatDT</a></strong> 仅凭一个体相晶体和一句话描述，即可构建可自我演化、感知工况的催化剂数字孪生；<strong><a href="https://arxiv.org/abs/2507.19307">SCGEN</a></strong> 生成兼具本征稳定性、新颖性与精确可控性的晶体结构；<strong><a href="https://www.nature.com/articles/s41467-024-55613-z">MAGECS</a></strong> 引导生成模型在全局化学空间中高效搜索具备目标性质的材料；<strong><a href="https://www.nature.com/articles/s41467-025-61778-y">CSLLM</a></strong> 预测任意晶体结构的可合成性并推荐合成路线；<strong><a href="https://arxiv.org/abs/2503.06512">FormulaAgent</a></strong> 从数据与领域知识中提炼可解释的科学公式；<strong><a href="https://arxiv.org/abs/2609.01209">PRIS</a></strong> 用 8 条一行式、可对应机制的合理性定律，在昂贵计算开始之前就说明一个候选晶体为何不合理。它们串联起从结构生成、性质优化、可合成性评估、催化过程模拟到机理理解的完整链条，为更高效的计算材料发现提供了一条可行路径。`,
 
   stats: [
-    { value: "22",  label: "论文",   id: "stat-pubs" },
+    { value: "23",  label: "论文",   id: "stat-pubs" },
     { value: "---", label: "引用",   id: "stat-citations" },
     { value: "---", label: "h 因子", id: "stat-hindex" },
   ],
@@ -82,7 +82,7 @@ const USER_CONFIG_ZH = {
   // ── 代表性研究工作 ────────────────────────────────────────────────────────
   keyResearch: [
     {
-      badge:   "arXiv: 2609.01209",
+      badge:   "arXiv: 2609.01209 · Nat. Comput. Sci. 审稿中",
       image:   "images/pris.png",
       title:   "面向可解释、快速晶体诊断与筛选的结构合理性定律自主发现",
       url:     "https://arxiv.org/abs/2609.01209",

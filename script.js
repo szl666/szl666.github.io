@@ -200,9 +200,14 @@ function populateHeroBio(cfg) {
 function populateHeroStats(cfg) {
     const el = document.getElementById('hero-stats');
     if (!el || !cfg.stats) return;
+    // Keep the publication count in step with the list itself rather than a
+    // hand-maintained number; citations and h-index arrive from Google Scholar.
+    const p = cfg.publications || {};
+    const pubCount = (p.firstAuthor?.length || 0) + (p.coFirstAuthor?.length || 0) +
+                     (p.coAuthor?.length || 0) + (p.conference?.length || 0);
     el.innerHTML = cfg.stats.map(s => `
         <div class="stat">
-            <span class="stat-number" ${s.id ? `id="${s.id}"` : ''}>${s.value}</span>
+            <span class="stat-number" ${s.id ? `id="${s.id}"` : ''}>${s.id === 'stat-pubs' && pubCount ? pubCount : s.value}</span>
             <span class="stat-label">${s.label}</span>
         </div>
     `).join('');
