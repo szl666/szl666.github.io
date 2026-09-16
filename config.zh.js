@@ -11,9 +11,9 @@ const USER_CONFIG_ZH = {
 
   bio: `我的研究处在<strong class="highlight">人工智能</strong>与<strong class="highlight">材料科学</strong>的交叉前沿。这一领域的核心挑战，在于跳出已知结构的范围，创造出全新且性能优异的材料。为此，我发展用于新型稳定材料结构逆向设计的生成模型，构建引导生成模型在广阔性质空间中定向搜索的优化框架，开发能够自主模拟真实工况下催化剂、并判断预测结构能否被合成的多智能体系统，以及揭示材料性能微观机理的可解释机器学习方法。`,
 
-  bioExtra: `这些工作已形成 22 篇论文，h 因子为 <strong id="h_index_intro" class="highlight">12</strong>，累计<strong id="total_citations_bio" class="highlight">引用</strong>。其中 9 篇为第一作者，包括 <strong class="highlight">3 篇 Nature Communications</strong>、<strong class="highlight">1 篇 Materials Horizons</strong>、<strong class="highlight">1 篇 Advanced Functional Materials</strong> 和 <strong class="highlight">1 篇 The Journal of Physical Chemistry Letters</strong>，另有 3 篇第一作者预印本正在审稿中。`,
+  bioExtra: `这些工作已形成 23 篇论文，h 因子为 <strong id="h_index_intro" class="highlight">12</strong>，累计<strong id="total_citations_bio" class="highlight">引用</strong>。其中 10 篇为第一作者，包括 <strong class="highlight">3 篇 Nature Communications</strong>、<strong class="highlight">1 篇 Materials Horizons</strong>、<strong class="highlight">1 篇 Advanced Functional Materials</strong> 和 <strong class="highlight">1 篇 The Journal of Physical Chemistry Letters</strong>，另有 4 篇第一作者预印本正在审稿中。`,
 
-  bioExtra2: `这些研究构成了一套彼此衔接的框架：<strong><a href="https://arxiv.org/abs/2606.05050">CatDT</a></strong> 仅凭一个体相晶体和一句话描述，即可构建可自我演化、感知工况的催化剂数字孪生；<strong><a href="https://arxiv.org/abs/2507.19307">SCGEN</a></strong> 生成兼具本征稳定性、新颖性与精确可控性的晶体结构；<strong><a href="https://www.nature.com/articles/s41467-024-55613-z">MAGECS</a></strong> 引导生成模型在全局化学空间中高效搜索具备目标性质的材料；<strong><a href="https://www.nature.com/articles/s41467-025-61778-y">CSLLM</a></strong> 预测任意晶体结构的可合成性并推荐合成路线；<strong><a href="https://arxiv.org/abs/2503.06512">FormulaAgent</a></strong> 从数据与领域知识中提炼可解释的科学公式。它们串联起从结构生成、性质优化、可合成性评估、催化过程模拟到机理理解的完整链条，为更高效的计算材料发现提供了一条可行路径。`,
+  bioExtra2: `这些研究构成了一套彼此衔接的框架：<strong><a href="https://arxiv.org/abs/2606.05050">CatDT</a></strong> 仅凭一个体相晶体和一句话描述，即可构建可自我演化、感知工况的催化剂数字孪生；<strong><a href="https://arxiv.org/abs/2507.19307">SCGEN</a></strong> 生成兼具本征稳定性、新颖性与精确可控性的晶体结构；<strong><a href="https://www.nature.com/articles/s41467-024-55613-z">MAGECS</a></strong> 引导生成模型在全局化学空间中高效搜索具备目标性质的材料；<strong><a href="https://www.nature.com/articles/s41467-025-61778-y">CSLLM</a></strong> 预测任意晶体结构的可合成性并推荐合成路线；<strong><a href="https://arxiv.org/abs/2503.06512">FormulaAgent</a></strong> 从数据与领域知识中提炼可解释的科学公式；<strong><a href="https://arxiv.org/abs/2609.01209">PRIS</a></strong> 用 8 条一行式、可对应机制的合理性定律，在昂贵计算开始之前就说明一个候选晶体为何不合理。它们串联起从结构生成、性质优化、可合成性评估、催化过程模拟到机理理解的完整链条，为更高效的计算材料发现提供了一条可行路径。`,
 
   stats: [
     { value: "22",  label: "论文",   id: "stat-pubs" },
@@ -82,7 +82,15 @@ const USER_CONFIG_ZH = {
   // ── 代表性研究工作 ────────────────────────────────────────────────────────
   keyResearch: [
     {
-      badge:   "arXiv: 2606.05050",
+      badge:   "arXiv: 2609.01209",
+      image:   "images/pris.png",
+      title:   "面向可解释、快速晶体诊断与筛选的结构合理性定律自主发现",
+      url:     "https://arxiv.org/abs/2609.01209",
+      authors: "<strong>宋志龙</strong>、程立雪",
+      abstract: "晶体生成模型与工具型智能体提出结构的速度，早已超过密度泛函理论（DFT）能量与声子计算乃至实验的评估速度。因此，判断哪些候选结构值得投入昂贵验证，成为整条链条的瓶颈；而现有筛选手段大多只检查原子是否重叠，也给不出失败的化学原因。在这项工作中，我们让智能体生成、检验并主动证伪了两百万条候选定律，最终留下 8 条无机结构合理性定律（PRIS，Plausibility Rules for Inorganic Structures）。这些定律编码了五种机制：短程排斥、离子接触与堆积、静电平衡、键价守恒以及晶体学位点复杂度。实验结构对我们定律集的满足率为 82%–99%，而同时满足鲍林第 2–5 条规则的比例仅为 6.5%。最严格的定律集能识别出 87.9% 的受损晶体结构，基于距离阈值的判据则只能识别 1.6%–3.2%。PRIS 合理性与可合成性呈线性相关，由此导出的 PRIS 合成评分（PSS）能以可解释的方式筛除 83.7% 难以合成的结构，同时保留 80.7% 的实验结构。在性质导向的逆向设计中，PRIS 与 PSS 可将 DFT 验证队列缩减多达 67.3%，并保留 99.2% 的体弹模量达到设计目标的候选结构。除筛选之外，PRIS 还解释了 GNoME 为何富集罕见的低对称性结构，并揭示出在被证伪的晶体报道中，错误的元素指认如何隐藏在看似合理的坐标背后。PRIS 让筛选从“通过或不通过”的判定，变成对失败原因的化学解释，也表明自主智能体能够通过主动证伪，发现指导计算与实验的物理化学定律。",
+    },
+    {
+      badge:   "arXiv: 2606.05050 · Nat. Commun. 审稿中",
       image:   "images/catdt.png",
       title:   "基于自演化多智能体数字孪生的自主多相催化剂发现",
       url:     "https://arxiv.org/abs/2606.05050",
@@ -106,7 +114,7 @@ const USER_CONFIG_ZH = {
       abstract: "直接生成具有最优性能的材料结构，是材料设计领域长期追求的目标。传统生成模型往往难以高效探索全局化学空间，其作用范围被局限在局部区域。为此，我们提出了 MAGECS 框架（Material Generation with Efficient Global Chemical Space Search），通过将鸟群算法与有监督图神经网络相结合，使生成模型能够在广阔的化学空间中有效导航，定向搜索具有目标性质的材料。将其应用于 CO₂ 还原（CO₂RR）合金电催化剂的设计，MAGECS 生成了超过 25 万个结构，高活性结构的比例达到 35%，相比随机生成提升了 2.5 倍。我们合成并表征了预测得到的五种合金——CuAl、AlPd、Sn₂Pd₅、Sn₉Pd₇ 和 CuAlSe₂，其中两种的 CO₂RR 法拉第效率接近 90%。这项工作展示了 MAGECS 在功能材料开发中的潜力，为完全自动化、人工智能驱动的材料设计铺平了道路。",
     },
     {
-      badge:   "arXiv: 2507.19307",
+      badge:   "arXiv: 2507.19307 · J. Am. Chem. Soc. 审稿中",
       image:   "images/scgen.png",
       title:   "本征稳定、新颖且可控晶体结构的物理约束生成式设计",
       url:     "https://arxiv.org/abs/2507.19307",
@@ -114,7 +122,7 @@ const USER_CONFIG_ZH = {
       abstract: "生成式逆向设计正在重塑功能晶体材料的发现方式。然而，现有生成模型难以在同一个训练好的模型中同时兼顾稳定性、新颖性与精确可控性。我们从一个关键的物理认识出发解决这一难题：晶体的多样性主要由其晶体学信息（CI，即组分、空间群与晶格）决定，而一旦 CI 固定，稳定的原子构型就只剩下少数几种。基于这一认识，我们提出了 SCGEN（stable and controllable crystal structure generation），一个包含两个部分的物理约束生成模型：变分自编码器负责采样多样且物理合理的 CI，受对称性与 Wyckoff 位置约束的优化器则借助通用机器学习势寻找稳定的原子位置。在约两百万个结构上的基准测试表明，SCGEN 在保持相当新颖性的同时达到了最优的稳定性，并能以 100% 的成功率满足任意指定的组分、空间群、晶格或它们的联合约束，且无需针对任务重新训练。应用于光催化全解水时，基于 SCGEN 的性质导向优化生成了 20 万个候选结构，并从中筛选出 22 个兼具稳定性、活性与可合成性的光催化剂。通过将 CI 生成与坐标优化解耦，SCGEN 建立了一种物理约束的逆向设计范式，能够按需给出可直接合成的晶体，而非需要事后修补、弛豫或重新训练的结构。",
     },
     {
-      badge:   "arXiv: 2503.06512",
+      badge:   "arXiv: 2503.06512 · Sci. Bull. 修改中",
       image:   "images/formulaagent.png",
       title:   "FormulaAgent：面向自主科学公式发现的模型无关自优化智能体",
       url:     "https://arxiv.org/abs/2503.06512",

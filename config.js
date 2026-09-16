@@ -12,9 +12,9 @@ const USER_CONFIG = {
 
   bio: `I work at the frontier where <strong class="highlight">artificial intelligence</strong> meets <strong class="highlight">materials science</strong>. A central challenge in this field is venturing beyond known structures to create entirely new ones with exceptional properties. To address this, I develop new generative models for the inverse design of novel and stable materials structures, optimization frameworks that steer generative models to explore vast property space toward desired targets, multi-agent systems that simulate working catalysts and assess whether predicted structures can be synthesized, and interpretable machine learning methods that reveal the mechanistic origins of material performance.`,
 
-  bioExtra: `These efforts have resulted in 22 publications with an h-index of <strong id="h_index_intro" class="highlight">12</strong> and total <strong id="total_citations_bio" class="highlight">citations</strong>. Among them, 9 are first-authored — including <strong class="highlight">3 in Nature Communications</strong>, <strong class="highlight">1 in Materials Horizons</strong>, <strong class="highlight">1 in Advanced Functional Materials</strong>, and <strong class="highlight">1 in The Journal of Physical Chemistry Letters</strong> — together with three first-authored preprints currently under review.`,
+  bioExtra: `These efforts have resulted in 23 publications with an h-index of <strong id="h_index_intro" class="highlight">12</strong> and total <strong id="total_citations_bio" class="highlight">citations</strong>. Among them, 10 are first-authored — including <strong class="highlight">3 in Nature Communications</strong>, <strong class="highlight">1 in Materials Horizons</strong>, <strong class="highlight">1 in Advanced Functional Materials</strong>, and <strong class="highlight">1 in The Journal of Physical Chemistry Letters</strong> — together with four first-authored preprints currently under review.`,
 
-  bioExtra2: `This research has produced a suite of interconnected frameworks: <strong><a href="https://arxiv.org/abs/2606.05050">CatDT</a></strong> builds a self-evolving, condition-aware digital twin of a working catalyst from a bulk crystal and a single sentence; <strong><a href="https://arxiv.org/abs/2507.19307">SCGEN</a></strong> generates crystal structures with inherent stability, novelty, and precise controllability; <strong><a href="https://www.nature.com/articles/s41467-024-55613-z">MAGECS</a></strong> guides generative models to efficiently explore the global chemical space toward target properties; <strong><a href="https://www.nature.com/articles/s41467-025-61778-y">CSLLM</a></strong> predicts the synthesizability of arbitrary crystal structures and recommends synthetic routes; and <strong><a href="https://arxiv.org/abs/2503.06512">FormulaAgent</a></strong> distills interpretable scientific formulas from data and domain knowledge. Together, they close the loop from structure generation through property optimization, synthesizability assessment, and catalytic simulation to mechanistic understanding, offering a step toward more efficient computational materials discovery.`,
+  bioExtra2: `This research has produced a suite of interconnected frameworks: <strong><a href="https://arxiv.org/abs/2606.05050">CatDT</a></strong> builds a self-evolving, condition-aware digital twin of a working catalyst from a bulk crystal and a single sentence; <strong><a href="https://arxiv.org/abs/2507.19307">SCGEN</a></strong> generates crystal structures with inherent stability, novelty, and precise controllability; <strong><a href="https://www.nature.com/articles/s41467-024-55613-z">MAGECS</a></strong> guides generative models to efficiently explore the global chemical space toward target properties; <strong><a href="https://www.nature.com/articles/s41467-025-61778-y">CSLLM</a></strong> predicts the synthesizability of arbitrary crystal structures and recommends synthetic routes; <strong><a href="https://arxiv.org/abs/2503.06512">FormulaAgent</a></strong> distills interpretable scientific formulas from data and domain knowledge; and <strong><a href="https://arxiv.org/abs/2609.01209">PRIS</a></strong> gives eight one-line, mechanism-labelled plausibility laws that say why a proposed crystal is implausible before any expensive calculation. Together, they close the loop from structure generation through property optimization, synthesizability assessment, and catalytic simulation to mechanistic understanding, offering a step toward more efficient computational materials discovery.`,
 
   stats: [
     { value: "22",  label: "Publications", id: "stat-pubs" },
@@ -101,7 +101,15 @@ const USER_CONFIG = {
   // ── Key Research Contributions ───────────────────────────────────────────
   keyResearch: [
     {
-      badge:   "arXiv: 2606.05050",
+      badge:   "arXiv: 2609.01209",
+      image:   "images/pris.png",
+      title:   "Autonomous discovery of new structure-plausibility laws for explainable and rapid crystal diagnosis and screening",
+      url:     "https://arxiv.org/abs/2609.01209",
+      authors: "<strong>Zhilong Song</strong>, Lixue Cheng",
+      abstract: "Crystal generators and tool-using agents propose structures faster than density functional theory (DFT) energy and phonon calculations or experiments can assess them. Deciding which candidates merit expensive assessment is therefore the bottleneck, yet most screens test little beyond atomic overlap and give no chemical reason for failure. Here, our agents generate, test and actively refute two million candidate laws, leaving eight Plausibility Rules for Inorganic Structures (PRIS). These laws encode five mechanisms: short-range repulsion, ionic contact and packing, electrostatic balance, bond-valence conservation and crystallographic site complexity. Experimental structures satisfy our law sets at 82–99%, but satisfy Pauling's rules 2–5 together at only 6.5%. The strictest set detects 87.9% of damaged crystal structures, whereas distance cutoffs detect only 1.6–3.2%. PRIS plausibility is linearly correlated with synthesizability, so the PRIS-derived synthesis score (PSS) explainably screens 83.7% of hard-to-synthesize structures while retaining 80.7% of experimental structures. In a property-conditioned inverse-design run, PRIS and PSS can reduce the DFT validation queue by up to 67.3% and keep 99.2% of the candidates whose DFT-validated bulk moduli reach the design target. Beyond screening, PRIS explains why GNoME remains enriched in rare low-symmetry structures and reveals how wrong-element assignments in falsified crystal reports hide behind plausible coordinates. PRIS moves screening from a pass-or-fail verdict to a chemical reason for failure, showing that autonomous agents can discover, by active refutation, physicochemical laws that guide calculations and experiments.",
+    },
+    {
+      badge:   "arXiv: 2606.05050 · Nat. Commun. (under review)",
       image:   "images/catdt.png",
       title:   "Autonomous heterogeneous catalyst discovery with a self-evolving multi-agent digital twin",
       url:     "https://arxiv.org/abs/2606.05050",
@@ -125,7 +133,7 @@ const USER_CONFIG = {
       abstract: "Directly generating material structures with optimal properties is a long-standing goal in material design. Traditional generative models often struggle to efficiently explore the global chemical space, limiting their utility to localized space. Here, we present a framework named Material Generation with Efficient Global Chemical Space Search (MAGECS) that addresses this challenge by integrating the bird swarm algorithm and supervised graph neural networks, enabling effective navigation of generative models in the immense chemical space towards materials with target properties. Applied to the design of alloy electrocatalysts for CO\u2082 reduction (CO\u2082RR), MAGECS generates over 250,000 structures, achieving a 2.5-fold increase in high-activity structures (35%) compared to random generation. Five predicted alloys\u2014 CuAl, AlPd, Sn\u2082Pd\u2085, Sn\u2089Pd\u2087, and CuAlSe\u2082 are synthesized and characterized, with two showing around 90% Faraday efficiency for CO\u2082RR. This work highlights the potential of MAGECS to revolutionize functional material development, paving the way for fully automated, artificial intelligence-driven material design.",
     },
     {
-      badge:   "arXiv: 2507.19307",
+      badge:   "arXiv: 2507.19307 · J. Am. Chem. Soc. (under review)",
       image:   "images/scgen.png",
       title:   "Physics-grounded generative design of inherently stable, novel and controllable crystal structures",
       url:     "https://arxiv.org/abs/2507.19307",
@@ -133,7 +141,7 @@ const USER_CONFIG = {
       abstract: "Generative inverse design is reshaping the discovery of functional crystalline materials. Yet current generative models face challenges in simultaneously achieving stability, novelty, and precise controllability in a single trained model. We address these challenges with a key physical insight: the diversity of crystals is governed by their crystallographic information (CI), namely composition, space group and lattice, whereas only a few stable atomic configurations remain once the CI is fixed. Built on this insight, we introduce SCGEN (stable and controllable crystal structure generation), a physics-grounded generative model with two components. A variational autoencoder samples diverse, physically plausible CI, and a symmetry- and Wyckoff-position-constrained optimizer locates stable atomic positions via universal machine-learning potentials. Benchmarked on roughly two million structures, SCGEN reaches state-of-the-art stability while preserving comparable novelty, and it satisfies any specified composition, space group, lattice or joint constraint with 100% success and no task-specific retraining. Applied to photocatalytic water splitting, property-guided optimization with SCGEN generates 200,000 candidate structures and identifies the top 22 stable, active and synthesizable photocatalysts. By decoupling CI generation from coordinate optimization, SCGEN establishes a physics-grounded inverse-design paradigm that yields synthesis-ready crystals on demand, rather than structures requiring post hoc repair, relaxation, or retraining.",
     },
     {
-      badge:   "arXiv: 2503.06512",
+      badge:   "arXiv: 2503.06512 · Sci. Bull. (under revision)",
       image:   "images/formulaagent.png",
       title:   "FormulaAgent: A Model-Agnostic Self-Optimizing Agent for Autonomous Scientific Formula Discovery",
       url:     "https://arxiv.org/abs/2503.06512",
@@ -209,32 +217,39 @@ const USER_CONFIG = {
         num: 5, year: 2026,
         text: '<strong>Z. Song</strong>, Z. Zhang, L. Cheng. "Autonomous heterogeneous catalyst discovery with a self-evolving multi-agent digital twin."',
         venue: "arXiv:2606.05050",
-        venueDetail: "2026 (Under review)",
+        venueDetail: "2026 (Under review at Nature Communications)",
         url: "https://arxiv.org/abs/2606.05050",
       },
       {
         num: 6, year: 2025,
         text: '<strong>Z. Song</strong>, Q. Zhou, C. Ling, et al. "Physics-grounded generative design of inherently stable, novel and controllable crystal structures."',
         venue: "arXiv:2507.19307",
-        venueDetail: "2025 (Under review)",
+        venueDetail: "2025 (Under review at J. Am. Chem. Soc.)",
         url: "https://arxiv.org/abs/2507.19307",
       },
       {
         num: 7, year: 2025,
         text: '<strong>Z. Song</strong>, Q. Zhou, C. Ren, et al. "FormulaAgent: A Model-Agnostic Self-Optimizing Agent for Autonomous Scientific Formula Discovery."',
         venue: "arXiv:2503.06512",
-        venueDetail: "2025 (Under review)",
+        venueDetail: "2025 (Under revision at Science Bulletin)",
         url: "https://arxiv.org/abs/2503.06512",
       },
       {
         num: 8, year: 2026,
+        text: '<strong>Z. Song</strong>, L. Cheng. "Autonomous discovery of new structure-plausibility laws for explainable and rapid crystal diagnosis and screening."',
+        venue: "arXiv:2609.01209",
+        venueDetail: "2026 (Under review)",
+        url: "https://arxiv.org/abs/2609.01209",
+      },
+      {
+        num: 9, year: 2026,
         text: '<strong>Z. Song</strong>, S. Lu, Q. Zhou, et al. "T2MAT (text-to-materials): A universal agent for generating material structures with goal properties from a single sentence."',
         venue: "Acta Physico-Chimica Sinica",
         venueDetail: "2026, 42(5): 100213",
         url: "https://www.sciencedirect.com/science/article/pii/S1000681825001699",
       },
       {
-        num: 9, year: 2020,
+        num: 10, year: 2020,
         text: '<strong>Z. Song</strong>, X. Chen, F. Meng, et al. "Machine learning in materials design: Algorithm and application."',
         venue: "Chinese Physics B",
         venueDetail: "2020, 29(11): 116103",
@@ -243,7 +258,7 @@ const USER_CONFIG = {
     ],
     coFirstAuthor: [
       {
-        num: 10, year: 2020,
+        num: 11, year: 2020,
         text: 'B. Weng<sup>#</sup>, <strong>Z. Song<sup>#</sup></strong>, R. Zhu, et al. "Simple descriptor derived from symbolic regression accelerating the discovery of new perovskite catalysts."',
         venue: "Nature Communications",
         venueDetail: "2020, 11(1): 3513",
@@ -251,7 +266,7 @@ const USER_CONFIG = {
         note: "Equal contribution",
       },
       {
-        num: 11, year: 2024,
+        num: 12, year: 2024,
         text: 'M. Wu<sup>#</sup>, <strong>Z. Song<sup>#</sup></strong>, Y. Cui, et al. "Machine learning-assisted design of nitrogen-rich covalent triazine frameworks photocatalysts."',
         venue: "Advanced Functional Materials",
         venueDetail: "2024: 2413453",
@@ -261,70 +276,70 @@ const USER_CONFIG = {
     ],
     coAuthor: [
       {
-        num: 12, year: 2026,
+        num: 13, year: 2026,
         text: 'X. Chen, <strong>Z. Song</strong>, S. Lu, et al. "Continuous discovery of novel 2D materials via dual active learning-driven generative models."',
         venue: "National Science Review",
         venueDetail: "2026: nwag101",
         url: "https://academic.oup.com/nsr/advance-article-abstract/doi/10.1093/nsr/nwag101/8475385",
       },
       {
-        num: 13, year: 2020,
+        num: 14, year: 2020,
         text: 'Y. Su, <strong>Z. Song</strong>, W. Zhu, et al. "Visible-light photocatalytic CO\u2082 reduction using metal-organic framework derived Ni(OH)\u2082 nanocages: a synergy from multiple light reflection, static charge transfer, and oxygen vacancies."',
         venue: "ACS Catalysis",
         venueDetail: "2020, 11(1): 345-354",
         url: "https://pubs.acs.org/doi/10.1021/acscatal.0c04020",
       },
       {
-        num: 14, year: 2022,
+        num: 15, year: 2022,
         text: 'Z. Sun, <strong>Z. Song</strong>, W.J. Yin. "Going beyond the d-band center to describe CO\u2082 activation on single-atom alloys."',
         venue: "Advanced Energy and Sustainability Research",
         venueDetail: "2022, 3(2): 2100152",
         url: "https://onlinelibrary.wiley.com/doi/10.1002/aesr.202100152",
       },
       {
-        num: 15, year: 2020,
+        num: 16, year: 2020,
         text: 'S. Dieb, <strong>Z. Song</strong>, W.J. Yin, et al. "Optimization of depth-graded multilayer structure for x-ray optics using machine learning."',
         venue: "Journal of Applied Physics",
         venueDetail: "2020, 128(7): 074901",
         url: "http://aip.scitation.org/doi/10.1063/5.0012351",
       },
       {
-        num: 16, year: 2025,
+        num: 17, year: 2025,
         text: 'X. Chen, <strong>Z. Song</strong>, S. Lu, et al. "AI-driven materials design: paradigm shift from small data to big data."',
         venue: "SCIENTIA SINICA Chimica",
         venueDetail: "2025, 55(6): 1648-1659",
         url: "https://doi.org/10.1360/SSC-2025-0048",
       },
       {
-        num: 17, year: 2025,
+        num: 18, year: 2025,
         text: 'W. Lin, F. Liu, <strong>Z. Song</strong>, et al. "Feature-Extended Descriptor Construction for Prediction of Consecutive Elementary Reaction Energies in Methane Oxidation."',
         venue: "Chemistry of Materials",
         venueDetail: "2025, 37(12): 4499\u20134510",
         url: "https://pubs.acs.org/doi/abs/10.1021/acs.chemmater.5c00930",
       },
       {
-        num: 18, year: 2022,
+        num: 19, year: 2022,
         text: 'S. Lu, Q. Zhou, X. Chen, <strong>Z. Song</strong>, et al. "Inverse design with deep generative models: next step in materials discovery."',
         venue: "National Science Review",
         venueDetail: "2022, 9(8): nwac111",
         url: "https://academic.oup.com/nsr/article/doi/10.1093/nsr/nwac111/6605930",
       },
       {
-        num: 19, year: 2019,
+        num: 20, year: 2019,
         text: 'H. Lin, J. Mao, M. Qin, <strong>Z. Song</strong>, et al. "Single-phase alkylammonium cesium lead iodide quasi-2D perovskites for color-tunable and spectrum-stable red LED."',
         venue: "Nanoscale",
         venueDetail: "2019, 11(36): 16907-16918",
         url: "https://xlink.rsc.org/?DOI=C9NR02706H",
       },
       {
-        num: 20, year: 2019,
+        num: 21, year: 2019,
         text: 'H.L. Zhu, H. Lin, <strong>Z. Song</strong>, et al. "Achieving high-quality Sn\u2013Pb perovskite films on complementary metal-oxide-semiconductor-compatible metal/silicon substrates for efficient imaging array."',
         venue: "ACS Nano",
         venueDetail: "2019, 13(10): 11800-11808",
         url: "https://pubs.acs.org/doi/10.1021/acsnano.9b05774",
       },
       {
-        num: 21, year: 2024,
+        num: 22, year: 2024,
         text: 'X. Gao, Y. Wu, Y. Zhang, X. Chen, <strong>Z. Song</strong>, et al. "How the spacer influences the stability of 2D perovskites?."',
         venue: "Small Methods",
         venueDetail: "2024: 2401172",
@@ -333,7 +348,7 @@ const USER_CONFIG = {
     ],
     conference: [
       {
-        num: 22, year: 2020,
+        num: 23, year: 2020,
         text: '<strong>Z. Song</strong>, X. Chen, S. Dieb, et al. "Design of thermodynamically stable perovskites using machine learning."',
         venue: "The 67th JSAP Spring Meeting 2020",
         venueDetail: "The Japan Society of Applied Physics, 2020: 3632-3632",

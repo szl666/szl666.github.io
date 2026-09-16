@@ -19,9 +19,9 @@ redirect_from:
 
 My research lies at the intersection of artificial intelligence and materials science, focusing on developing innovative methods and agents for automated materials discovery. I have contributed to research on four main topics: (1) generative models for the inverse design of functional materials, (2) agents based on large language models for synthesis prediction of crystal structures and scientific formula discovery, (3) multi-agent systems that autonomously simulate working catalysts, and (4) interpretable machine learning for catalyst design. 
 
-I have published 22 papers with an h-index of <span id="h_index_intro">12</span>, receiving total <a href='https://scholar.google.com/citations?user=3MkXEhUAAAAJ&hl'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>. Among these, I am the first author on 9 papers, including 3 in Nature Communications, 1 in Materials Horizons, 1 in Advanced Functional Materials, and 1 in The Journal of Physical Chemistry Letters. Additionally, I have three important first-authored manuscripts currently under review, available as preprints. 
+I have published 23 papers with an h-index of <span id="h_index_intro">12</span>, receiving total <a href='https://scholar.google.com/citations?user=3MkXEhUAAAAJ&hl'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>. Among these, I am the first author on 10 papers, including 3 in Nature Communications, 1 in Materials Horizons, 1 in Advanced Functional Materials, and 1 in The Journal of Physical Chemistry Letters. Additionally, I have four important first-authored manuscripts currently under review, available as preprints. 
 
-My interdisciplinary work has led to the development of several innovative frameworks including CatDT (Catalysis Digital Twin), a self-evolving multi-agent system that builds a condition-aware digital twin of a working catalyst from a bulk crystal and a single sentence, MAGECS (Material Generation with Efficient Global Chemical Space Search) for guiding generative models to globally explore chemical space, SCGEN (Stable and Controllable crystal structure GENeration) for physics-grounded generation of inherently stable, novel and controllable crystals, CSLLM (Crystal Synthesis Large Language Models) for accurate synthesizability prediction of crystal structures, and FormulaAgent for universal scientific formula and theory discovery. My research has substantially improved discovery efficiency and success rates for novel functional materials.
+My interdisciplinary work has led to the development of several innovative frameworks including CatDT (Catalysis Digital Twin), a self-evolving multi-agent system that builds a condition-aware digital twin of a working catalyst from a bulk crystal and a single sentence, MAGECS (Material Generation with Efficient Global Chemical Space Search) for guiding generative models to globally explore chemical space, SCGEN (Stable and Controllable crystal structure GENeration) for physics-grounded generation of inherently stable, novel and controllable crystals, CSLLM (Crystal Synthesis Large Language Models) for accurate synthesizability prediction of crystal structures, FormulaAgent for universal scientific formula and theory discovery, and PRIS (Plausibility Rules for Inorganic Structures), eight one-line, mechanism-labelled laws that explain why a proposed crystal is implausible before any expensive calculation. My research has substantially improved discovery efficiency and success rates for novel functional materials.
 
 # 🎖 Honors and Awards
 - *2020.01* Top Prize in "HUAWEI Cup" The 16th Chinese Post-Graduate Mathematical Contest in Modeling, Award ratio: 1.3% (188 teams out of 14,014)
@@ -51,7 +51,26 @@ My interdisciplinary work has led to the development of several innovative frame
   <div class='paper-box-image'>
     <div style="position: relative; width: 100%;">
       <div style="background-color: #E6F3FF; padding: 8px; text-align: center; font-weight: bold; border-radius: 8px 8px 0 0;">
-        arXiv: 2606.05050
+        arXiv: 2609.01209
+      </div>
+      <img src='images/pris.png' alt="sym" width="100%" style="display: block; border-radius: 0 0 8px 8px;">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+[Autonomous discovery of new structure-plausibility laws for explainable and rapid crystal diagnosis and screening](https://arxiv.org/abs/2609.01209)
+
+**Zhilong Song**, Lixue Cheng
+
+Crystal generators and tool-using agents propose structures faster than density functional theory (DFT) energy and phonon calculations or experiments can assess them. Deciding which candidates merit expensive assessment is therefore the bottleneck, yet most screens test little beyond atomic overlap and give no chemical reason for failure. Here, our agents generate, test and actively refute two million candidate laws, leaving eight Plausibility Rules for Inorganic Structures (PRIS). These laws encode five mechanisms: short-range repulsion, ionic contact and packing, electrostatic balance, bond-valence conservation and crystallographic site complexity. Experimental structures satisfy our law sets at 82–99%, but satisfy Pauling's rules 2–5 together at only 6.5%. The strictest set detects 87.9% of damaged crystal structures, whereas distance cutoffs detect only 1.6–3.2%. PRIS plausibility is linearly correlated with synthesizability, so the PRIS-derived synthesis score (PSS) explainably screens 83.7% of hard-to-synthesize structures while retaining 80.7% of experimental structures. In a property-conditioned inverse-design run, PRIS and PSS can reduce the DFT validation queue by up to 67.3% and keep 99.2% of the candidates whose DFT-validated bulk moduli reach the design target. Beyond screening, PRIS explains why GNoME remains enriched in rare low-symmetry structures and reveals how wrong-element assignments in falsified crystal reports hide behind plausible coordinates. PRIS moves screening from a pass-or-fail verdict to a chemical reason for failure, showing that autonomous agents can discover, by active refutation, physicochemical laws that guide calculations and experiments.
+</div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div style="position: relative; width: 100%;">
+      <div style="background-color: #E6F3FF; padding: 8px; text-align: center; font-weight: bold; border-radius: 8px 8px 0 0;">
+        arXiv: 2606.05050 · Nat. Commun. (under review)
       </div>
       <img src='images/catdt.png' alt="sym" width="100%" style="display: block; border-radius: 0 0 8px 8px;">
     </div>
@@ -108,7 +127,7 @@ Directly generating material structures with optimal properties is a long-standi
   <div class='paper-box-image'>
     <div style="position: relative; width: 100%;">
       <div style="background-color: #E6F3FF; padding: 8px; text-align: center; font-weight: bold; border-radius: 8px 8px 0 0;">
-        arXiv: 2507.19307
+        arXiv: 2507.19307 · J. Am. Chem. Soc. (under review)
       </div>
       <img src='images/scgen.png' alt="sym" width="100%" style="display: block; border-radius: 0 0 8px 8px;">
     </div>
@@ -127,7 +146,7 @@ Generative inverse design is reshaping the discovery of functional crystalline m
   <div class='paper-box-image'>
     <div style="position: relative; width: 100%;">
       <div style="background-color: #E6F3FF; padding: 8px; text-align: center; font-weight: bold; border-radius: 8px 8px 0 0;">
-        arXiv: 2503.06512
+        arXiv: 2503.06512 · Sci. Bull. (under revision)
       </div>
       <img src='images/formulaagent.png' alt="sym" width="100%" style="display: block; border-radius: 0 0 8px 8px;">
     </div>
@@ -221,9 +240,9 @@ Data-driven machine learning (ML) has earned remarkable achievements in accelera
 # 📚 Publications
 
 
-## Total: 22 papers, <a href='https://scholar.google.com/citations?user=3MkXEhUAAAAJ&hl'>Google Scholar Profile</a> | <a href='https://scholar.google.com/citations?user=3MkXEhUAAAAJ&hl'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> | h-index: <span id="h_index">12</span>
+## Total: 23 papers, <a href='https://scholar.google.com/citations?user=3MkXEhUAAAAJ&hl'>Google Scholar Profile</a> | <a href='https://scholar.google.com/citations?user=3MkXEhUAAAAJ&hl'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> | h-index: <span id="h_index">12</span>
 
-### First Author Papers (6 published + 3 preprints)
+### First Author Papers (6 published + 4 preprints)
 
 1. **Z. Song**, S. Lu, M. Ju, et al. "Accurate prediction of synthesizability and precursors of 3D crystal structures via large language models." [**_Nature Communications_**, 2025, 16(1): 6530](https://www.nature.com/articles/s41467-025-61778-y).
 
@@ -233,47 +252,49 @@ Data-driven machine learning (ML) has earned remarkable achievements in accelera
 
 4. **Z. Song**, Q. Zhou, S. Lu, et al. "Adaptive design of alloys for CO₂ activation and methanation via reinforcement learning Monte Carlo tree search algorithm." [**_The Journal of Physical Chemistry Letters_**, 2023, 14(14): 3594-3601](https://pubs.acs.org/doi/abs/10.1021/acs.jpclett.3c00242).
 
-5. **Z. Song**, Z. Zhang, L. Cheng. "Autonomous heterogeneous catalyst discovery with a self-evolving multi-agent digital twin." 2026, [**_arXiv:2606.05050_**](https://arxiv.org/abs/2606.05050). (Under review)
+5. **Z. Song**, Z. Zhang, L. Cheng. "Autonomous heterogeneous catalyst discovery with a self-evolving multi-agent digital twin." 2026, [**_arXiv:2606.05050_**](https://arxiv.org/abs/2606.05050). (Under review at Nature Communications)
 
-6. **Z. Song**, Q. Zhou, C. Ling, et al. "Physics-grounded generative design of inherently stable, novel and controllable crystal structures." 2025, [**_arXiv:2507.19307_**](https://arxiv.org/abs/2507.19307). (Under review)
+6. **Z. Song**, Q. Zhou, C. Ling, et al. "Physics-grounded generative design of inherently stable, novel and controllable crystal structures." 2025, [**_arXiv:2507.19307_**](https://arxiv.org/abs/2507.19307). (Under review at J. Am. Chem. Soc.)
 
-7. **Z. Song**, Q. Zhou, C. Ren, et al. "FormulaAgent: A Model-Agnostic Self-Optimizing Agent for Autonomous Scientific Formula Discovery." 2025, [**_arXiv:2503.06512_**](https://arxiv.org/abs/2503.06512). (Under review)
+7. **Z. Song**, Q. Zhou, C. Ren, et al. "FormulaAgent: A Model-Agnostic Self-Optimizing Agent for Autonomous Scientific Formula Discovery." 2025, [**_arXiv:2503.06512_**](https://arxiv.org/abs/2503.06512). (Under revision at Science Bulletin)
 
-8. **Z. Song**, S. Lu, Q. Zhou, et al. "T2MAT (text-to-materials): A universal agent for generating material structures with goal properties from a single sentence." [**_Acta Physico-Chimica Sinica_**, 2026, 42(5): 100213](https://www.sciencedirect.com/science/article/pii/S1000681825001699).
+8. **Z. Song**, L. Cheng. "Autonomous discovery of new structure-plausibility laws for explainable and rapid crystal diagnosis and screening." 2026, [**_arXiv:2609.01209_**](https://arxiv.org/abs/2609.01209). (Under review)
 
-9. **Z. Song**, X. Chen, F. Meng, et al. "Machine learning in materials design: Algorithm and application." [**_Chinese Physics B_**, 2020, 29(11): 116103](https://iopscience.iop.org/article/10.1088/1674-1056/abc0e3). 
+9. **Z. Song**, S. Lu, Q. Zhou, et al. "T2MAT (text-to-materials): A universal agent for generating material structures with goal properties from a single sentence." [**_Acta Physico-Chimica Sinica_**, 2026, 42(5): 100213](https://www.sciencedirect.com/science/article/pii/S1000681825001699).
+
+10. **Z. Song**, X. Chen, F. Meng, et al. "Machine learning in materials design: Algorithm and application." [**_Chinese Physics B_**, 2020, 29(11): 116103](https://iopscience.iop.org/article/10.1088/1674-1056/abc0e3). 
 
 ### Co-first Author Papers (2 papers)
 
-10. B. Weng#, **Z. Song#**, R. Zhu, et al. "Simple descriptor derived from symbolic regression accelerating the discovery of new perovskite catalysts." [**_Nature Communications_**, 2020, 11(1): 3513](http://www.nature.com/articles/s41467-020-17263-9). (Equal contribution)
+11. B. Weng#, **Z. Song#**, R. Zhu, et al. "Simple descriptor derived from symbolic regression accelerating the discovery of new perovskite catalysts." [**_Nature Communications_**, 2020, 11(1): 3513](http://www.nature.com/articles/s41467-020-17263-9). (Equal contribution)
 
-11. M. Wu#, **Z. Song#**, Y. Cui, et al. "Machine learning-assisted design of nitrogen-rich covalent triazine frameworks photocatalysts." [**_Advanced Functional Materials_**, 2024: 2413453](https://onlinelibrary.wiley.com/doi/10.1002/adfm.202413453). (Equal contribution)
+12. M. Wu#, **Z. Song#**, Y. Cui, et al. "Machine learning-assisted design of nitrogen-rich covalent triazine frameworks photocatalysts." [**_Advanced Functional Materials_**, 2024: 2413453](https://onlinelibrary.wiley.com/doi/10.1002/adfm.202413453). (Equal contribution)
 
 ### Co-author Papers (10 papers)
 
-12. X. Chen, **Z. Song**, S. Lu, et al. "Continuous discovery of novel 2D materials via dual active learning-driven generative models" [**_National Science Review_**, 2026: nwag101](https://academic.oup.com/nsr/advance-article-abstract/doi/10.1093/nsr/nwag101/8475385).
+13. X. Chen, **Z. Song**, S. Lu, et al. "Continuous discovery of novel 2D materials via dual active learning-driven generative models" [**_National Science Review_**, 2026: nwag101](https://academic.oup.com/nsr/advance-article-abstract/doi/10.1093/nsr/nwag101/8475385).
 
-13. Y. Su, **Z. Song**, W. Zhu, et al. "Visible-light photocatalytic CO₂ reduction using metal-organic framework derived Ni(OH)₂ nanocages: a synergy from multiple light reflection, static charge transfer, and oxygen vacancies." [**_ACS Catalysis_**, 2020, 11(1): 345-354](https://pubs.acs.org/doi/10.1021/acscatal.0c04020).
+14. Y. Su, **Z. Song**, W. Zhu, et al. "Visible-light photocatalytic CO₂ reduction using metal-organic framework derived Ni(OH)₂ nanocages: a synergy from multiple light reflection, static charge transfer, and oxygen vacancies." [**_ACS Catalysis_**, 2020, 11(1): 345-354](https://pubs.acs.org/doi/10.1021/acscatal.0c04020).
 
-14. Z. Sun, **Z. Song**, W.J. Yin. "Going beyond the d-band center to describe CO₂ activation on single-atom alloys." [**_Advanced Energy and Sustainability Research_**, 2022, 3(2): 2100152](https://onlinelibrary.wiley.com/doi/10.1002/aesr.202100152).
+15. Z. Sun, **Z. Song**, W.J. Yin. "Going beyond the d-band center to describe CO₂ activation on single-atom alloys." [**_Advanced Energy and Sustainability Research_**, 2022, 3(2): 2100152](https://onlinelibrary.wiley.com/doi/10.1002/aesr.202100152).
 
-15. S. Dieb, **Z. Song**, W.J. Yin, et al. "Optimization of depth-graded multilayer structure for x-ray optics using machine learning." [**_Journal of Applied Physics_**, 2020, 128(7): 074901](http://aip.scitation.org/doi/10.1063/5.0012351).
+16. S. Dieb, **Z. Song**, W.J. Yin, et al. "Optimization of depth-graded multilayer structure for x-ray optics using machine learning." [**_Journal of Applied Physics_**, 2020, 128(7): 074901](http://aip.scitation.org/doi/10.1063/5.0012351).
 
-16. X. Chen, **Z. Song**, S. Lu, et al. "AI-driven materials design: paradigm shift from small data to big data." [**_SCIENTIA SINICA Chimica_**, 2025, 55(6): 1648-1659](https://doi.org/10.1360/SSC-2025-0048).
+17. X. Chen, **Z. Song**, S. Lu, et al. "AI-driven materials design: paradigm shift from small data to big data." [**_SCIENTIA SINICA Chimica_**, 2025, 55(6): 1648-1659](https://doi.org/10.1360/SSC-2025-0048).
 
-17. W. Lin, F. Liu, **Z. Song**, et al. "Feature-Extended Descriptor Construction for Prediction of Consecutive Elementary Reaction Energies in Methane Oxidation." [**_Chemistry of Materials_**, 2025, 37(12): 4499–4510](https://pubs.acs.org/doi/abs/10.1021/acs.chemmater.5c00930).
+18. W. Lin, F. Liu, **Z. Song**, et al. "Feature-Extended Descriptor Construction for Prediction of Consecutive Elementary Reaction Energies in Methane Oxidation." [**_Chemistry of Materials_**, 2025, 37(12): 4499–4510](https://pubs.acs.org/doi/abs/10.1021/acs.chemmater.5c00930).
 
-18. S. Lu, Q. Zhou, X. Chen, **Z. Song**, et al. "Inverse design with deep generative models: next step in materials discovery." [**_National Science Review_**, 2022, 9(8): nwac111](https://academic.oup.com/nsr/article/doi/10.1093/nsr/nwac111/6605930).
+19. S. Lu, Q. Zhou, X. Chen, **Z. Song**, et al. "Inverse design with deep generative models: next step in materials discovery." [**_National Science Review_**, 2022, 9(8): nwac111](https://academic.oup.com/nsr/article/doi/10.1093/nsr/nwac111/6605930).
 
-19. H. Lin, J. Mao, M. Qin, **Z. Song**, et al. "Single-phase alkylammonium cesium lead iodide quasi-2D perovskites for color-tunable and spectrum-stable red LED." [**_Nanoscale_**, 2019, 11(36): 16907-16918](https://xlink.rsc.org/?DOI=C9NR02706H).
+20. H. Lin, J. Mao, M. Qin, **Z. Song**, et al. "Single-phase alkylammonium cesium lead iodide quasi-2D perovskites for color-tunable and spectrum-stable red LED." [**_Nanoscale_**, 2019, 11(36): 16907-16918](https://xlink.rsc.org/?DOI=C9NR02706H).
 
-20. H.L. Zhu, H. Lin, **Z. Song**, et al. "Achieving high-quality Sn–Pb perovskite films on complementary metal-oxide-semiconductor-compatible metal/silicon substrates for efficient imaging array." [**_ACS Nano_**, 2019, 13(10): 11800-11808](https://pubs.acs.org/doi/10.1021/acsnano.9b05774).
+21. H.L. Zhu, H. Lin, **Z. Song**, et al. "Achieving high-quality Sn–Pb perovskite films on complementary metal-oxide-semiconductor-compatible metal/silicon substrates for efficient imaging array." [**_ACS Nano_**, 2019, 13(10): 11800-11808](https://pubs.acs.org/doi/10.1021/acsnano.9b05774).
 
-21. X. Gao, Y. Wu, Y. Zhang, X. Chen, **Z. Song**, et al. "How the spacer influences the stability of 2D perovskites?." [**_Small Methods_**, 2024: 2401172](https://onlinelibrary.wiley.com/doi/10.1002/smtd.202401172).
+22. X. Gao, Y. Wu, Y. Zhang, X. Chen, **Z. Song**, et al. "How the spacer influences the stability of 2D perovskites?." [**_Small Methods_**, 2024: 2401172](https://onlinelibrary.wiley.com/doi/10.1002/smtd.202401172).
 
 ### Conference Papers (1 paper)
 
-22. **Z. Song**, X. Chen, S. Dieb, et al. "Design of thermodynamically stable perovskites using machine learning." [*The 67th JSAP Spring Meeting 2020*, The Japan Society of Applied Physics, 2020: 3632-3632](https://www.jstage.jst.go.jp/article/jsapmeeting/2020.1/0/2020.1_3632/_article/-char/ja/).
+23. **Z. Song**, X. Chen, S. Dieb, et al. "Design of thermodynamically stable perovskites using machine learning." [*The 67th JSAP Spring Meeting 2020*, The Japan Society of Applied Physics, 2020: 3632-3632](https://www.jstage.jst.go.jp/article/jsapmeeting/2020.1/0/2020.1_3632/_article/-char/ja/).
 
 ---
 # 💻 Technical Expertise
