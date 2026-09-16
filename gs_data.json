@@ -1,18 +1,18 @@
 {
   "name": "Zhilong Song",
   "affiliation": "Hong Kong University of Science and Technology",
-  "citedby": 1223,
-  "hindex": 13,
+  "citedby": 1225,
+  "hindex": 14,
   "i10index": 15,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-09-15 13:02:38.789209",
+  "updated": "2026-09-16 13:00:00.169279",
   "publications": {
     "3MkXEhUAAAAJ:blknAaTinKkC": {
       "bib": {
         "title": "Simple descriptor derived from symbolic regression accelerating the discovery of new perovskite catalysts",
         "citation": ""
       },
-      "num_citations": 480,
+      "num_citations": 481,
       "author_pub_id": "3MkXEhUAAAAJ:blknAaTinKkC"
     },
     "3MkXEhUAAAAJ:NMxIlDl6LWMC": {
@@ -103,6 +103,14 @@
       "num_citations": 16,
       "author_pub_id": "3MkXEhUAAAAJ:TFP_iSt0sucC"
     },
+    "3MkXEhUAAAAJ:8d8msizDQcsC": {
+      "bib": {
+        "title": "LLM-Feynman: leveraging large language models for universal scientific formula and theory discovery",
+        "citation": ""
+      },
+      "num_citations": 14,
+      "author_pub_id": "3MkXEhUAAAAJ:8d8msizDQcsC"
+    },
     "3MkXEhUAAAAJ:eq2jaN3J8jMC": {
       "bib": {
         "title": "Adaptive Design of Alloys for CO2 Activation and Methanation via Reinforcement Learning Monte Carlo Tree Search Algorithm",
@@ -118,14 +126,6 @@
       },
       "num_citations": 13,
       "author_pub_id": "3MkXEhUAAAAJ:xtoqd-5pKcoC"
-    },
-    "3MkXEhUAAAAJ:8d8msizDQcsC": {
-      "bib": {
-        "title": "LLM-Feynman: leveraging large language models for universal scientific formula and theory discovery",
-        "citation": ""
-      },
-      "num_citations": 13,
-      "author_pub_id": "3MkXEhUAAAAJ:8d8msizDQcsC"
     },
     "3MkXEhUAAAAJ:BJbdYPG6LGMC": {
       "bib": {
