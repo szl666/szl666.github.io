@@ -1,11 +1,11 @@
 {
   "name": "Zhilong Song",
   "affiliation": "Hong Kong University of Science and Technology",
-  "citedby": 1229,
+  "citedby": 1230,
   "hindex": 14,
   "i10index": 15,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-09-21 14:45:03.324804",
+  "updated": "2026-09-22 12:59:46.453605",
   "publications": {
     "3MkXEhUAAAAJ:blknAaTinKkC": {
       "bib": {
@@ -140,7 +140,7 @@
         "title": "Continuous discovery of novel 2D materials via dual active learning-driven generative models",
         "citation": ""
       },
-      "num_citations": 2,
+      "num_citations": 3,
       "author_pub_id": "3MkXEhUAAAAJ:NyGDZy8z5eUC"
     },
     "3MkXEhUAAAAJ:F1b5ZUV5XREC": {
