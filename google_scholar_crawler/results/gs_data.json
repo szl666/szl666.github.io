@@ -1,18 +1,18 @@
 {
   "name": "Zhilong Song",
   "affiliation": "Hong Kong University of Science and Technology",
-  "citedby": 1230,
+  "citedby": 1236,
   "hindex": 14,
   "i10index": 15,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-09-24 13:04:52.380118",
+  "updated": "2026-09-25 13:09:18.559228",
   "publications": {
     "3MkXEhUAAAAJ:blknAaTinKkC": {
       "bib": {
         "title": "Simple descriptor derived from symbolic regression accelerating the discovery of new perovskite catalysts",
         "citation": ""
       },
-      "num_citations": 483,
+      "num_citations": 485,
       "author_pub_id": "3MkXEhUAAAAJ:blknAaTinKkC"
     },
     "3MkXEhUAAAAJ:NMxIlDl6LWMC": {
@@ -20,7 +20,7 @@
         "title": "Visible-light photocatalytic CO2 reduction using metal-organic framework derived Ni (OH) 2 nanocages: a synergy from multiple light reflection, static charge transfer, and …",
         "citation": ""
       },
-      "num_citations": 155,
+      "num_citations": 156,
       "author_pub_id": "3MkXEhUAAAAJ:NMxIlDl6LWMC"
     },
     "3MkXEhUAAAAJ:86PQX7AUzd4C": {
@@ -28,7 +28,7 @@
         "title": "Inverse design of promising electrocatalysts for CO2 reduction via generative models and bird swarm algorithm",
         "citation": ""
       },
-      "num_citations": 90,
+      "num_citations": 91,
       "author_pub_id": "3MkXEhUAAAAJ:86PQX7AUzd4C"
     },
     "3MkXEhUAAAAJ:M3NEmzRMIkIC": {
@@ -36,7 +36,7 @@
         "title": "Machine learning in materials design: Algorithm and application",
         "citation": ""
       },
-      "num_citations": 84,
+      "num_citations": 85,
       "author_pub_id": "3MkXEhUAAAAJ:M3NEmzRMIkIC"
     },
     "3MkXEhUAAAAJ:OcBU2YAGkTUC": {
@@ -60,7 +60,7 @@
         "title": "Inverse design with deep generative models: next step in materials discovery",
         "citation": ""
       },
-      "num_citations": 65,
+      "num_citations": 66,
       "author_pub_id": "3MkXEhUAAAAJ:vRqMK49ujn8C"
     },
     "3MkXEhUAAAAJ:9vf0nzSNQJEC": {
