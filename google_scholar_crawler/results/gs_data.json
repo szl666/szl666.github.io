@@ -1,11 +1,11 @@
 {
   "name": "Zhilong Song",
   "affiliation": "Hong Kong University of Science and Technology",
-  "citedby": 1241,
+  "citedby": 1244,
   "hindex": 14,
   "i10index": 15,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-10-01 14:59:15.273225",
+  "updated": "2026-10-02 14:22:13.992823",
   "publications": {
     "3MkXEhUAAAAJ:blknAaTinKkC": {
       "bib": {
@@ -60,7 +60,7 @@
         "title": "Inverse design with deep generative models: next step in materials discovery",
         "citation": ""
       },
-      "num_citations": 66,
+      "num_citations": 67,
       "author_pub_id": "3MkXEhUAAAAJ:vRqMK49ujn8C"
     },
     "3MkXEhUAAAAJ:9vf0nzSNQJEC": {
@@ -100,7 +100,7 @@
         "title": "Optimization of depth-graded multilayer structure for x-ray optics using machine learning",
         "citation": ""
       },
-      "num_citations": 16,
+      "num_citations": 17,
       "author_pub_id": "3MkXEhUAAAAJ:TFP_iSt0sucC"
     },
     "3MkXEhUAAAAJ:8d8msizDQcsC": {
@@ -108,7 +108,7 @@
         "title": "LLM-Feynman: leveraging large language models for universal scientific formula and theory discovery",
         "citation": ""
       },
-      "num_citations": 15,
+      "num_citations": 16,
       "author_pub_id": "3MkXEhUAAAAJ:8d8msizDQcsC"
     },
     "3MkXEhUAAAAJ:eq2jaN3J8jMC": {
