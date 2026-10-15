@@ -1,11 +1,11 @@
 {
   "name": "Zhilong Song",
   "affiliation": "Hong Kong University of Science and Technology",
-  "citedby": 1253,
+  "citedby": 1255,
   "hindex": 14,
   "i10index": 15,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-10-14 13:13:48.488899",
+  "updated": "2026-10-15 12:59:51.109829",
   "publications": {
     "3MkXEhUAAAAJ:blknAaTinKkC": {
       "bib": {
@@ -28,7 +28,7 @@
         "title": "Inverse design of promising electrocatalysts for CO2 reduction via generative models and bird swarm algorithm",
         "citation": ""
       },
-      "num_citations": 97,
+      "num_citations": 98,
       "author_pub_id": "3MkXEhUAAAAJ:86PQX7AUzd4C"
     },
     "3MkXEhUAAAAJ:M3NEmzRMIkIC": {
@@ -44,7 +44,7 @@
         "title": "Accurate prediction of synthesizability and precursors of 3D crystal structures via large language models",
         "citation": ""
       },
-      "num_citations": 78,
+      "num_citations": 79,
       "author_pub_id": "3MkXEhUAAAAJ:OcBU2YAGkTUC"
     },
     "3MkXEhUAAAAJ:qjMakFHDy7sC": {
