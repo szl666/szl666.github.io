@@ -1,11 +1,11 @@
 {
   "name": "Zhilong Song",
   "affiliation": "Hong Kong University of Science and Technology",
-  "citedby": 1255,
+  "citedby": 1258,
   "hindex": 14,
   "i10index": 15,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-10-17 11:54:46.831778",
+  "updated": "2026-10-18 12:21:53.030200",
   "publications": {
     "3MkXEhUAAAAJ:blknAaTinKkC": {
       "bib": {
@@ -28,7 +28,7 @@
         "title": "Inverse design of promising electrocatalysts for CO2 reduction via generative models and bird swarm algorithm",
         "citation": ""
       },
-      "num_citations": 98,
+      "num_citations": 99,
       "author_pub_id": "3MkXEhUAAAAJ:86PQX7AUzd4C"
     },
     "3MkXEhUAAAAJ:M3NEmzRMIkIC": {
@@ -76,7 +76,7 @@
         "title": "Going Beyond the d‐Band Center to Describe CO2 Activation on Single‐Atom Alloys",
         "citation": ""
       },
-      "num_citations": 35,
+      "num_citations": 36,
       "author_pub_id": "3MkXEhUAAAAJ:RGFaLdJalmkC"
     },
     "3MkXEhUAAAAJ:d1gkVwhDpl0C": {
@@ -132,7 +132,7 @@
         "title": "T2MAT (text-to-material): A universal agent for generating material structures with goal properties from a single sentence",
         "citation": ""
       },
-      "num_citations": 8,
+      "num_citations": 9,
       "author_pub_id": "3MkXEhUAAAAJ:BJbdYPG6LGMC"
     },
     "3MkXEhUAAAAJ:NyGDZy8z5eUC": {
