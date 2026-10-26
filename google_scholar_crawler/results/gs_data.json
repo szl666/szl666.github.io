@@ -1,18 +1,18 @@
 {
   "name": "Zhilong Song",
   "affiliation": "Hong Kong University of Science and Technology",
-  "citedby": 1262,
+  "citedby": 1265,
   "hindex": 14,
   "i10index": 15,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-10-25 12:53:34.329002",
+  "updated": "2026-10-26 14:44:35.925970",
   "publications": {
     "3MkXEhUAAAAJ:blknAaTinKkC": {
       "bib": {
         "title": "Simple descriptor derived from symbolic regression accelerating the discovery of new perovskite catalysts",
         "citation": ""
       },
-      "num_citations": 490,
+      "num_citations": 491,
       "author_pub_id": "3MkXEhUAAAAJ:blknAaTinKkC"
     },
     "3MkXEhUAAAAJ:NMxIlDl6LWMC": {
@@ -28,7 +28,7 @@
         "title": "Inverse design of promising electrocatalysts for CO2 reduction via generative models and bird swarm algorithm",
         "citation": ""
       },
-      "num_citations": 99,
+      "num_citations": 100,
       "author_pub_id": "3MkXEhUAAAAJ:86PQX7AUzd4C"
     },
     "3MkXEhUAAAAJ:M3NEmzRMIkIC": {
@@ -68,7 +68,7 @@
         "title": "Distilling universal activity descriptors for perovskite catalysts from multiple data sources via multi-task symbolic regression",
         "citation": ""
       },
-      "num_citations": 41,
+      "num_citations": 42,
       "author_pub_id": "3MkXEhUAAAAJ:9vf0nzSNQJEC"
     },
     "3MkXEhUAAAAJ:RGFaLdJalmkC": {
