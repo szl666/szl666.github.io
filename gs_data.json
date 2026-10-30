@@ -1,11 +1,11 @@
 {
   "name": "Zhilong Song",
   "affiliation": "Hong Kong University of Science and Technology",
-  "citedby": 1265,
+  "citedby": 1267,
   "hindex": 14,
   "i10index": 15,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-10-29 14:52:13.956269",
+  "updated": "2026-10-30 14:44:34.567519",
   "publications": {
     "3MkXEhUAAAAJ:blknAaTinKkC": {
       "bib": {
@@ -36,7 +36,7 @@
         "title": "Machine learning in materials design: Algorithm and application",
         "citation": ""
       },
-      "num_citations": 84,
+      "num_citations": 85,
       "author_pub_id": "3MkXEhUAAAAJ:M3NEmzRMIkIC"
     },
     "3MkXEhUAAAAJ:OcBU2YAGkTUC": {
@@ -140,7 +140,7 @@
         "title": "Continuous discovery of novel 2D materials via dual active learning-driven generative models",
         "citation": ""
       },
-      "num_citations": 3,
+      "num_citations": 4,
       "author_pub_id": "3MkXEhUAAAAJ:NyGDZy8z5eUC"
     },
     "3MkXEhUAAAAJ:F1b5ZUV5XREC": {
@@ -158,6 +158,14 @@
       },
       "num_citations": 1,
       "author_pub_id": "3MkXEhUAAAAJ:IUKN3-7HHlwC"
+    },
+    "3MkXEhUAAAAJ:jU7OWUQzBzMC": {
+      "bib": {
+        "title": "Probing the limits of forward screening and inverse design of crystal materials",
+        "citation": ""
+      },
+      "num_citations": null,
+      "author_pub_id": "3MkXEhUAAAAJ:jU7OWUQzBzMC"
     },
     "3MkXEhUAAAAJ:CB2v5VPnA5kC": {
       "bib": {
