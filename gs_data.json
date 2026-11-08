@@ -1,11 +1,11 @@
 {
   "name": "Zhilong Song",
   "affiliation": "Hong Kong University of Science and Technology",
-  "citedby": 1274,
+  "citedby": 1276,
   "hindex": 14,
   "i10index": 15,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-11-07 14:35:00.628016",
+  "updated": "2026-11-08 14:41:11.523888",
   "publications": {
     "3MkXEhUAAAAJ:blknAaTinKkC": {
       "bib": {
@@ -60,7 +60,7 @@
         "title": "Inverse design with deep generative models: next step in materials discovery",
         "citation": ""
       },
-      "num_citations": 72,
+      "num_citations": 73,
       "author_pub_id": "3MkXEhUAAAAJ:vRqMK49ujn8C"
     },
     "3MkXEhUAAAAJ:9vf0nzSNQJEC": {
@@ -151,6 +151,14 @@
       "num_citations": 2,
       "author_pub_id": "3MkXEhUAAAAJ:F1b5ZUV5XREC"
     },
+    "3MkXEhUAAAAJ:PaBasH6fAo0C": {
+      "bib": {
+        "title": "Autonomous heterogeneous catalyst discovery with a self-evolving multi-agent digital twin",
+        "citation": ""
+      },
+      "num_citations": 1,
+      "author_pub_id": "3MkXEhUAAAAJ:PaBasH6fAo0C"
+    },
     "3MkXEhUAAAAJ:IUKN3-7HHlwC": {
       "bib": {
         "title": "Feature-Extended Descriptor Construction for Prediction of Consecutive Elementary Reaction Energies in Methane Oxidation",
@@ -174,14 +182,6 @@
       },
       "num_citations": null,
       "author_pub_id": "3MkXEhUAAAAJ:CB2v5VPnA5kC"
-    },
-    "3MkXEhUAAAAJ:PaBasH6fAo0C": {
-      "bib": {
-        "title": "Autonomous heterogeneous catalyst discovery with a self-evolving multi-agent digital twin",
-        "citation": ""
-      },
-      "num_citations": null,
-      "author_pub_id": "3MkXEhUAAAAJ:PaBasH6fAo0C"
     },
     "3MkXEhUAAAAJ:F9fV5C73w3QC": {
       "bib": {
