@@ -1,11 +1,11 @@
 {
   "name": "Zhilong Song",
   "affiliation": "Hong Kong University of Science and Technology",
-  "citedby": 1276,
+  "citedby": 1277,
   "hindex": 14,
   "i10index": 15,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-11-09 18:06:12.812591",
+  "updated": "2026-11-10 15:59:17.011952",
   "publications": {
     "3MkXEhUAAAAJ:blknAaTinKkC": {
       "bib": {
@@ -17,7 +17,7 @@
     },
     "3MkXEhUAAAAJ:NMxIlDl6LWMC": {
       "bib": {
-        "title": "Visible-light photocatalytic CO2 reduction using metal-organic framework derived Ni (OH) 2 nanocages: a synergy from multiple light reflection, static charge transfer, and …",
+        "title": "Visible-Light Photocatalytic CO2 Reduction Using Metal-Organic Framework Derived Ni(OH)2 Nanocages: A Synergy from Multiple Light Reflection, Static Charge …",
         "citation": ""
       },
       "num_citations": 156,
@@ -95,6 +95,14 @@
       "num_citations": 21,
       "author_pub_id": "3MkXEhUAAAAJ:VaXvl8Fpj5cC"
     },
+    "3MkXEhUAAAAJ:8d8msizDQcsC": {
+      "bib": {
+        "title": "LLM-Feynman: leveraging large language models for universal scientific formula and theory discovery",
+        "citation": ""
+      },
+      "num_citations": 17,
+      "author_pub_id": "3MkXEhUAAAAJ:8d8msizDQcsC"
+    },
     "3MkXEhUAAAAJ:TFP_iSt0sucC": {
       "bib": {
         "title": "Optimization of depth-graded multilayer structure for x-ray optics using machine learning",
@@ -102,14 +110,6 @@
       },
       "num_citations": 17,
       "author_pub_id": "3MkXEhUAAAAJ:TFP_iSt0sucC"
-    },
-    "3MkXEhUAAAAJ:8d8msizDQcsC": {
-      "bib": {
-        "title": "LLM-Feynman: leveraging large language models for universal scientific formula and theory discovery",
-        "citation": ""
-      },
-      "num_citations": 16,
-      "author_pub_id": "3MkXEhUAAAAJ:8d8msizDQcsC"
     },
     "3MkXEhUAAAAJ:eq2jaN3J8jMC": {
       "bib": {
