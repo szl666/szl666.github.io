@@ -1,18 +1,18 @@
 {
   "name": "Zhilong Song",
   "affiliation": "Hong Kong University of Science and Technology",
-  "citedby": 1280,
+  "citedby": 1287,
   "hindex": 14,
   "i10index": 15,
   "scholar_id": "3MkXEhUAAAAJ",
-  "updated": "2026-11-14 14:41:33.736006",
+  "updated": "2026-11-15 15:10:46.186034",
   "publications": {
     "3MkXEhUAAAAJ:blknAaTinKkC": {
       "bib": {
         "title": "Simple descriptor derived from symbolic regression accelerating the discovery of new perovskite catalysts",
         "citation": ""
       },
-      "num_citations": 494,
+      "num_citations": 497,
       "author_pub_id": "3MkXEhUAAAAJ:blknAaTinKkC"
     },
     "3MkXEhUAAAAJ:NMxIlDl6LWMC": {
@@ -28,7 +28,7 @@
         "title": "Inverse design of promising electrocatalysts for CO2 reduction via generative models and bird swarm algorithm",
         "citation": ""
       },
-      "num_citations": 102,
+      "num_citations": 104,
       "author_pub_id": "3MkXEhUAAAAJ:86PQX7AUzd4C"
     },
     "3MkXEhUAAAAJ:M3NEmzRMIkIC": {
@@ -44,7 +44,7 @@
         "title": "Accurate prediction of synthesizability and precursors of 3D crystal structures via large language models",
         "citation": ""
       },
-      "num_citations": 81,
+      "num_citations": 82,
       "author_pub_id": "3MkXEhUAAAAJ:OcBU2YAGkTUC"
     },
     "3MkXEhUAAAAJ:qjMakFHDy7sC": {
@@ -60,7 +60,7 @@
         "title": "Inverse design with deep generative models: next step in materials discovery",
         "citation": ""
       },
-      "num_citations": 73,
+      "num_citations": 74,
       "author_pub_id": "3MkXEhUAAAAJ:vRqMK49ujn8C"
     },
     "3MkXEhUAAAAJ:9vf0nzSNQJEC": {
@@ -198,6 +198,14 @@
       },
       "num_citations": null,
       "author_pub_id": "3MkXEhUAAAAJ:zA6iFVUQeVQC"
+    },
+    "3MkXEhUAAAAJ:prdVHNxh-e8C": {
+      "bib": {
+        "title": "Accelerating the Discovery of Synthesizable 2D Hybrid Double Perovskites through Human–LLM Collaborative Descriptor Engineering",
+        "citation": ""
+      },
+      "num_citations": null,
+      "author_pub_id": "3MkXEhUAAAAJ:prdVHNxh-e8C"
     }
   }
 }
